@@ -42,13 +42,13 @@ There are no dedicated requirement for this exercise. But in case you want to ga
     - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - SAP Build Process Automation](exercises/ex2/)
-        - Save the employee onboarding sample content as new project
-        Add parallel Gateway to add new Training rule
-        Edit Equipment Determination Rule
-        Edit Forms to add Equipment Table
-        Add Action for CAP Service
-        Release and Deploy
-        Test Process 
+        <br>Save the employee onboarding sample content as new project
+         <br>Add parallel Gateway to add new Training rule
+         <br>Edit Equipment Determination Rule
+         <br>Edit Forms to add Equipment Table
+         <br>Add Action for CAP Service
+         <br>Release and Deploy
+         <br>Test Process 
     - [Exercise 2.1 - Create business project and process](exercises/ex2#exercise-21-sub-exercise-1-description)
    - - [Exercise 2.2.1 - Add API Trigger](exercises/ex2#exercise-22-sub-exercise-2-description)
     - - [Exercise 2.2.2 - Add Decision to Determine Trainings](exercises/ex2#exercise-22-sub-exercise-2-description)
