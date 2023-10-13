@@ -59,8 +59,31 @@ Now we have created  parallel branches to determine equipments and trainings for
 
 
 ## 3)	Configure the decision to determine Equipments for the newly hired employee
+  a.	Click on Decision “Equipment Determination” <br>
+  b.	Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
+  c.	Click on “Rules” and “Equipment Determination” <br>
+  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_2.png) <br>
+  d.	Change the “Manager Email”, “Job Title” to your user email id and Job Title <br>
+  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_3.png) <br>
+  e.	You can also change the result attributes of Equipment related details (optional) <br>
+  f.	Save it <br>
+  
+Equipment Determination decision is configured now 
 
 ## 4)	Configure the decision to determine Trainings for the newly hired employee
+
+  a.	Click on Decision “Training Determination” <br>
+  b.	Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
+  c.	Click on “Rules” and “Training Determination” <br>
+  <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
+  d.	Change the  “Job Title” <br>
+  <br>![](/exercises/ex2/images/Configure_Training_Determination_3.png) <br>
+  e.	You can also change the result attributes of Training related details (optional) <br>
+  f.	Save it <br>
+  
+Training Determination decision is configured now 
 
 ## 5)	Add Action based on CAP Service
 
