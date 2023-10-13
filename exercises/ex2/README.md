@@ -1,9 +1,11 @@
-# Exercise 2 - Exercise 2 Description
+# Configure the SAP Build Process Automation Project
 
-In this exercise, we will create...
+In this exercise, you will configure a SAP Build Process Automation project which can trigger an approval process for the equipments and training requests for the newly onboarded employee in SuccessFactors.
 
-## Exercise 2.1 Sub Exercise 1 Description
+## Pre-requisite
+SAP Build Process Automation project “New Hire Onboarding Experience – Enterprise Automation Template” is given as a template
 
+## Steps to configure the SAP Build Process Automation Project
 After completing these steps you will have learnt the following.<br>
 
 1)How to do a Save as New Project of the sample Employee Onboarding Process Project<br>
@@ -14,37 +16,19 @@ After completing these steps you will have learnt the following.<br>
 6) Release and Deploy<br>
 7) Run the Process<br>
 
-1. Click here.
+## 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
+a.	Go to Lobby link https://in264-72e8h9xc.eu10.build.cloud.sap/lobby <br>
+b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Enterprise Automation Template” <br>
+c.	Click on More options and Choose “Save As New Project” <br>
+  i.	Choose the option for Select Version as “Editable Version” <br>
+  ii.	Give a different project name and description if required  <br>
+  iii.	Click on “Save as new” <br>
+     A new project is saved now. <br>
+
 <br>![](/exercises/ex2/images/02_01_0010.png)
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
 
-
-
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
 
 ## Summary
 
-You've now ...
-
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Now that you have configured , released and deployed the SAP Build Process Automation project, Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
