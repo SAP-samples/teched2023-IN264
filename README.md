@@ -42,13 +42,13 @@ There are no dedicated requirement for this exercise. But in case you want to ga
     - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - SAP Build Process Automation](exercises/ex2/)
-        <br>Save the employee onboarding sample content as new project
-         <br>Add parallel Gateway to add new Training rule
-         <br>Edit Equipment Determination Rule
-         <br>Edit Forms to add Equipment Table
-         <br>Add Action for CAP Service
-         <br>Release and Deploy
-         <br>Run the Process 
+              <br>1)How to do a Save as New Project of the sample Employee Onboarding Process Project
+             <br>2)Add parallel branches to add new Training and Equipment determination rules
+             <br>3)Configure the decision to determine Equipments for the newly hired employee
+             <br>4)	Configure the decision to determine Trainings for the newly hired employee
+             <br>5)	Add Action based on CAP Service
+             <br>6)	Release and Deploy
+             <br>7)	Run the Process
    
 
   
