@@ -49,13 +49,7 @@ There are no dedicated requirement for this exercise. But in case you want to ga
          <br>Add Action for CAP Service
          <br>Release and Deploy
          <br>Run the Process 
-    - [Exercise 2.1 - Create business project and process](exercises/ex2#exercise-21-sub-exercise-1-description)
-   - - [Exercise 2.2.1 - Add API Trigger](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - - [Exercise 2.2.2 - Add Decision to Determine Trainings](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - - [Exercise 2.2.3 - Add Approver Form](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - [Exercise 2.3 - Add Condition](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - [Exercise 2.4 - Add Action to Create Purchase Order](exercises/ex2#exercise-22-sub-exercise-2-description)
-    - [Exercise 2.5 - Send Email Notification](exercises/ex2#exercise-22-sub-exercise-2-description)
+   
 
   
 ## Contributing
