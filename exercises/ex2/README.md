@@ -99,7 +99,7 @@ Training Determination decision is configured now
   c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
   <br>![](/exercises/ex2/images/Actions003.jpg) <br>
   d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
-  <br>![](/exercises/ex2/images/Actions004.jpg) <br>
+  <br>![](/exercises/ex2/images/Actions004.png) <br>
   e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
   <br>![](/exercises/ex2/images/Actions008.jpg) <br>
   f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID <br>
