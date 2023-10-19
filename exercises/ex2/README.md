@@ -80,14 +80,15 @@ Equipment Determination decision is configured now
   <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
   c.	Click on “Rules” and “Training Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
-  d.	Change the  “Job Title” <br>
+  d.	Check the row containing Training name as "Compliance and Reporting" and click on "Delete Row" <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_3.png) <br>
-  e.	You can also change the result attributes of Training related details (optional) <br>
+  e.	This action will remove this row. <br>
   f.	Save it <br>
+  g. So we have removed the training "Compliance and Reporting" for a new employee with Job Title containing 'Sales' , say for example, a Sales Manager or a Sales Representative and so on as this training is no more relevant for this role. 
   
 Training Determination decision is configured now 
 
-## 5)	Add Action
+## 5)	Add Action to publish the approval event to Advanced Event Mesh (AEM) 
 
   a. Select the + icon after Approval Form in the Process to add Actions.
   <br>![](/exercises/ex2/images/Actions001.jpg) <br>
