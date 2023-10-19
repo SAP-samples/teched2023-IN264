@@ -91,17 +91,17 @@ Training Determination decision is configured now
   a. Select the + icon after Approval Form in the Process to add Actions.
   <br>![](/exercises/ex2/images/Actions001.jpg) <br>
   b. Click on Edit Decision <br>
-  <br>![](/exercises/ex2/images/Actions002.png) <br>
+  <br>![](/exercises/ex2/images/Actions002.jpg) <br>
   a. Click on Edit Decision <br>
-  <br>![](/exercises/ex2/images/Actions003.png) <br>
+  <br>![](/exercises/ex2/images/Actions003.jpg) <br>
   a. Click on Edit Decision <br>
-  <br>![](/exercises/ex2/images/Actions004.png) <br>
+  <br>![](/exercises/ex2/images/Actions004.jpg) <br>
   a. Click on Edit Decision <br>
-  <br>![](/exercises/ex2/images/Actions008.png) <br>
+  <br>![](/exercises/ex2/images/Actions008.jpg) <br>
   a. Click on Edit Decision <br>
-  <br>![](/exercises/ex2/images/Actions009.png) <br>
+  <br>![](/exercises/ex2/images/Actions009.jpg) <br>
   a. Click on Edit Decision <br>
-  <br>![](/exercises/ex2/images/Actions010.png) <br>
+  <br>![](/exercises/ex2/images/Actions010.jpg) <br>
 
 ## 6)	Release and Deploy
 
