@@ -12,7 +12,7 @@ After completing these steps you will have learnt the following.<br>
 2)Add parallel branches to add new Training and Equipment determination rules<br>
 3)Configure the decision to determine Equipments for the newly hired employee<br>
 4) Configure the decision to determine Trainings for the newly hired employee<br>
-5) Add Action based on CAP Service<br>
+5) Add Action to publish the approval event to Advanced Event Mesh (AEM) <br>
 6) Release and Deploy<br>
 7) Run the Process<br>
 
