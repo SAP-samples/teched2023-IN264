@@ -90,20 +90,25 @@ Training Determination decision is configured now
 
 ## 5)	Add Action to publish the approval event to Advanced Event Mesh (AEM) 
 
-  a. Select the + icon after Approval Form in the Process to add Actions.
+ In this section, we will create an Action for Event Mesh Connectivity and define the destination and map the inputs from the process inputs. 
+
+  a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
   <br>![](/exercises/ex2/images/Actions001.jpg) <br>
-  b. Click on Edit Decision <br>
+  b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
   <br>![](/exercises/ex2/images/Actions002.jpg) <br>
-  a. Click on Edit Decision <br>
+  c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
   <br>![](/exercises/ex2/images/Actions003.jpg) <br>
-  a. Click on Edit Decision <br>
+  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
   <br>![](/exercises/ex2/images/Actions004.jpg) <br>
-  a. Click on Edit Decision <br>
+  e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
   <br>![](/exercises/ex2/images/Actions008.jpg) <br>
-  a. Click on Edit Decision <br>
+  f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID <br>
   <br>![](/exercises/ex2/images/Actions009.jpg) <br>
-  a. Click on Edit Decision <br>
+  g. Save the changes <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
+  
+  ![image](https://github.com/SAP-samples/teched2023-IN264/assets/97021230/843fe19b-d9df-4ccc-a5d3-145dd7cbf55e)
+
 
 ## 6)	Release and Deploy
 
