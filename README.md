@@ -5,26 +5,41 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2023 session called **IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR**
+This repository contains the material for the SAP TechEd 2023 hands-on session called **IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR**
 
-The **Onboarding** process is a crucial abd very common activity of **Human Resource** department of any organization, influencing the experience and success of new hires. Organisations often face challenges in onboarding process especially with new trainings and system accesses that are required by the new-hire. If these not done right, the onboarding process can involve manual and repetitive tasks, leading to inefficiencies and delays. A solution is needed that enables seamless integration, process automation and customization to provide a personalized onboarding experience for new hires.
+The **Onboarding** process is a crucial and very common activity of **Human Resource** department of any organization, influencing the experience and success of new hires. Organisations often face challenges in onboarding process especially with equipments and trainings that are required by the new-hire. If these not done right, the onboarding process can involve manual and repetitive tasks, leading to inefficiencies and delays. A solution is needed that enables seamless event-driven integration, process automation and customization to provide a personalized onboarding experience for new hires.
 
 ## Overview
 
-This session introduces attendees how to combine **SAP Integration Suite** and **SAP Build Process Automation** to design a comprehensive solution to address the challenges in the onboarding process. By leveraging event-based integration patterns and low-code/no-code process automation organizations can :
+SAP Integration Suite & SAP Build can support our customers today by quickly identifying, vetting and automating as many processes as possible.
+Let us implement and learn how to improve the new hire experience with enterprise automation solutions from SAP. While you manage employee onboarding with SAP SuccessFactors solution, use the Advance Event Mesh capability within SAP Integration Suite to trigger real-time event-driven business process integrations. One of these involves starting an approval workflow process using the SAP Build Process Automation solution, ensuring you involve the relevant stakeholders in certain scenarios. Let us experience the combination of integration and automation in this HR scenario.
+
+By leveraging event-based integration patterns and low-code/no-code process automation, organizations can :
 - extend and customize the onboarding experience,
 - integrate with third-party tools,
-- automate activities and
+- react and respond to events in real time using event-driven integration pattern,
+- automate activities, and
 - streamline shared-service processes.
 
-Check out the following chapters to understand the overall integration scenario that is handled in this exercise:
+
+
+Check out the following chapters to understand and achieve an end-to-end employee onboarding business process integration scenario that is documented in this session:
 
 - [Scenario Introduction](intro/intro1)
-- [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2)
+- [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2) 
+- [SAP Integration Suite, advanced event mesh configuration (for your information only)](intro/intro3) 
 
 ## Requirements
 
-There are no dedicated requirement for this exercise. But in case you want to gain some further knowledge around SAP Build, please feel free to attend these SAP TechEd workshops:
+There are no prior requirements to this session. You can perform this exercise even if you do not have any experience with SAP Integration Suite and SAP Build Process Automation. However, you will be able to derive more value from this session, if you have some knowledge on SAP Integration Suite and SAP Build Process Automation and how it helps with enterprise-wide business process integration and automation needs.
+
+You can check out the following SAP Discovery Center missions that will help you in getting started with SAP Integration Suite, SAP Build Proces Automation and SAP Integration Suite, advanced event mesh 
+
+* [SAP Integration Suite](https://discovery-center.cloud.sap/serviceCatalog/integration-suite)
+* [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation)
+* [SAP Integration Suite, advanced event mesh](https://discovery-center.cloud.sap/serviceCatalog/advanced-event-mesh)
+  
+You can also gain some further knowledge around SAP Integration Suite, SAP Build and Advanced Event Mesh by attending the following SAP TechEd sessions:
 - Learn how to build a application, automate process and connect with CAP services in [AD272 - SAP Cloud Application Programming Model Meets SAP Build](https://github.com/SAP-samples/teched2023-AD272)
 - Learn how to build and extend standard business process in SAP S/4HANA [AD163 - Extend Your Sales Order Process in SAP S/4HANA with SAP Build](https://github.com/SAP-samples/teched2023-AD163)
 
