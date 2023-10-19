@@ -17,17 +17,10 @@ This session introduces attendees how to combine **SAP Integration Suite** and *
 - automate activities and
 - streamline shared-service processes.
 
-<img width="1164" alt="image" src="https://github.com/SAP-samples/teched2023-IN264/assets/34297037/ae6a7241-4edd-4455-9a15-95016639aa49">
+Check out the following chapters to understand the overall integration scenario that is handled in this exercise:
 
-
-<br>In this scenario: <br>
-- A new hire is created in SAP SuccessFactors
-- Advanced Event Mesh is configured to subscribe to the SuccessFactors Event.
-- Process is triggered to assign trainings and equipment to new hire using SAP Build Process Automation
-- Integration flows are called from the process to create purchase orders in the backend S/4HANA cloud
-- SAP Work Zone workspace is used to provide centralized access to S/4HANA applications, workflow inbox applications and for notifications
-- In addition, whole process can be managed and monitored using out-of-the-box visibility.
-
+- [Scenario Introduction](intro/intro1)
+- [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2)
 
 ## Requirements
 
