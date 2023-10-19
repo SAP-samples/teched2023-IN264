@@ -46,15 +46,11 @@ g.	Click on the + next to Equipment determination branch and add Decision->Equip
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
 h.	Map the inputs of the decision from the Process Inputs <br>
   i.	Job Title <br>
-  ii.	Manager Email <br>
-  iii.	Manager Name <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
 i.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
 j.	Map the inputs of the decision from the Process Inputs <br>
     i.	Job Title <br>
-    ii.	Manager Email <br>
-    iii.	Manager Name <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
 Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
@@ -65,10 +61,15 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
   c.	Click on “Rules” and “Equipment Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_2.png) <br>
-  d.	Change the “Manager Email”, “Job Title” to your user email id and Job Title <br>
+  d.	Check the row containing 'Leather Executive Laptop Bag' and click on "Copy Row" <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_3.png) <br>
-  e.	You can also change the result attributes of Equipment related details (optional) <br>
-  f.	Save it <br>
+  e.	Check the same row again and now click on "Paste Row" and "Insert After" <br>
+  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_4.png) <br>
+  f.	A new row will be created <br>
+  g.  Now click on Job Title field and change from "CONTAINS ('Sales')" to "CONTAINS('Marketing')" <br>
+  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_4.png) <br>
+  h.	Save it <br>
+  i. So, now we have configured the decision to determine 'Leather Executive Laptop Bag' also as an equipment for a new employee with Job Title which contains 'Marketing', say for example, a Marketing Specialist or a Marketing Manager and so on.<br>
   
 Equipment Determination decision is configured now 
 
