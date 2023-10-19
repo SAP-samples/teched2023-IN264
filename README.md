@@ -21,8 +21,6 @@ By leveraging event-based integration patterns and low-code/no-code process auto
 - automate activities, and
 - streamline shared-service processes.
 
-
-
 Check out the following chapters to understand and achieve an end-to-end employee onboarding business process integration scenario that is documented in this session:
 
 - [Scenario Introduction](intro/intro1)
