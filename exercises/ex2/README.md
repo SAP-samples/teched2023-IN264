@@ -109,7 +109,7 @@ Training Determination decision is configured now
 
 ## 6)	Release and Deploy
 
-## 7)	Run the Process
+## 7)	Get Defition ID
 
 
 ## Summary
