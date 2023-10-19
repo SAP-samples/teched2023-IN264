@@ -106,9 +106,6 @@ Training Determination decision is configured now
   <br>![](/exercises/ex2/images/Actions009.jpg) <br>
   g. Save the changes <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
-  
-  ![image](https://github.com/SAP-samples/teched2023-IN264/assets/97021230/843fe19b-d9df-4ccc-a5d3-145dd7cbf55e)
-
 
 ## 6)	Release and Deploy
 
