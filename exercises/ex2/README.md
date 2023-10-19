@@ -86,7 +86,20 @@ Equipment Determination decision is configured now
   
 Training Determination decision is configured now 
 
-## 5)	Add Action based on CAP Service
+## 5)	Add Action
+
+	a. Select the + icon after Approval Form in the Process to add Actions.
+  <br>![](/exercises/ex2/images/Actions001.png) <br>
+ 	a. Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Actions001.png) <br>
+  a. Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Actions001.png) <br>
+  a. Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Actions001.png) <br>
+  a. Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Actions001.png) <br>
+  a. Click on Edit Decision <br>
+  <br>![](/exercises/ex2/images/Actions001.png) <br>
 
 ## 6)	Release and Deploy
 
