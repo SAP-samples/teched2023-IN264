@@ -67,7 +67,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_4.png) <br>
   f.	A new row will be created <br>
   g.  Now click on Job Title field and change from "CONTAINS ('Sales')" to "CONTAINS('Marketing')" <br>
-  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_4.png) <br>
+  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_5.png) <br>
   h.	Save it <br>
   i. So, now we have configured the decision to determine 'Leather Executive Laptop Bag' also as an equipment for a new employee with Job Title which contains 'Marketing', say for example, a Marketing Specialist or a Marketing Manager and so on.<br>
   
