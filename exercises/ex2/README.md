@@ -111,15 +111,15 @@ Training Determination decision is configured now
   a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
   b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
-  <br>![](/exercises/ex2/images/Release001.jpg) <br>
+  <br>![](/exercises/ex2/images/Release002.jpg) <br>
   c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
-  <br>![](/exercises/ex2/images/Release001.jpg) <br>
+  <br>![](/exercises/ex2/images/Release003.jpg) <br>
   d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
-  <br>![](/exercises/ex2/images/Release001.png) <br>
+  <br>![](/exercises/ex2/images/ReleaseWizard004.png) <br>
   e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
-  <br>![](/exercises/ex2/images/Release001.jpg) <br>
+  <br>![](/exercises/ex2/images/Release005.jpg) <br>
   f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID <br>
-  <br>![](/exercises/ex2/images/Release001.jpg) <br>
+  <br>![](/exercises/ex2/images/Release006.jpg) <br>
   g. Save the changes <br>
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
 
