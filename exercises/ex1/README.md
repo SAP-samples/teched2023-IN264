@@ -1,4 +1,4 @@
-# Exercise 1 - Create queues and subscribe to topic in SAP Intgration Suite, advanced event mesh
+# Exercise 1 - Create queues and subscribe to topic in SAP Integration Suite, advanced event mesh
 
 ## Overview
 
