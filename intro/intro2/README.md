@@ -14,7 +14,7 @@ Run through the following steps in the given order and kindly do not touch or ch
     <br><img src="/intro/intro2/images/Integration_Center.png" width=90% height=90%>
 
 4. We have aready created an integration with the name <b>IN264 - Combine SAP Integration Suite and SAP Build in HR</b>.<br/>
-In this we have defined the <b>New Hire</b> attributes and <b>REST Destination</b> to publish the new hire event data to <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where EmployeeId gets dynamically resolved from the new hire payload. Once it get published to the topic, any one can subscribe to the new hire event.
+In this we have defined the <b>New Hire</b> attributes and <b>REST Destination</b> to publish the new hire event data to <b>SAP Integration Suite, advanced event mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where EmployeeId gets dynamically resolved from the new hire payload. Once it get published to the topic, any one can subscribe to the new hire event.
     <br><img src="/intro/intro2/images/Integration_Center_List.png" width=90% height=90%>
 
 5. In the <b>Options</b> tab, we have provided the <b>Integration Name</b> and <b>Description</b>. Click <b>Next</b> to see the configured fields.
@@ -32,7 +32,7 @@ We have not configured any fields here as this is not required for this scenario
 We have not defined any filters for this scenario, click <b>Next</b> to see the destination settings.
     <br><img src="/intro/intro2/images/IC_Filter.png" width=90% height=90%>
 
-9. In the <b>Destination Settings</b> tab, we have defined the REST endpoint and Authentication details of <b>SAP Integration Suite, Advanced Event Mesh</b> along with the topic name `SFSF/NewHire/{EmployeeId}`. EmployeeId gets dynamically resolved from the new hire payload using <b>Calculated URI</b> settings. The new hire event would get published to this topic only. <br/><br/>
+9. In the <b>Destination Settings</b> tab, we have defined the REST endpoint and Authentication details of <b>SAP Integration Suite, advanced event mesh</b> along with the topic name `SFSF/NewHire/{EmployeeId}`. EmployeeId gets dynamically resolved from the new hire payload using <b>Calculated URI</b> settings. The new hire event would get published to this topic only. <br/><br/>
 This has been done so that new hire created by each participant would get published to their topic only and does not get broadcasted to all the participants. Click <b>Calculated URI</b> to check the settings.
     <br><img src="/intro/intro2/images/IC_Destination_Settings.png" width=90% height=90%>
 
@@ -56,6 +56,6 @@ After the review, save it to deploy it to the server.
     
 ## Summary
 
-You should now be familiar with all the configurations that has been done in SAP SuccessFactors to enable the new hire event publication to <b>SAP Integration Suite, Advanced Event Mesh</b>.
+You should now be familiar with all the configurations that has been done in SAP SuccessFactors to enable the new hire event publication to <b>SAP Integration Suite, advanced event mesh</b>.
 
 Now, to learn more about the configuration that has been done in <b>SAP S/4Hana Cloud System</b>, you can navigate to [SAP S/4Hana Cloud System configuration](/intro/intro3) section.
