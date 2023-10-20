@@ -69,9 +69,9 @@ The complete list of exercise steps are listed below, run through them in the gi
 
 - [Exercise 1 - Create queues and subscribe to topic in SAP Integration Suite, advanced event mesh](exercises/ex1/README.md)
 - [Exercise 2 - SAP Build Process Automation](exercises/ex2/README.md)        
-- [Exercise 3 - Create queues and subscribe to topic in SAP Integration Suite, advanced event mesh](exercises/ex3/README.md)
-- [Exercise 4 - Copy, configure and deploy the Survey Email subscription flow](exercises/ex4/README.md)
-- [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](exercises/ex5/README.md)
+- [Exercise 3 - Create the Integration Flow that subscribes and trigger SAP Build Process Automation (SBPA) approval workflow](exercises/ex3/README.md)
+- [Exercise 4 - Copy, configure and deploy the Survey Email subscription integration flow](exercises/ex4/README.md)
+- [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription integration flow](exercises/ex5/README.md)
   
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
