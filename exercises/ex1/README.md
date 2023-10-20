@@ -32,7 +32,7 @@ Run through the following steps in the given order:
 
 > [!NOTE]  
 > Only for Information! <br/>
-7. From these connectivity option, <b>AMQP</b> connectivity details are used by the Integration Flows in Cloud Intgeration capability of SAP Integration Suite to subscribe to AEM Queues. 
+7. From these connectivity option, <b>AMQP</b> connectivity details will be used by the Integration Flows in Cloud Intgeration capability of SAP Integration Suite to subscribe to AEM Queues. 
 <br><img src="/exercises/ex1/images/AEM_Connect_AMQP.png" width=90% height=90%>
 
 8. Navigate to the <b>"Manage"</b> tab, and click on <b>"Queues"</b> tile.
@@ -49,8 +49,8 @@ As mentioned earlier, each participant has to create the following 3 queues and 
    - Third Queue: **ApprovedNewHire_PR_IN264-XXX**
       - Topic Subscription: **SFSF/NewHire/IN264-XXX**
    
-   Click <b>"+ Queue"</b> button on the top right area to create a new queue.
-   <br><img src="/exercises/ex1/images/AEM_Manage_Queue.png" width=90% height=90%> 	
+   Click <b>"+ Queue"</b> button on the top right area to create a first queue.
+   <br><img src="/exercises/ex1/images/AEM_Manage_1_Queue.png" width=90% height=90%> 	
 
 10. Enter the following Queue Name and click the <b>"Create"</b> button:
     - <b>NewHire_Workflow_IN264-XXX</b>, kindly replace **XXX** with the participant number that is assigned to you.
@@ -62,7 +62,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 12. Select the Queue thay you have just created i.e., <b>NewHire_Workflow_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_1_Queue.png" width=90% height=90%>
 
-13. Navigate to <b>"Subscriptions"</b> tab and click <b>"+ Subscription</b> button on the top right area to create a new topic subscription.
+13. Navigate to <b>"Subscriptions"</b> tab and click <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
 <br><img src="/exercises/ex1/images/AEM_1_Queue_Topic_Subscription.png" width=90% height=90%>
 
 14. Enter the following topic value and click the <b>"Create"</b> button:
@@ -70,24 +70,23 @@ As mentioned earlier, each participant has to create the following 3 queues and 
     <br><img src="/exercises/ex1/images/AEM_1_Queue_Topic_Subscription_Create.png" width=90% height=90%> 
 
 15. Naviagte back to Queues.  
-![image](https://media.github.tools.sap/user/13842/files/4b4a17f6-d87a-458c-809e-65eecc6547f8)  
+<br><img src="/exercises/ex1/images/AEM_Navigate_Back_Queues_1.png" width=90% height=90%> 
 
-13. Press <b>"+ Queue"</b> to create a new one.  
-![image](https://media.github.tools.sap/user/13842/files/ce1562b3-cd6d-4d08-92fe-f6d11abbc694)  
+16. Click <b>"+ Queue"</b> button on the top right area to create a second queue.
+<br><img src="/exercises/ex1/images/AEM_Manage_2_Queue.png" width=90% height=90%>  
 
-14. Provide following Queue Name: <b>NewHire_SurveyEmail_IN264-XXX</b> and press <b>Create</b>.
-> Replace XXX with the participant number provided by your instructor  
+17. Enter the following Queue Name and click the <b>"Create"</b> button:
+    - <b>NewHire_SurveyEmail_IN264-XXX</b>, kindly replace **XXX** with the participant number that is assigned to you.
+    <br><img src="/exercises/ex1/images/AEM_Create_2_Queue.png" width=90% height=90%> 
 
-![image](https://media.github.tools.sap/user/13842/files/c2692310-155b-4d49-8f4b-98d88fde37d4)
+18. Keep the default configuration and click the <b>"Apply"</b> button.
+<br><img src="/exercises/ex1/images/AEM_Apply_2_Queue.png" width=90% height=90%>
 
-15. Press "<b>Apply</b>  
-![image](https://media.github.tools.sap/user/13842/files/a6bf72c4-1fff-424c-b349-efe013b8876a)
+19. Select the Queue thay you have just created i.e., <b>NewHire_SurveyEmail_IN264-XXX</b> 
+<br><img src="/exercises/ex1/images/AEM_Select_2_Queue.png" width=90% height=90%>
 
-16. Open the Queue just created (<b>NewHire_SurveyEmail_IN264-XXX</b>)  
-![image](https://media.github.tools.sap/user/13842/files/cc4d7371-8dc0-485b-9103-5a3eaab0dc09) 
-
-17. Navigate to "<b>Subscriptions</b> and press <b>"+ Subscription</b>  
-![image](https://media.github.tools.sap/user/13842/files/1a2b7370-84c1-4368-8e84-80f1f08e6ea8)
+20. Navigate to <b>"Subscriptions"</b> tab and click <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
+<br><img src="/exercises/ex1/images/AEM_2_Queue_Topic_Subscription.png" width=90% height=90%>
 
 18. Provide following value: <b>SFSF/NewHire/IN264-XXX</b> and press <b>"Create"</b>  
 > Replace XXX with the participant number provided by your instructor 
@@ -99,13 +98,12 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 20. Press <b>"+ Queue"</b> to create a new one.  
 ![image](https://media.github.tools.sap/user/13842/files/ce1562b3-cd6d-4d08-92fe-f6d11abbc694)  
 
-21. Provide following Queue Name: <b>ApprovedNewHire_PR_IN264-XXX</b> and press <b>Create</b>.  
-> Replace XXX with the participant number provided by your instructor  
+21. Enter the following topic value and click the <b>"Create"</b> button:
+    - <b>SFSF/NewHire/IN264-XXX</b>, kindly replace **XXX** with the participant number that is assigned to you.
+    <br><img src="/exercises/ex1/images/AEM_1_Queue_Topic_Subscription_Create.png" width=90% height=90%> 
 
-![image](https://media.github.tools.sap/user/13842/files/e234793c-176e-4162-bcbd-10eb002c35d4)  
-
-22. Press "<b>Apply</b>  
-![image](https://media.github.tools.sap/user/13842/files/159fc4f6-6ea7-4074-9652-02cd66ad1f16)  
+22.  Naviagte back to Queues.  
+<br><img src="/exercises/ex1/images/AEM_Navigate_Back_Queues_2.png" width=90% height=90%> 
 
 23. Open the Queue just created (<b>ApprovedNewHire_PR_IN264-XXX</b>)  
 ![image](https://media.github.tools.sap/user/13842/files/ee5bbe87-5dc5-4dd7-9e30-9607d246cf3f)  
