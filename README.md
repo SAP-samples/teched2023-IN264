@@ -31,7 +31,6 @@ Check out the following chapters to understand and achieve an end-to-end employe
 
 There are no dedicated requirement for this session. You would be able to execute the excercises by just following the descriptions even if you do not have any experience with SAP Integration Suite and SAP Build Process Automation. <br/>
 However, you will be able to derive more value from this session, if you have some knowledge and understanding of event-driven architectures, namely events, queues, topics, event subscriptions along with SAP Integration Suite and SAP Build Process Automation.<br/>
-Prior knowledge helps you to relate the SAP Integration and Automation offerings with enterprise-wide business process integration and automation needs.
 
 You can check out the following SAP Discovery Center missions that will help you in getting started with SAP Integration Suite, SAP Build Proces Automation and SAP Integration Suite, advanced event mesh 
 
