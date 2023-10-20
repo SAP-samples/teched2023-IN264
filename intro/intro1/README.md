@@ -26,7 +26,7 @@ The advantage of event-driven integration is that you can easily add or remove s
 <img src="/intro/intro1/images/scenario_architecture.png" width=100% height=100%>
 
 1. Add(hire) a new employee in <b>SAP SuccessFactors</b> system.
-   <br> 1a. The new employee data event gets <b>published</b> using the <b>REST</b> interface directly to <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this has already been done on the given SAP SuccessFactors system. 
+   <br> 1a. The new employee data event gets <b>published</b> using the <b>REST</b> interface directly to <b>SAP Integration Suite, advanced event mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this has already been done on the given SAP SuccessFactors system. 
 
 2. <b>First Subscriber</b> listens to the AEM queue that is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 2a. It sends a welcome email to the given newly hired candidate's email id along with the survey link using the Cloud Integration <b>Mail</b> receiver adapter.
@@ -35,7 +35,7 @@ The advantage of event-driven integration is that you can easily add or remove s
 3. <b>Second Subscriber</b> listens to the different AEM queue that is also subscribed to the same topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 3a. It triggers the equipment and training approval workflow in SAP Build Process Automation with Equipment and Training <b>Decisions</b> and assigns the task to the manager on the given manager's email id using the Cloud Integration <b>HTTPS</b> receiver adapter. This will be visible in the Manager's Task Center(one inbox).
     <br> 3b. On manager's approval or rejection, workflow notify the same to the newly hired candidate on the given candidate's email id.
-    <br> 3c. On manager's approval, it also <b>publishes</b> the approval event directly to the <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SBPA/NewHire/{EmployeeId}/Approval` where `EmployeeId` gets dynamically resolved from the new hire payload.
+    <br> 3c. On manager's approval, it also <b>publishes</b> the approval event directly to the <b>SAP Integration Suite, advanced event mesh</b> topic `SBPA/NewHire/{EmployeeId}/Approval` where `EmployeeId` gets dynamically resolved from the new hire payload.
 
 4. <b>Third Subscriber</b> listens to the another AEM queue that is subscribed to the approval topic `SBPA/NewHire/{EmployeeId}/Approval` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 4a. It automatically creates the purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system using the <b>OData</b> receiver adapter.
@@ -46,4 +46,4 @@ The advantage of event-driven integration is that you can easily add or remove s
 ## Summary
 You should now be familiar with the session scenario.
 
-Now, to learn all the configurations that has been done in <b>SAP SuccessFactors</b> to enable new hire event publication to <b>SAP Integration Suite, Advanced Event Mesh</b>, you can navigate to [SAP SuccessFactors Configuration](/intro/intro2) section.
+Now, to learn all the configurations that has been done in <b>SAP SuccessFactors</b> to enable new hire event publication to <b>SAP Integration Suite, advanced event mesh</b>, you can navigate to [SAP SuccessFactors Configuration](/intro/intro2) section.
