@@ -2,30 +2,43 @@
 
 ## Overview
 
-To enable the event-driven architecture in this integration scenario, we use **SAP Integration Suite, advanced event mesh**.<br/>
+To enable the event-driven architecture in this integration scenario, we use **SAP Integration Suite, advanced event mesh (AEM)**.<br/>
 In this exercise, each participant has to create 3 queues and subscribe to the relevant topic.
 These queues are then required and subscribed in the later part of the session while configuring or creating the integration interfaces in the Cloud Integration capability of SAP Integration Suite.
 <br/><br/>
 Run through the following steps in the given order:
+
 1. Open the [SAP Integration Suite, advanced event mesh](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95) tenant and log in using the user ID and password provided to you by the instructors.
+<br><img src="/exercises/ex1/images/AEM_Login.png" width=50% height=50%> 	
    
-3. Open the <b>"Cluster Manager"</b> tile.
+2. Open the <b>"Cluster Manager"</b> tile.
 <br><img src="/exercises/ex1/images/AEM_Cluster_Manager.png" width=90% height=90%> 	
 
-4. Deselect <b>"Only show my services"</b> checkbox.
+3. Deselect <b>"Only show my services"</b> checkbox.
 <br><img src="/exercises/ex1/images/AEM_Services.png" width=90% height=90%> 	
 
-5. Click on the <b>IN264_Teched</b> tile.  
-<br><img src="/exercises/ex1/images/AEM_IN264_Teched.png" width=90% height=90%> 	
+4. Click on the <b>"IN264_Teched"</b> tile.
+<br><img src="/exercises/ex1/images/AEM_IN264_Teched.png" width=90% height=90%>
 
-6. Navigate to the <b>"Manage"</b> tab, and click on <b>"Queues"</b>  
+5. >Only for Information! <br/>
+Navigate to the <b>"Connect"</b> tab. This tab provides the various conectivity protcol options.
+<br><img src="/exercises/ex1/images/AEM_Connect.png" width=90% height=90%>
+
+6. >Only for Information! <br/>
+From these connectivity option, <b>REST</b> connectivity details is used by SAP SuccessFactors to send events to AEM. The shown endpoint is providing the hostname. The actual topic the event is sent to, will be part of the URL configuration in SFSF. You can get more information about the SFSF configurations [here](../intro2). 
+<br><img src="/exercises/ex1/images/AEM_Connect_REST.png" width=90% height=90%> 	
+
+7. >Only for Information! <br/>
+From these connectivity option, <b>AMQP</b> connectivity details are used by the Integration Flows in Cloud Intgeration capability of SAP Integration Suite to connect to AEM. 
+<br><img src="/exercises/ex1/images/AEM_Connect_AMQP.png" width=90% height=90%> 
+
+8. Navigate to the <b>"Manage"</b> tab, and click on <b>"Queues"</b>  
 <br><img src="/exercises/ex1/images/AEM_Manage.png" width=90% height=90%> 	
 
-7. A new tab will open and list all of the Queues. Click <b>"+ Queue"</b> to create a new one.
+9. A new tab will open and list all of the Queues. Click <b>"+ Queue"</b> to create a new one.
 <br><img src="/exercises/ex1/images/AEM_Manage_Queue.png" width=90% height=90%> 	
 
-
-8. Provide following Queue Name: <b>NewHire_Workflow_IN264-XXX</b> and press <b>Create</b>.
+10. Provide following Queue Name: <b>NewHire_Workflow_IN264-XXX</b> and press <b>Create</b>.
 > Replace XXX with the participant number provided by your instructor  
 
 ![image](https://media.github.tools.sap/user/13842/files/1060196f-7037-48f7-98cd-f7338a646e19)
