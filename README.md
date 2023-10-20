@@ -25,7 +25,7 @@ Check out the following chapters to understand and achieve an end-to-end employe
 
 - [Scenario Introduction](intro/intro1)
 - [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2) 
-- [SAP Integration Suite, advanced event mesh configuration (for your information only)](intro/intro3) 
+- [SAP S/4Hana Cloud System, Communication Arrangement (for your information only)](intro/intro3) 
 
 ## Requirements
 
