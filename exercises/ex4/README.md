@@ -1,4 +1,4 @@
-# Exercise 1 - Copy, configure and deploy the Welcome Email subscription flow
+# Exercise 4 - Copy, configure and deploy the Welcome Email subscription flow
 
 In the first part of the exercise, you will setup an integration flow that listens to the Advanced Event Mesh queue that is subscribed to the topic `SuccessFactors/NewHire` exposed by SAP SuccessFactors. This triggers a welcome email along with the Qualtrics survey link in real-time once the new hire gets created in SAP SuccessFactors.
 
