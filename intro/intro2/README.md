@@ -50,7 +50,7 @@ After the review, save it to deploy it to the server.
 14. Go to <b>Intelligent Service Center(ISC)</b>, where you can configure this integration against the <b>Employee Hire</b> event.
     <br><img src="/intro/intro2/images/IC_Goto_ISC.png" width=90% height=90%>
     
-15. In the <b>Integration Services Center</b>, we have configured the <b>D-Com 2023 HO010 - Hyperautomation</b> integration against the <b>Employee Hire</b> event along with the given rule.
+15. In the <b>Integration Services Center</b>, we have configured the <b>IN264 - Combine SAP Integration Suite and SAP Build in HR</b> integration against the <b>Employee Hire</b> event along with the given rule.
     <br><img src="/intro/intro2/images/Integration_Services_Center.png" width=90% height=90%>   
     <br><img src="/intro/intro2/images/Integration_Services_Center_Rule.png" width=90% height=90%>    
     
@@ -58,4 +58,4 @@ After the review, save it to deploy it to the server.
 
 You should now be familiar with all the configurations that has been done in SAP SuccessFactors to enable the new hire event publication to SAP Integration Suite, Advanced Event Mesh.
 
-Now, to learn more about the configuration that has been done in <b>Advanced Event Mesh</b>, you can navigate to [SAP Integration Suite, Advanced Event Mesh configuration](/intro/intro3) section.
+Now, to learn more about the configuration that has been done in <b>Advanced Event Mesh</b>, you can navigate to [SAP S/4Hana Cloud configuration](/intro/intro3) section.
