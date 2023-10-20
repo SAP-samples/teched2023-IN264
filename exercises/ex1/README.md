@@ -5,7 +5,8 @@
 To enable the event-driven architecture in this integration scenario, we use **SAP Integration Suite, advanced event mesh (AEM)**.<br/>
 In this exercise, each participant has to create 3 queues and subscribe to the relevant topic.
 These queues are then required and subscribed in the later part of the session while configuring or creating the integration interfaces in the Cloud Integration capability of SAP Integration Suite.
-<br/><br/>
+
+## Exercise steps
 Run through the following steps in the given order:
 
 1. Open the [SAP Integration Suite, advanced event mesh](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95) tenant and log in using the user ID and password provided to you by the instructors.
