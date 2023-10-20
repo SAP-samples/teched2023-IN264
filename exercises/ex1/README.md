@@ -120,11 +120,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 
 ## Summary
 
-If you want some more information on the general concepts around **Event-Driven Architectures**, you can check [here](https://solace.com/what-is-event-driven-architecture/) for a brief introduction.
+At the end of the first part of the session, you should have created 3 queues and subscribed to the relevant topic. 
+<br/>Please make sure that you have used the right nomenclature and replaced **XXX** with the participant number that is assigned to you.
 
-At the end of the first part of the tutorial, you should have configured and deployed an integration flow to send out the welcome email along with the Qualtrics survey link.
-
-Continue to - Exercise 2 - Copy, configure and deploy the Equipment and Training Approval subscription flow
-
-
-Navigate to - [Exercise overview page](/README.md#exercises)
+Continue to - [Exercise 2 -](/exercises/ex2/README.md)
