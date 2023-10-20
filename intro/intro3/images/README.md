@@ -1,1 +1,2 @@
-put images here
+> [!NOTE]  
+> Images go here!
