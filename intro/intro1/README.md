@@ -2,7 +2,7 @@
 
 This session scenario helps you to learn more about <b>Enterprise Automation</b> by implementing an end-to-end event-driven scenario where you react and respond to a new hire business event from <b>SAP SuccessFactors</b> using <b>SAP Integration Suite</b> and <b>SAP Build Process Automation</b>.
 
-In this, we implement an end-to-end <b>Recruit-to-Retire (R2R)</b> business process across a heterogeneous landscape. From <b>SAP Integration Suite</b> we would leverage <b>Advanced Event Mesh (AEM)</b> and <b>Cloud Integration</b> capabilities. This also includes human interactions to achieve an end-to-end employee onboarding business process using <b>SAP Build Process Automation</b>.
+In this, we implement an end-to-end <b>Recruit-to-Retire (R2R)</b> business subprocess across a heterogeneous landscape. From <b>SAP Integration Suite</b> we would leverage <b>Advanced Event Mesh (AEM)</b> and <b>Cloud Integration</b> capabilities. This also includes human interactions to achieve an end-to-end employee onboarding business process using <b>SAP Build Process Automation</b>.
 
 ## Business Scenario
 Presume in your organization, you are using <b>SAP SuccessFactors</b> as a central Human Capital Management (HCM) application and you like to automate a few aspects of a newly hired employee in real-time like:
