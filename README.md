@@ -41,9 +41,39 @@ You can also gain some further knowledge around SAP Integration Suite, SAP Build
 - Learn how to build a application, automate process and connect with CAP services in [AD272 - SAP Cloud Application Programming Model Meets SAP Build](https://github.com/SAP-samples/teched2023-AD272)
 - Learn how to build and extend standard business process in SAP S/4HANA [AD163 - Extend Your Sales Order Process in SAP S/4HANA with SAP Build](https://github.com/SAP-samples/teched2023-AD163)
 
+## System logon & user information
+
+For running through the exercises, you need access to the following applications:
+- [SAP SuccessFactors system](https://pmsalesdemo8.successfactors.com/login?company=SFPART069417)
+- [SAP S/4Hana Cloud system](https://my407161.s4hana.cloud.sap/ui)
+- [SAP Integration Suite, Advanced Event Mesh tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95)
+- [SAP Integration Suite tenant](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home) or [SAP Integration Suite backup tenant](https://teched23blr03.integrationsuite.cfapps.ap11.hana.ondemand.com/shell/home)
+- [SAP Build Process Automation - Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby)
+- [SAP Build Process Automation - My Inbox](https://in264-72e8h9xc.sap-process-automation.cfapps.eu10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html)
+
+#### Please Note:
+
+- We have done everything to make this experience enjoyable. Your tenants are pre-configured and you already have all the roles and definitions you need to complete this exercise.
+- User and password information will be provided to you by the instructors.
+- When you run through the exercise steps, you need to ensure that the technical IDs of the integration artifacts that you will create are unique. Hence, add a participant number to your integration artifacts. The instructors will assign the participant number to you.
+- Please adhere strictly to the instructions regarding the naming conventions for the artifacts you create. This will ensure successful completion of the tasks without conflicting with other participants.
+- Do not delete, change or undeploy any artifact in the tenant other than yours.
+
 ## Exercises
 
+The complete list of exercise steps is listed below, run through them in the given order.
+<br>You can use this section as a Table of Contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
+- [Exercise 1 - Create queues and subscribe to topic in SAP Intgration Suite, Advanced Event Mesh](exercises/ex1/README.md)
+
+    - [Create a new integration package](exercises/ex1/ex11/README.md)
+
+    - [Copy the integration flow template](exercises/ex1/ex12/README.md)
+
+    - [Configure and deploy the integration flow](exercises/ex1/ex13/README.md)
+
+    - [Check the deployment status](exercises/ex1/ex14/README.md)
+      
 - [Exercise 1 - SAP Integration Suite](exercises/ex1/)
     - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
     - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
