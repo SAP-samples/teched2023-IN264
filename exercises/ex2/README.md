@@ -108,11 +108,11 @@ Training Determination decision is configured now
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
 
 ## 6)	Release and Deploy
-  a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
+  a. Click on the Release button in the Process Builder.
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
-  b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
+  b. Click on Release button on the Release Projext pop-up window.
   <br>![](/exercises/ex2/images/Release002.jpg) <br>
-  c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
+  c. Click on Deploy <br>
   <br>![](/exercises/ex2/images/Release003.jpg) <br>
   d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
   <br>![](/exercises/ex2/images/ReleaseWizard004.png) <br>
