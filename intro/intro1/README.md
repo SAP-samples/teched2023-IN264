@@ -25,8 +25,9 @@ The advantage of event-driven integration is that you can easily add or remove s
 
 <img src="/intro/intro1/images/scenario_architecture.png" width=100% height=100%>
 
-1. Add(hire) a new employee in <b>SAP SuccessFactors</b> system.
-   <br> 1a. The new employee data event gets <b>published</b> using the <b>REST</b> interface directly to <b>SAP Integration Suite, advanced event mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this has already been done on the given SAP SuccessFactors system. 
+<img src="/intro/intro1/images/1.png" align="left"> Add(hire) a new employee in <b>SAP SuccessFactors</b> system.
+   <br> 
+     <img src="/intro/intro1/images/1a.png" align="left"> The new employee data event gets <b>published</b> using the <b>REST</b> interface directly to <b>SAP Integration Suite, advanced event mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this has already been done on the given SAP SuccessFactors system.
 
 2. <b>First Subscriber</b> listens to the AEM queue that is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 2a. It sends a welcome email to the given newly hired candidate's email id along with the survey link using the Cloud Integration <b>Mail</b> receiver adapter.
