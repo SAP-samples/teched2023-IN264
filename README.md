@@ -57,7 +57,7 @@ For running through the exercises, you need access to the following applications
 
 > [!IMPORTANT]
 > - We have done everything to make this experience enjoyable. Your tenants are pre-configured and you already have all the roles and definitions you need to complete this exercise.
-> - User and password information will be provided to you by the instructors.
+> - User ID and password information will be provided to you by the instructors.
 > - When you run through the exercise steps, you need to ensure that the technical IDs of the integration artifacts that you will create are unique. Hence, add a participant number to your integration artifacts. The instructors will assign the participant number to you.
 > - Please adhere strictly to the instructions regarding the naming conventions for the artifacts you create. This will ensure successful completion of the tasks without conflicting with other participants.
 > - Do not delete, change or undeploy any artifact in the tenant other than yours.
