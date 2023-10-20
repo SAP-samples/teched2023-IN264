@@ -1,1 +1,2 @@
-Images go here!
+> [!NOTE]  
+> Images go here!
