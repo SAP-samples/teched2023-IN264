@@ -68,20 +68,10 @@ The complete list of exercise steps are listed below, run through them in the gi
 <br>You can use this section as a Table of Contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
 - [Exercise 1 - Create queues and subscribe to topic in SAP Integration Suite, advanced event mesh](exercises/ex1/README.md)
-- [Exercise 2 - SAP Build Process Automation](exercises/ex2/)
-   - [Create a new integration package](exercises/ex1/ex11/README.md)
-    - [Copy the integration flow template](exercises/ex1/ex12/README.md)
-    - [Configure and deploy the integration flow](exercises/ex1/ex13/README.md)
-    - [Check the deployment status](exercises/ex1/ex14/README.md)
-             <br>1)How to do a Save as New Project of the sample Employee Onboarding Process Project
-             <br>2)Add parallel branches to add new Training and Equipment determination rules
-             <br>3)Configure the decision to determine Equipments for the newly hired employee
-             <br>4)	Configure the decision to determine Trainings for the newly hired employee
-             <br>5)	Add Action based on AEM Service
-             <br>6)	Release and Deploy
-             <br>7)	Run the Process
-   
-
+- [Exercise 2 - SAP Build Process Automation](exercises/ex2/README.md)        
+- [Exercise 3 - Create queues and subscribe to topic in SAP Integration Suite, advanced event mesh](exercises/ex3/README.md)
+- [Exercise 4 - Copy, configure and deploy the Survey Email subscription flow](exercises/ex4/README.md)
+- [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](exercises/ex5/README.md)
   
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
