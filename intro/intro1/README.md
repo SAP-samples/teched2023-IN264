@@ -1,6 +1,6 @@
 # Scenario Introduction
 
-This session scenario helps you to learn more about <b>Enterprise Automation</b> by implementing an event-driven scenario where you react and respond to a new hire business event from <b>SAP SuccessFactors</b> using <b>SAP Integration Suite</b> and <b>SAP Build Process Automation</b>.
+This session scenario helps you to learn more about <b>Enterprise Automation</b> by implementing an end-to-end event-driven scenario where you react and respond to a new hire business event from <b>SAP SuccessFactors</b> using <b>SAP Integration Suite</b> and <b>SAP Build Process Automation</b>.
 
 In this, we implement an end-to-end <b>Recruit-to-Retire (R2R)</b> business process across a heterogeneous landscape. From <b>SAP Integration Suite</b> we would leverage <b>Advanced Event Mesh (AEM)</b> and <b>Cloud Integration</b> capabilities. This also includes human interactions to achieve an end-to-end employee onboarding business process using <b>SAP Build Process Automation</b>.
 
@@ -13,19 +13,20 @@ Presume in your organization, you are using <b>SAP SuccessFactors</b> as a centr
 
 3. Post manager approval, you also like to automate the creation of Purchase Requistion for the approved equipments in SAP S/4HANA Cloud or SAP Ariba system.
 
-Instead of developing point-to-point integration for the above two use cases, you will learn and understand how we can achieve the same via an event-driven integration pattern.
+Instead of developing point-to-point integration for the above three use cases, you will learn and understand how we can achieve the same via an event-driven integration pattern.
 
-<I>The advantage of event-driven integration is that you can easily add or remove new subscribers to update your business processes. For example, the given scenario can be easily extended with the following two more integrations:
+### Scenario Extension Possibilities
+The advantage of event-driven integration is that you can easily add or remove subscribers to update your business processes. For example, the given scenario can be easily extended with the following two more integration use cases:
 
-* You can replicate the new hired data in real-time to secondary HCM application to manage other supporting functions like Employee Benefits.
-* Post manager approval, you also like to automatically grant the access to the SAP BTP applications using the available APIs.</I>
+* You like to replicate the new hired data to secondary HCM application in real-time to manage other supporting functions like Employee Benefits.
+* Post manager approval, you also like to automatically grant the access to the SAP BTP applications or any other application using the available APIs.
 
 ## Scenario Architecture
 
 <img src="/intro/intro1/images/scenario_architecture.png" width=100% height=100%>
 
 1. Add(hire) a new employee in <b>SAP SuccessFactors</b> system.
-   <br> 1a. The new employee data event gets published using the <b>REST</b> interface directly to <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this is already been performed on the given SAP SuccessFactors system. 
+   <br> 1a. The new employee data event gets <b>published</b> using the <b>REST</b> interface directly to <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this has already been done on the given SAP SuccessFactors system. 
 
 2. <b>First Subscriber</b> listens to the AEM queue that is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 2a. It would then sends a welcome email to the given newly hired candidate's email id along with the survey link using the Cloud Integration <b>Mail</b> receiver adapter.
@@ -34,7 +35,7 @@ Instead of developing point-to-point integration for the above two use cases, yo
 3. <b>Second Subscriber</b> listens to the different AEM queue that is also subscribed to the same topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 3a. It would then trigger the equipment and training approval workflow in SAP Build Process Automation with Equipment and Training <b>Decision</b> and assigns the task to the manager on the given manager's email id using the Cloud Integration <b>HTTPS</b> receiver adapter. This will be visible in the Task Center(one inbox).
     <br> 3b. On manager's approval or rejection, workflow notify the same to the newly hired candidate on the given candidate's email id.
-    <br> 3c. On manager's approval, it also publishes the approval event directly to the <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SBPA/NewHire/{EmployeeId}/Approval` where `EmployeeId` gets dynamically resolved from the new hire payload.
+    <br> 3c. On manager's approval, it also <b>publishes</b> the approval event directly to the <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SBPA/NewHire/{EmployeeId}/Approval` where `EmployeeId` gets dynamically resolved from the new hire payload.
 
 4. <b>Third Subscriber</b> listens to the another AEM queue that is subscribed to the approval topic `SBPA/NewHire/{EmployeeId}/Approval` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 4a. It would then automatically create the purchase requisition with the approved equipments list in the S/4HANA Cloud system using the <b>OData</b> receiver adapter.
