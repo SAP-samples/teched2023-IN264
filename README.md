@@ -63,22 +63,14 @@ For running through the exercises, you need access to the following applications
 
 ## Exercises
 
-The complete list of exercise steps is listed below, run through them in the given order.
+The complete list of exercise steps are listed below, run through them in the given order.
 <br>You can use this section as a Table of Contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
 - [Exercise 1 - Create queues and subscribe to topic in SAP Intgration Suite, advanced event mesh](exercises/ex1/README.md)
-
     - [Create a new integration package](exercises/ex1/ex11/README.md)
-
     - [Copy the integration flow template](exercises/ex1/ex12/README.md)
-
     - [Configure and deploy the integration flow](exercises/ex1/ex13/README.md)
-
     - [Check the deployment status](exercises/ex1/ex14/README.md)
-      
-- [Exercise 1 - SAP Integration Suite](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
 - [Exercise 2 - SAP Build Process Automation](exercises/ex2/)
               <br>1)How to do a Save as New Project of the sample Employee Onboarding Process Project
              <br>2)Add parallel branches to add new Training and Equipment determination rules
