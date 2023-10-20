@@ -43,7 +43,7 @@ You can also gain some further knowledge around SAP Integration Suite, SAP Build
 - Learn how to build a application, automate process and connect with CAP services in [AD272 - SAP Cloud Application Programming Model Meets SAP Build](https://github.com/SAP-samples/teched2023-AD272)
 - Learn how to build and extend standard business process in SAP S/4HANA [AD163 - Extend Your Sales Order Process in SAP S/4HANA with SAP Build](https://github.com/SAP-samples/teched2023-AD163)
 
-## System logon & user information
+## System URL and login information
 
 For running through the exercises, you need access to the following applications:
 - [SAP SuccessFactors system](https://pmsalesdemo8.successfactors.com/login?company=SFPART069417)
