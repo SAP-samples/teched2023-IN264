@@ -29,11 +29,11 @@ The advantage of event-driven integration is that you can easily add or remove s
    <br> 1a. The new employee data event gets <b>published</b> using the <b>REST</b> interface directly to <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where `EmployeeId` gets dynamically resolved from the new hire payload. For this, we need to do the proper [configurations](/intro/intro2) and this has already been done on the given SAP SuccessFactors system. 
 
 2. <b>First Subscriber</b> listens to the AEM queue that is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
-    <br> 2a. It would then sends a welcome email to the given newly hired candidate's email id along with the survey link using the Cloud Integration <b>Mail</b> receiver adapter.
+    <br> 2a. It sends a welcome email to the given newly hired candidate's email id along with the survey link using the Cloud Integration <b>Mail</b> receiver adapter.
     <br> 2b. By clicking the survey link, candidate can provide the onboarding experience feedback.
 
 3. <b>Second Subscriber</b> listens to the different AEM queue that is also subscribed to the same topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
-    <br> 3a. It would then trigger the equipment and training approval workflow in SAP Build Process Automation with Equipment and Training <b>Decision</b> and assigns the task to the manager on the given manager's email id using the Cloud Integration <b>HTTPS</b> receiver adapter. This will be visible in the Task Center(one inbox).
+    <br> 3a. It would then trigger the equipment and training approval workflow in SAP Build Process Automation with Equipment and Training <b>Decision</b> and assigns the task to the manager on the given manager's email id using the Cloud Integration <b>HTTPS</b> receiver adapter. This will be visible in the Manager's Task Center(one inbox).
     <br> 3b. On manager's approval or rejection, workflow notify the same to the newly hired candidate on the given candidate's email id.
     <br> 3c. On manager's approval, it also <b>publishes</b> the approval event directly to the <b>SAP Integration Suite, Advanced Event Mesh</b> topic `SBPA/NewHire/{EmployeeId}/Approval` where `EmployeeId` gets dynamically resolved from the new hire payload.
 
