@@ -21,7 +21,7 @@ By leveraging event-based integration patterns and low-code/no-code process auto
 - automate activities, and
 - streamline shared-service processes.
 
-Check out the following chapters to understand and achieve an end-to-end employee onboarding business subprocess integration scenario that is documented in this session:
+Check out the following chapters to understand and achieve the end-to-end employee onboarding business subprocess as documented in this session:
 
 - [Scenario Introduction](intro/intro1)
 - [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2)
