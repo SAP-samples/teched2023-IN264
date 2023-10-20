@@ -67,7 +67,7 @@ For running through the exercises, you need access to the following applications
 The complete list of exercise steps are listed below, run through them in the given order.
 <br>You can use this section as a Table of Contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [Exercise 1 - Create queues and subscribe to topic in SAP Intgration Suite, advanced event mesh](exercises/ex1/README.md)
+- [Exercise 1 - Create queues and subscribe to topic in SAP Integration Suite, advanced event mesh](exercises/ex1/README.md)
 - [Exercise 2 - SAP Build Process Automation](exercises/ex2/)
    - [Create a new integration package](exercises/ex1/ex11/README.md)
     - [Copy the integration flow template](exercises/ex1/ex12/README.md)
