@@ -124,6 +124,9 @@ Training Determination decision is configured now
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
 
 ## 7)	Run the process
+
+Now we can test the process with a sample context.
+
   a. Click on the Release button in the Process Builder.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br>
   b. Click on Release button on the Release Projext pop-up window.
