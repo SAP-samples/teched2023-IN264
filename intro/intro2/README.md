@@ -2,7 +2,7 @@
 
 To enable the <b>New Hire</b> event in <b>SAP SuccessFactors(SFSF) Employee Central</b>, the following configuration steps has already been done for you. This section is for your information only. 
 
-Run through the following steps in the given order:
+Run through the following steps in the given order and kindly do not touch or change any given configuration.
 
 1. Logon to the <b>SAP SuccessFactors</b> with the Admin User ID and Password
     <br><img src="/intro/intro2/images/SFSF_Logon.png" width=60% height=60%>
@@ -36,7 +36,7 @@ We have not defined any filters for this scenario, click <b>Next</b> to see the 
 This has been done so that new hire created by each participant would get published to their topic only and does not get broadcasted to all the participants. Click <b>Calculated URI</b> to check the settings.
     <br><img src="/intro/intro2/images/IC_Destination_Settings.png" width=90% height=90%>
 
-10. In the <b>Calculated URI</b> section, we have defined <b>User ID i.e, EmployeeId </b>. This would get appended to the REST endpoint as defined in the Destination. Click <b>Ok</b> to close it.
+10. In the <b>Calculated URI</b> section, we have defined <b>User ID i.e., EmployeeId </b>. This would get appended to the REST endpoint as defined in the Destination. Click <b>Ok</b> to close it.
     <br><img src="/intro/intro2/images/IC_Destination_Settings_Calculated_URI.png" width=90% height=90%>
 
 11. Click <b>Next</b> to review and run the integration.
@@ -56,6 +56,6 @@ After the review, save it to deploy it to the server.
     
 ## Summary
 
-You should now be familiar with all the configurations that has been done in SAP SuccessFactors to enable the new hire event publication to SAP Integration Suite, Advanced Event Mesh.
+You should now be familiar with all the configurations that has been done in SAP SuccessFactors to enable the new hire event publication to <b>SAP Integration Suite, Advanced Event Mesh</b>.
 
-Now, to learn more about the configuration that has been done in <b>Advanced Event Mesh</b>, you can navigate to [SAP S/4Hana Cloud configuration](/intro/intro3) section.
+Now, to learn more about the configuration that has been done in <b>SAP S/4Hana Cloud System</b>, you can navigate to [SAP S/4Hana Cloud System configuration](/intro/intro3) section.
