@@ -114,14 +114,14 @@ Training Determination decision is configured now
   <br>![](/exercises/ex2/images/Release002.jpg) <br>
   c. Click on Deploy <br>
   <br>![](/exercises/ex2/images/Release003.jpg) <br>
-  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
+  d. Click on "Next" in the Overview Page of the deployment wizard <br>
   <br>![](/exercises/ex2/images/ReleaseWizard004.png) <br>
-  e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
+  e. Choose the destination as AEM in the destination <br>
+  <br>![](/exercises/ex2/images/Release0001.jpg) <br>
+  f. Click on "Deploy" in the Triggers page of deployment wizard <br>
   <br>![](/exercises/ex2/images/Release005.jpg) <br>
-  f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID <br>
+  g. Note that the project is deployed <br>
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
-  g. Save the changes <br>
-  <br>![](/exercises/ex2/images/Release001.jpg) <br>
 
 ## 7)	Get Defition ID
 
