@@ -1,4 +1,4 @@
-## Exercise 5 - Copy, configure and deploy the SAP S/4HANA Purchase Order Requisition integration flow
+## Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition integration flow
 
 1. <b>Open</b> the solution package by clicking this [URL](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS)  
 2. Search for the "Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval" integration flow, press the <b>Action</b> button and select <b>Copy</b>  
