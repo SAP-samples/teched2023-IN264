@@ -58,4 +58,4 @@ Run through the exercise steps in the given order.
 
 At the end of this exercise, you should have configured and deployed an integration flow to send out the welcome email along with the survey link.
 
-Continue to - [Exercise 5 - Copy, configure and deploy the Equipment and Training Approval subscription flow](/exercises/ex2/README.md)
+Continue to - [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](/exercises/ex5/README.md)
