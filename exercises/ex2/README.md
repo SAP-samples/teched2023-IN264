@@ -123,8 +123,33 @@ Training Determination decision is configured now
   g. Note that the project is deployed <br>
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
 
-## 7)	Get Defition ID
-
+## 7)	Run the process
+  a. Click on the Release button in the Process Builder.
+  <br>![](/exercises/ex2/images/GetInstance001.jpg) <br>
+  b. Click on Release button on the Release Projext pop-up window.
+  <br>![](/exercises/ex2/images/GetInstance002.jpg) <br>
+  c. Click on Deploy <br>
+  <br>![](/exercises/ex2/images/GetInstance003.jpg) <br>
+  d. Click on "Next" in the Overview Page of the deployment wizard <br>
+  <br>![](/exercises/ex2/images/GetInstance004.jpg) <br>
+  e. Choose the destination as AEM in the destination <br>
+  <br>![](/exercises/ex2/images/GetInstance005.jpg) <br>
+  f. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  <br>![](/exercises/ex2/images/GetInstance006.jpg) <br>
+  g. Note that the project is deployed <br>
+  <br>![](/exercises/ex2/images/GetInstance007.jpg) <br>
+  h. Choose the destination as AEM in the destination <br>
+  <br>![](/exercises/ex2/images/GetInstance008.jpg) <br>
+  i. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  <br>![](/exercises/ex2/images/GetInstance009.jpg) <br>
+  j. Note that the project is deployed <br>
+  <br>![](/exercises/ex2/images/GetInstance010.jpg) <br>
+  k. Choose the destination as AEM in the destination <br>
+  <br>![](/exercises/ex2/images/GetInstance011.jpg) <br>
+  l. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  <br>![](/exercises/ex2/images/GetInstance012.jpg) <br>
+  m. Note that the project is deployed <br>
+  <br>![](/exercises/ex2/images/GetInstance013.jpg) <br>
 
 ## Summary
 
