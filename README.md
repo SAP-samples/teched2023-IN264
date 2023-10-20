@@ -37,7 +37,9 @@ You can check out the following SAP Discovery Center missions that will help you
 * [SAP Build Process Automation](https://discovery-center.cloud.sap/serviceCatalog/sap-build-process-automation)
 * [SAP Integration Suite, advanced event mesh](https://discovery-center.cloud.sap/serviceCatalog/advanced-event-mesh)
   
-You can also gain some further knowledge around SAP Integration Suite, SAP Build and Advanced Event Mesh by attending the following SAP TechEd sessions:
+You can also gain some further knowledge around SAP Integration Suite, SAP Build and SAP Integration Suite, advanced event mesh by attending the following SAP TechEd sessions:
+- Learn about Edge Integration cell, the next-generation hybrid integration runtime offered with SAP Integration Suite in [IN160 - Discover next-generation hybrid integrations with Edge Integration Cell](https://github.com/SAP-samples/teched2023-IN160)
+- Take a deep dive into SAP Integration Suite, advanced event mesh in [IN265 - Event-Driven Architecture with SAP Integration Suite, Advanced Event Mesh](https://github.com/SAP-samples/teched2023-IN265)
 - Learn how to build a application, automate process and connect with CAP services in [AD272 - SAP Cloud Application Programming Model Meets SAP Build](https://github.com/SAP-samples/teched2023-AD272)
 - Learn how to build and extend standard business process in SAP S/4HANA [AD163 - Extend Your Sales Order Process in SAP S/4HANA with SAP Build](https://github.com/SAP-samples/teched2023-AD163)
 
@@ -46,7 +48,7 @@ You can also gain some further knowledge around SAP Integration Suite, SAP Build
 For running through the exercises, you need access to the following applications:
 - [SAP SuccessFactors system](https://pmsalesdemo8.successfactors.com/login?company=SFPART069417)
 - [SAP S/4Hana Cloud system](https://my407161.s4hana.cloud.sap/ui)
-- [SAP Integration Suite, Advanced Event Mesh tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95)
+- [SAP Integration Suite, advanced event mesh tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95)
 - [SAP Integration Suite tenant](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home) or [SAP Integration Suite backup tenant](https://teched23blr03.integrationsuite.cfapps.ap11.hana.ondemand.com/shell/home)
 - [SAP Build Process Automation - Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby)
 - [SAP Build Process Automation - My Inbox](https://in264-72e8h9xc.sap-process-automation.cfapps.eu10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html)
@@ -64,7 +66,7 @@ For running through the exercises, you need access to the following applications
 The complete list of exercise steps is listed below, run through them in the given order.
 <br>You can use this section as a Table of Contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [Exercise 1 - Create queues and subscribe to topic in SAP Intgration Suite, Advanced Event Mesh](exercises/ex1/README.md)
+- [Exercise 1 - Create queues and subscribe to topic in SAP Intgration Suite, advanced event mesh](exercises/ex1/README.md)
 
     - [Create a new integration package](exercises/ex1/ex11/README.md)
 
