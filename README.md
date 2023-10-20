@@ -1,4 +1,4 @@
-![image](https://github.com/SAP-samples/teched2023-IN264/assets/4324378/0574489e-4555-4057-a892-6d51d890e6f5)[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-IN264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-IN264)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-IN264)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-IN264)
 
 # IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR
 
