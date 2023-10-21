@@ -8,10 +8,10 @@ Run through the exercise steps in the given order.
 
 ### Copy the integration flow template
 1. Open the [solution package](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS) in Cloud Integration capability of SAP Integration Suite and log in using the user ID and password provided to you by the instructors.
-<br><img src="/exercises/ex1/images/CI_Solution_Package.png" width=90% height=90%> 	
+<br><img src="/exercises/ex4/images/CI_Solution_Package.png" width=90% height=90%> 	
 
 2. Search for the **SAP SFSF New Hire Welcome Email with Survey Link** integration flow and from the **Actions** menu, select the menu entry **Copy**
-<br><img src="/exercises/ex1/images/CI_SM_Copy.png" width=90% height=90%> 	
+<br><img src="/exercises/ex4/images/CI_SM_Copy.png" width=90% height=90%> 	
 
 3. In the **Copy** dialog, update the name of the integration flow to **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**
    > [!IMPORTANT]  
