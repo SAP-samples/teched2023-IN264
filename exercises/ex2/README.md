@@ -158,21 +158,21 @@ Now we can test the process with a sample context.
     }	
   <br>![](/exercises/ex2/images/GetInstance005.jpg) <br>
   <br>Click on Start New Instance and Clost button. <br>
-  f. Click on "My Inbox" icon on the top right corner of the page. <br>
+  f. Click on "My Inbox" icon on the top right corner of the page. Tt will open "My Inbox" in a new tab. Do not close the current Monitor window. <br>
   <br>![](/exercises/ex2/images/GetInstance006.jpg) <br>
-  g. Note that the project is deployed <br>
+  g. The task for approval is available in the My Inbox app. The details are available in the form. <br>
   <br>![](/exercises/ex2/images/GetInstance007.jpg) <br>
-  h. Choose the destination as AEM in the destination <br>
+  h. Equipments determined for New Hire are listed in the form. <br>
   <br>![](/exercises/ex2/images/GetInstance008.jpg) <br>
-  i. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  i. Trainings for New Hire as listed in the form. Enter some comments and click on Approve. <br>
   <br>![](/exercises/ex2/images/GetInstance009.jpg) <br>
-  j. Note that the project is deployed <br>
+  j. Now we can check the workflow instance and verify that it is completed. From Lobby, click Monitor and click "Process and Workflow Instances" under Monitor section. From the Status dropdown select all status. <br>
   <br>![](/exercises/ex2/images/GetInstance010.jpg) <br>
-  k. Choose the destination as AEM in the destination <br>
+  k. Notice that the workflow instance is completed for your project <br>
   <br>![](/exercises/ex2/images/GetInstance011.jpg) <br>
-  l. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  l. Click on the workflow instance to navigate to Logs and Contex Page.  The Logs screen shows the logs for all the steps in the process. <br>
   <br>![](/exercises/ex2/images/GetInstance012.jpg) <br>
-  m. Note that the project is deployed <br>
+  m. The Context tab shows all the data that flows through the process.<br>
   <br>![](/exercises/ex2/images/GetInstance013.jpg) <br>
 
 ## Summary
