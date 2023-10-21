@@ -159,7 +159,7 @@ Now we can test the process with a sample context.
     }	<br>
   <br>![](/exercises/ex2/images/GetInstance005.jpg) <br>
   <br>Click on Start New Instance and Clost button. <br>
-  f. <br>Click on "My Inbox" icon on the top right corner of the page. Tt will open "My Inbox" in a new tab. Do not close the current Monitor window. <br>
+  f. Click on "My Inbox" icon on the top right corner of the page. It will open "My Inbox" in a new tab. Do not close the current Monitor window. <br>
   <br>![](/exercises/ex2/images/GetInstance006.jpg) <br><br>
   g. The task for approval is available in the My Inbox app. The details are available in the form. <br>
   <br>![](/exercises/ex2/images/GetInstance007.jpg) <br><br>
