@@ -1,31 +1,29 @@
-# Exercise 4 - Copy, configure and deploy the Welcome Email subscription flow
+# Exercise 4 - Copy, configure and deploy the Survey Email subscription flow
 
-In the first part of the exercise, you will setup an integration flow that listens to the Advanced Event Mesh queue that is subscribed to the topic `SuccessFactors/NewHire` exposed by SAP SuccessFactors. This triggers a welcome email along with the Qualtrics survey link in real-time once the new hire gets created in SAP SuccessFactors.
+In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue. This queue is subscribed to the topic where SAP SuccessFactors publishes new hire events. This integration triggers a real-time welcome email, along with a survey link, upon adding a new hire in SAP SuccessFactors.
 
 ## Exercise steps
 
 Run through the exercise steps in the given order.
 
 ### Copy the integration flow template
-1. Open the SAP Integration Suite tenant that is assigned to you and logon with the user userXX and the password provided to you. Replace XX with the participant number that is assigned to you.
+1. Open the [solution package](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS) in Cloud Integration capability of SAP Integration Suite and log in using the user ID and password provided to you by the instructors.
+<br><img src="/exercises/ex1/images/CI_Solution_Package.png" width=90% height=90%> 	
+
+2. Search for the **SAP SFSF New Hire Welcome Email with Survey Link** integration flow and from the **Actions** menu, select the menu entry **Copy**
+<br><img src="/exercises/ex1/images/CI_SM_Copy.png" width=90% height=90%> 	
+
+3. In the **Copy** dialog, update the name of the integration flow to **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
    
-2. Expand the Navigation pane and switch to the *Design --> Integrations* area
-<br><img src="/exercises/ex1/images/01-0001.png" width=50%>
-
-3. Use _Filter_ with **SOLUTION** to find  the package **D-Com 2023 HO010 - SOLUTION**, click and navigate to the <b>Artifacts</b> tab.
-<br>![Maintain package name](/exercises/ex2/images/02-0001.png)
-
-4. From the *Actions* menu of the **SAP SFSF New Hire Welcome Email along with Qualtrics Survey Link**, select the menu entry *Copy*
-<br>![Copy](/exercises/ex1/images/01-0007.png)
-
-5. In the upcoming dialog, add the participant number assigned to you to the **name** of the copied integration flow. Update the name of the integration flow to **SAP SFSF New Hire Welcome Email along with Qualtrics Survey Link_XX**, replacing **XX** with the participant number assigned to you.
-
-6. **Important**: As the target package, select your beforehand created package to ensure that the integration flow is copied into your package
+4. Press "Select" to choose another package as destination.
+<br/>As the target package, select the the package that you had created in exercise 3 i.e. **"Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX"** to ensure that the integration flow is copied into your package
    
-7. When done, select the *Copy* button
+9. When done, select the *Copy* button
 <br>![Maintain name and target](/exercises/ex1/images/01-0008.png)
 
-8. After the integration flow has been copied, you are asked to navigate to your package. Confirm by selecting button *Navigate*
+10. After the integration flow has been copied, you are asked to navigate to your package. Confirm by selecting button *Navigate*
 <br>![Navigate to your package](/exercises/ex1/images/01-0009.png)
 
 ### Configure and deploy the integration flow
