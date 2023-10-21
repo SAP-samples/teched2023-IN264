@@ -34,7 +34,7 @@ Run through the exercise steps in the given order.
 7. After copying the integration flow **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
 <br><img src="/exercises/ex4/images/CI_SM_Configure_1.png" width=90% height=90%>
 
-8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md)
+8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md).
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex4/images/CI_SM_Configure_2.png" width=90% height=90%>
@@ -47,13 +47,13 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex4/images/CI_SM_Deployment.png" width=80% height=80%>
 
 ### Check the deployment status
-11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area
+11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
 <br><img src="/exercises/ex4/images/CI_SM_Monitor_1.png" width=50% height=50%>
 
-12. In the Monitor overview, select the first tile below the **Manage Integration Content** section
+12. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
 <br><img src="/exercises/ex4/images/CI_SM_Monitor_2.png" width=60% height=60%>
 
-13. Search for your integration flow i.e. **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**. Check and confirm that the status has turned to **Started**
+13. Search for your integration flow i.e. **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**. Check and confirm that the status has turned to **Started**.
     > [!IMPORTANT]
     > Replace **XXX** with the participant number that is assigned to you.
     <img src="/exercises/ex4/images/CI_SM_Monitor_Started.png" width=90% height=90%>
