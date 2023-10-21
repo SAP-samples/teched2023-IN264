@@ -8,11 +8,14 @@ We then need to maintain the details of the API and communication user credentia
 For our exerscie today, this is already created in the SAP S/4HANA.
 Below is the sample screenshot for reference.
 
+<img src="/intro/intro3/images/CommArra001.jpg"> <br><br>
 
-
+<img src="/intro/intro3/images/CommArra001.jpg" ><br><br>
 
 ## Additional Information
-Run through the following steps in the given order:
 
-1. Link to Business Accelerator Hub for Purchase Requisition APIs.
+Link to Business Accelerator Hub for Purchase Requisition APIs.
 https://api.sap.com/api/CE_PURCHASEREQUISITION_0001/overview 
+
+Establish Your Communication Arrangement in SAP S/4HANA Cloud
+https://help.sap.com/docs/SAP_QIR_OD/df7051e6890840b8a82754eb65b69a50/106360c995cb4c3fa366b41edd76fb01.html
