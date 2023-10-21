@@ -1,4 +1,4 @@
-![image](https://github.com/SAP-samples/teched2023-IN264/assets/4324378/e5289518-bcb6-49b3-a28c-6cf0a5809645)# Exercise 4 - Copy, configure and deploy the Survey Email subscription flow
+# Exercise 4 - Copy, configure and deploy the Survey Email subscription flow
 
 In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue. This queue is subscribed to the topic where SAP SuccessFactors publishes new hire events. This integration triggers a real-time welcome email, along with a survey link, upon adding a new hire in SAP SuccessFactors.
 
@@ -31,10 +31,10 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex4/images/CI_SM_Navigate.png" width=90% height=90%>
 
 ### Configure and deploy the integration flow
-1. After copying the integration flow **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
+7. After copying the integration flow **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
 <br><img src="/exercises/ex4/images/CI_SM_Configure_1.png" width=90% height=90%>
 
-2. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**
+8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex4/images/CI_SM_Configure_2.png" width=90% height=90%>
@@ -43,8 +43,8 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex4/images/CI_SM_Configure_Save.png" width=80%>
     
 6. Click on **Yes** to confirm the deployment and close the confirmation dialog.
-<br>![Script collection](/exercises/ex4/CI_SM_Deploy_Confirmation.png)
-<br>![Script collection](/exercises/ex4/CI_SM_Deployment.png)
+<br><img src="/exercises/ex4/images/CI_SM_Deploy_Confirmation.png" width=80%>
+<br><img src="/exercises/ex4/images/CI_SM_Deployment.png" width=80%>
 
 ### Check the deployment status
 1. From the navigation pane on the left side, switch to the *Monitor --> Integrations* area
