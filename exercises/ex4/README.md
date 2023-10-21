@@ -11,20 +11,24 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex4/images/CI_Solution_Package.png" width=90% height=90%> 	
 
 2. Search for the **SAP SFSF New Hire Welcome Email with Survey Link** integration flow and from the **Actions** menu, select the menu entry **Copy**
-<br><img src="/exercises/ex4/images/CI_SM_Copy.png" width=90% height=90%> 	
+<br><img src="/exercises/ex4/images/CI_SM_Copy_1.png" width=90% height=90%> 	
 
 3. In the **Copy** dialog, update the name of the integration flow to **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
-   
-4. Press "Select" to choose another package as destination.
-<br/>As the target package, select the the package that you had created in exercise 3 i.e. **"Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX"** to ensure that the integration flow is copied into your package
-   
-9. When done, select the *Copy* button
-<br>![Maintain name and target](/exercises/ex1/images/01-0008.png)
+<img src="/exercises/ex4/images/CI_SM_Copy_2.png" width=90% height=90%>
+     
+4. Press **Select** to choose another package as destination.
+<br/>As the target package, choose the the package that you had created in [exercise 3](../ex3/README.md) i.e. **"Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX"** to ensure that the integration flow is copied into your package.
+ > [!IMPORTANT]  
+ > Replace **XXX** with the participant number that is assigned to you.
+<img src="/exercises/ex4/images/CI_SM_Copy_3.png" width=90% height=90%>
 
-10. After the integration flow has been copied, you are asked to navigate to your package. Confirm by selecting button *Navigate*
-<br>![Navigate to your package](/exercises/ex1/images/01-0009.png)
+5. When done, select the *Copy* button to copy the Integration Flow into your package.
+<img src="/exercises/ex4/images/CI_SM_Copy_4.png" width=90% height=90%>
+
+6. After the integration flow has been copied, you are asked to navigate to your package. Confirm by selecting button *Navigate*
+<img src="/exercises/ex4/images/CI_SM_Navigate.png" width=90% height=90%>
 
 ### Configure and deploy the integration flow
 1. After having copied the integration flow template, you should see one integration flow in your package. From the *Actions* menu of your integration flow, select the menu entry <b>Configure</b>
