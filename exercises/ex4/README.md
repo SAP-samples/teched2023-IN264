@@ -1,12 +1,13 @@
 # Exercise 4 - Copy, configure and deploy the Survey Email subscription flow
 
-In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue. This queue is subscribed to the topic where SAP SuccessFactors publishes new hire events. This integration triggers a real-time welcome email, along with a survey link, upon adding a new hire in SAP SuccessFactors.
+In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue using the Cloud Integration AMQP sender adapter. This queue is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` where SAP SuccessFactors publishes new hire events. This integration triggers a real-time welcome email, along with a survey link using the Mail receiver adapter upon adding a new employee in SAP SuccessFactors. By clicking the survey link, candidate can provide the onboarding experience feedback.
 
 ## Exercise steps
 
 Run through the exercise steps in the given order.
 
 ### Copy the integration flow
+
 1. Open the [solution package](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS) available in Cloud Integration capability of SAP Integration Suite and log in using the user ID and password provided to you by the instructors.
 <br><img src="/exercises/ex4/images/CI_Solution_Package.png" width=90% height=90%> 	
 
@@ -19,7 +20,7 @@ Run through the exercise steps in the given order.
    <img src="/exercises/ex4/images/CI_SM_Copy_2.png" width=90% height=90%>
      
 4. Press **Select** to choose another package as destination.
-<br/>As the target package, choose the the package that you had created in [exercise 3](../ex3/README.md) i.e. **"Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX"** to ensure that the integration flow is copied into your package.
+<br/>As the target package, choose the the package that you had created in [exercise 3](../ex3/README.md) i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX** to ensure that the integration flow is copied into your package.
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex4/images/CI_SM_Copy_3.png" width=90% height=90%>
@@ -31,6 +32,7 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex4/images/CI_SM_Navigate.png" width=90% height=90%>
 
 ### Configure and deploy the integration flow
+
 7. After copying the integration flow **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
 <br><img src="/exercises/ex4/images/CI_SM_Configure_1.png" width=90% height=90%>
 
@@ -47,11 +49,12 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex4/images/CI_SM_Deployment.png" width=80% height=80%>
 
 ### Check the deployment status
+
 11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
-<br><img src="/exercises/ex4/images/CI_SM_Monitor_1.png" width=50% height=50%>
+<br><img src="/exercises/ex4/images/CI_SM_Monitor_1.png" width=40% height=40%>
 
 12. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
-<br><img src="/exercises/ex4/images/CI_SM_Monitor_2.png" width=60% height=60%>
+<br><img src="/exercises/ex4/images/CI_SM_Monitor_2.png" width=80% height=80%>
 
 13. Search for your integration flow i.e. **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**. Check and confirm that the status has turned to **Started**.
     > [!IMPORTANT]
