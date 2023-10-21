@@ -34,30 +34,32 @@ Run through the exercise steps in the given order.
 7. After copying the integration flow **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
 <br><img src="/exercises/ex4/images/CI_SM_Configure_1.png" width=90% height=90%>
 
-8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**
+8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md)
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex4/images/CI_SM_Configure_2.png" width=90% height=90%>
     
-3. Then click on **Save** button, in case of any warning just ignore it. Once saved, click on the **Deploy** button.
-<br><img src="/exercises/ex4/images/CI_SM_Configure_Save.png" width=80%>
+9. Then click on **Save** button, in case of any warning just ignore it. Once saved, click on the **Deploy** button.
+<br><img src="/exercises/ex4/images/CI_SM_Configure_Save.png" width=90% height=90%>
     
-6. Click on **Yes** to confirm the deployment and close the confirmation dialog.
-<br><img src="/exercises/ex4/images/CI_SM_Deploy_Confirmation.png" width=80%>
-<br><img src="/exercises/ex4/images/CI_SM_Deployment.png" width=80%>
+10. Click on **Yes** to confirm the deployment and close the confirmation dialog.
+<br><img src="/exercises/ex4/images/CI_SM_Deploy_Confirmation.png" width=80% height=80%>
+<br><img src="/exercises/ex4/images/CI_SM_Deployment.png" width=80% height=80%>
 
 ### Check the deployment status
-1. From the navigation pane on the left side, switch to the *Monitor --> Integrations* area
-<br><img src="/exercises/ex1/images/01-0015.png" width=40% height=40%>
+11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area
+<br><img src="/exercises/ex4/images/CI_SM_Monitor_1.png" width=50% height=50%>
 
-2. In the Monitor overview, select the first tile below the *Manage Integration Content* section
-<br><img src="/exercises/ex1/images/01-0016.png" width=60% height=60%>
+12. In the Monitor overview, select the first tile below the **Manage Integration Content** section
+<br><img src="/exercises/ex4/images/CI_SM_Monitor_2.png" width=60% height=60%>
 
-3. Search for your integration flow - <b>SAP SFSF New Hire Welcome Email along with Qualtrics Survey Link_XX</b>, replacing <b>XX</b> with the participant number assigned to you. Check and confirm that the status has turned to **Started**
-<br>![Design menu](/exercises/ex1/images/01-0017.png)
+13. Search for your integration flow i.e. **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**. Check and confirm that the status has turned to **Started**
+    > [!IMPORTANT]
+    > Replace **XXX** with the participant number that is assigned to you.
+    <img src="/exercises/ex4/images/CI_SM_Monitor_Started.png" width=90% height=90%>
 
 ## Summary
 
-At the end of this exercise, you should have configured and deployed an integration flow to send out the welcome email along with the survey link.
+At the end of this exercise, you should have copied, configured and deployed an integration flow to send out the welcome email along with the survey link to the newly hired employee's email ID.
 
 Continue to - [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](/exercises/ex5/README.md)
