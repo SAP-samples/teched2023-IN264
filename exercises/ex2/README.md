@@ -116,8 +116,8 @@ Training Determination decision is configured now
   <br>![](/exercises/ex2/images/Release003.jpg) <br>
   d. Click on "Next" in the Overview Page of the deployment wizard <br>
   <br>![](/exercises/ex2/images/ReleaseWizard004.jpg) <br>
-  e. Choose the destination as AEM in the destination <br>
-  <br>![](/exercises/ex2/images/Release0001.jpg) <br>
+  e. Choose the destination as AEM in the destination in the Runtime Variables tab and click Next <br>
+  <br>![](/exercises/ex2/images/ReleaseAEM.jpg) <br>
   f. Click on "Deploy" in the Triggers page of deployment wizard <br>
   <br>![](/exercises/ex2/images/Release005.jpg) <br>
   g. Note that the project is deployed <br>
