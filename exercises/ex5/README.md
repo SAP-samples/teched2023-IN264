@@ -63,8 +63,8 @@ Run through the exercise steps in the given order.
 
 ## Summary
 
-At the end of this exercise, you should have copied, configured and deployed an integration flow to automatically creates the purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system.
+At the end of this exercise, you should have copied, configured and deployed an integration flow that automatically create a purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system.
 
-With this exercise you have completed all the technical configuration steps. Now you have to execute the scenario by adding a new employee in SAP SuccessFactors system.
+With this exercise you have completed all the technical configuration steps. Now you have to execute and test the scenario by adding a new employee in SAP SuccessFactors system.
 
 Continue to - [Exercise 6 - Add a New Employee in SAP SuccessFactors](/exercises/ex6/README.md)
