@@ -10,7 +10,7 @@ Below is the sample screenshot for reference.
 
 <img src="/intro/intro3/images/CommArra001.jpg"> <br><br>
 
-<img src="/intro/intro3/images/CommArra001.jpg" ><br><br>
+<img src="/intro/intro3/images/CommArra002.jpg" ><br><br>
 
 ## Additional Information
 
