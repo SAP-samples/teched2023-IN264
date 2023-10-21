@@ -128,14 +128,15 @@ Training Determination decision is configured now
 Now we can test the process with a sample context.
 
   a. From the Lobby screen click Monitor.
-  <br>![](/exercises/ex2/images/GetInstance001.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
   b. Click Processes and Workflows under Manage section and select your Project.
-  <br>![](/exercises/ex2/images/GetInstance002.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance002.jpg) <br><br>
   c. Note the instance ID and keep it handly for later exersices. <br>
-  <br>![](/exercises/ex2/images/GetInstance003.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance003.jpg) <br><br>
   d. Let us execute the process that we just created with a sample payload. Click on ... on the top right corner and click on Start New Instance <br>
-  <br>![](/exercises/ex2/images/GetInstance004.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance004.jpg) <br><br>
   e. Replace the default JSON context with the below payload after changing both the employeeEmail and managerEmail ids to your TechEd id. <br>
+  <br>
   {
         "businessUnitText": "Products",
         "employeeName": "Stefan Wagner",
@@ -155,25 +156,25 @@ Now we can test the process with a sample context.
         "employeeLastName": "Wagner",
         "location": "New York",
         "departmentText": "Development"
-    }	
+    }	<br>
   <br>![](/exercises/ex2/images/GetInstance005.jpg) <br>
   <br>Click on Start New Instance and Clost button. <br>
-  f. Click on "My Inbox" icon on the top right corner of the page. Tt will open "My Inbox" in a new tab. Do not close the current Monitor window. <br>
-  <br>![](/exercises/ex2/images/GetInstance006.jpg) <br>
+  f. <br>Click on "My Inbox" icon on the top right corner of the page. Tt will open "My Inbox" in a new tab. Do not close the current Monitor window. <br>
+  <br>![](/exercises/ex2/images/GetInstance006.jpg) <br><br>
   g. The task for approval is available in the My Inbox app. The details are available in the form. <br>
-  <br>![](/exercises/ex2/images/GetInstance007.jpg) <br>
-  h. Equipments determined for New Hire are listed in the form. <br>
-  <br>![](/exercises/ex2/images/GetInstance008.jpg) <br>
-  i. Trainings for New Hire as listed in the form. Enter some comments and click on Approve. <br>
-  <br>![](/exercises/ex2/images/GetInstance009.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance007.jpg) <br><br>
+  h. Note that the Equipments determined for New Hire are listed in the form. <br>
+  <br>![](/exercises/ex2/images/GetInstance008.jpg) <br><br>
+  i. Also note that the Trainings for New Hire are listed in the form. Enter some comments in the comments section and click on Approve. <br>
+  <br>![](/exercises/ex2/images/GetInstance009.jpg) <br><br>
   j. Now we can check the workflow instance and verify that it is completed. From Lobby, click Monitor and click "Process and Workflow Instances" under Monitor section. From the Status dropdown select all status. <br>
-  <br>![](/exercises/ex2/images/GetInstance010.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance010.jpg) <br><br>
   k. Notice that the workflow instance is completed for your project <br>
-  <br>![](/exercises/ex2/images/GetInstance011.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance011.jpg) <br><br>
   l. Click on the workflow instance to navigate to Logs and Contex Page.  The Logs screen shows the logs for all the steps in the process. <br>
-  <br>![](/exercises/ex2/images/GetInstance012.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance012.jpg) <br><br>
   m. The Context tab shows all the data that flows through the process.<br>
-  <br>![](/exercises/ex2/images/GetInstance013.jpg) <br>
+  <br>![](/exercises/ex2/images/GetInstance013.jpg) <br><br>
 
 ## Summary
 
