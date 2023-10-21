@@ -127,17 +127,38 @@ Training Determination decision is configured now
 
 Now we can test the process with a sample context.
 
-  a. Click on the Release button in the Process Builder.
+  a. From the Lobby screen click Monitor.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br>
-  b. Click on Release button on the Release Projext pop-up window.
+  b. Click Processes and Workflows under Manage section and select your Project.
   <br>![](/exercises/ex2/images/GetInstance002.jpg) <br>
-  c. Click on Deploy <br>
+  c. Note the instance ID and keep it handly for later exersices. <br>
   <br>![](/exercises/ex2/images/GetInstance003.jpg) <br>
-  d. Click on "Next" in the Overview Page of the deployment wizard <br>
+  d. Let us execute the process that we just created with a sample payload. Click on ... on the top right corner and click on Start New Instance <br>
   <br>![](/exercises/ex2/images/GetInstance004.jpg) <br>
-  e. Choose the destination as AEM in the destination <br>
+  e. Replace the default JSON context with the below payload after changing both the employeeEmail and managerEmail ids to your TechEd id. <br>
+  {
+        "businessUnitText": "Products",
+        "employeeName": "Stefan Wagner",
+        "country": "United States",
+        "hireDate": "2023-06-14T00:00:00Z",
+        "managerHrName": "Angela Read",
+        "employeeDateOfBirth": "1993-01-01T00:00:00Z",
+        "jobTitle": "Business Developer Senior",
+        "companyName": "BestRun",
+        "divisionText": "Research & development",        
+        "employeeEmail": "in264-XXX@education.cloud.sap",
+        "employeeId": "1407",
+        "employeeFirstName": "Stefan",
+        "employeeGender": "M",
+        "managerName": "Wes Lin Chang",
+        "managerEmail": "in264-XXX@education.cloud.sap",
+        "employeeLastName": "Wagner",
+        "location": "New York",
+        "departmentText": "Development"
+    }	
   <br>![](/exercises/ex2/images/GetInstance005.jpg) <br>
-  f. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  <br>Click on Start New Instance and Clost button. <br>
+  f. Click on "My Inbox" icon on the top right corner of the page. <br>
   <br>![](/exercises/ex2/images/GetInstance006.jpg) <br>
   g. Note that the project is deployed <br>
   <br>![](/exercises/ex2/images/GetInstance007.jpg) <br>
