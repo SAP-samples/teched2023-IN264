@@ -9,7 +9,7 @@ To know more about how to create a Communication Arrangement in SAP S/4HANA Clou
 <br/>
 We have then used the Purchase Requistion API and communication user credentials in Cloud Inregration capapbility of SAP Integration Suite
 
-<br><img src="/intro/intro3/images/S4_Communication_Arrangement.png" width=90% height=90%>
+<br><img src="/intro/intro3/images/S4_Communication_Arrangement.png" width=100% height=100%>
 
 ## Summary
 
