@@ -1,9 +1,12 @@
-# Exercise 3 - Create the Integration Flow to subscribe abd trigger SAP Build Process Automation (SBPA) approval workflow
+# Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow
 In this exercise, you will setup an integration flow, which triggers the SAP Build Process Automation approval workflow based on 
 new hire events received from SuccessFactors via Advanced Event Mesh.
 
+## Exercise steps
 
-## Create a new Integration Package
+Run through the exercise steps in the given order.
+
+### Create a new Integration Package
 
 1. First you need to open the SAP Integration Suite tenant via this [URL](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home)
 <br/>Choose <b>"tdct3ched2.accounts.ondemand.com"</b> as Identity Provider.
@@ -24,7 +27,7 @@ new hire events received from SuccessFactors via Advanced Event Mesh.
 a) Either you can copy&configure the integration flow from the solution package and continue with [Option A](#option-a-copyconfigure-integration-flow-from-solution-package)  
 b) You can create the Integration Flow from scratch, continue with [Option B](option-a-copyconfigure-integration-flow-from-solution-package)
 
-## Option A) Copy&Configure Integration Flow from solution package
+### Option A) Copy&Configure Integration Flow from solution package
 
 1. <b>Open</b> the solution package by clicking this [URL](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS)  
 2. Search for the "SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation" integration flow, press the "<b>Action</b>" button and select "<b>Copy</b>"  
@@ -34,7 +37,6 @@ b) You can create the Integration Flow from scratch, continue with [Option B](op
 ![image](https://media.github.tools.sap/user/13842/files/5af07785-d794-4a97-bf55-f6f5e3320473) 
 
 ![image](https://media.github.tools.sap/user/13842/files/acad9d17-0174-4480-9b85-902ce8286a9a)
-
 
 4. As name enter <b>(Replace XXX with the participant number provided by your instructor)</b>:  
 SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - <b>IN264-XXX</b>  
@@ -56,7 +58,6 @@ NewHire_Workflow_<b>IN264-XXX</b>
 9. Switch to tab <b>"More"</b> and provide following properties:  
   >Provide your personal email address to receive a notification email once a Purchase Order Requisition has been created   
   
-  
   - Manager_Email: <b>your-personal-email-address</b>  
   >Provide the workflow definition ID created in exercise 1.  
   
@@ -71,12 +72,9 @@ NewHire_Workflow_<b>IN264-XXX</b>
 11. Press <b>"Deploy"</b> and confirm the deployment.  
 ![image](https://media.github.tools.sap/user/13842/files/9ee1027d-01f8-49f1-99ff-7db0a5844831)  
 
-
 Congratulations! You successfully completed the exercise.
 
-
-## Option B) Create Integration Flow from scratch
-
+### Option B) Create Integration Flow from scratch
 
 1. Switch to tab "<b>Artifacts</b>" and press "<b>Add > Integration Flow</b>"
 ![image](https://media.github.tools.sap/user/13842/files/9d8b92e6-479c-416f-bc8a-60391f486efe)
@@ -244,17 +242,32 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 
 ![image](https://media.github.tools.sap/user/13842/files/250526d1-d528-44e5-851d-2e44049169c6)  
 
-
 42. Click “<b>Save as Version</b>” on top right of the window.  
 ![image](https://media.github.tools.sap/user/13842/files/5467c7eb-fd91-44d1-b35a-b38fc6668990)  
-
-
 
 43. Step 103. Provide the following properties and Press "<b>OK</b>".
  - Version: 1.0.0
 - Comment: initial version  
 ![image](https://media.github.tools.sap/user/13842/files/f1afac41-a905-40d0-b5f5-aa537af9568e)  
 
-
 44. Press “<b>Deploy</b>” and confirm the dialog with “<b>Yes</b>” to deploy your integration flow.
-![image](https://media.github.tools.sap/user/13842/files/e047f158-c289-4696-8aaf-e50d9f324cfd)  
+![image](https://media.github.tools.sap/user/13842/files/e047f158-c289-4696-8aaf-e50d9f324cfd)
+
+### Check the deployment status
+
+11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
+<br><img src="/exercises/ex3/images/CI_SBPA_Monitor_1.png" width=40% height=40%>
+
+12. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
+<br><img src="/exercises/ex3/images/CI_SBPA_Monitor_2.png" width=80% height=80%>
+
+13. Search for your integration flow i.e. **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**. Check and confirm that the status has turned to **Started**.
+    > [!IMPORTANT]
+    > Replace **XXX** with the participant number that is assigned to you.
+    <img src="/exercises/ex3/images/CI_SBPA_Monitor_Started.png" width=90% height=90%>
+
+## Summary
+
+At the end of this exercise, you should have copied, configured and deployed an integration flow to send out the welcome email along with the survey link to the newly hired employee's email ID.
+
+Continue to - [Exercise 4 - Copy, configure and deploy the Survey Email subscription flow](/exercises/ex4/README.md)
