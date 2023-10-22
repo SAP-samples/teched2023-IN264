@@ -90,9 +90,9 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
     > Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.  
    <br><img src="/exercises/ex3/images/CI_SBPA_Model_9.png">
    
-13. Select **“SC MPL_Utils”** and press **“OK”**. Now you have successfully added a Global Script Collection as reference in your integration flow.  
-   > [!Note]
-   > The "SC MPL_Utils" contains one script "Log Payload" to add payloads as attachments in the message processing log (MPL).   
+13. Select **“SC MPL_Utils”** and press **“OK”**. Now you have successfully added a Global Script Collection as reference in your integration flow.
+    > [!Note]
+    > The "SC MPL_Utils" contains one script "Log Payload" to add payloads as attachments in the message processing log (MPL).   
    <br><img src="/exercises/ex3/images/CI_SBPA_Model_10.png">
    
 14. Next, you need to add a mapping reference. Press <b>Add References</b> and choose <b>Message Mapping</b>
