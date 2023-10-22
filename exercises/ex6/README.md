@@ -29,7 +29,9 @@ Run through the following steps:
       <br>Then we click <b>Continue</b> to continue the wizard.
       <br><img src="/exercises/ex6/images/SFSF_Add_2.png" width=90% height=90%>
 
-5. In the **Personal Information** section, enter the following details:
+4. In the **Personal Information** section, enter the following details:
+   > [!IMPORTANT]
+   > You have the option to choose any available position, yet it's important to note that the SAP Build Process Automation (SBPA) employs equipment determination decisions specific to roles such as **Sales**, **Marketing**, **Analyst**, **Consulting**, and **Default**. Your selected role will dictate the equipment and training list displayed in the approval form.
       <ol type="i">
       <li><b>Gender:</b> Male</li>
       <li><b>Preferred Language:</b> From drop down list - English (US)</li>
@@ -45,9 +47,9 @@ Run through the following steps:
       <br><img src="/exercises/ex6/images/SFSF_Add_3.png" width=90% height=90%>
       <br><img src="/exercises/ex6/images/SFSF_Add_4.png" width=90% height=90%>
 
-6. In Job Information section, enter details as given below:
+6. In the **Job Information** section, enter the following details:
       <ol type="i">
-      <li><b>Select Position:</b> From drop down list - Inspector (It automatically fills all the other fields) </li>
+      <li><b>Select Position:</b> From drop down list - Select Any poistionInspector (It automatically fills all the other fields) </li>
       <li>In Organizational Information, No data for <b>Cost Center</b></li>
       </ol>
       <br><img src="/exercises/ex6/images/3d. New Hire.PNG" width=90% height=90%>
