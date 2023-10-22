@@ -6,10 +6,10 @@ In the last part of the exercise, you will verify and check as part of testing w
 
 Run through the exercise steps in the given order.
 
-7.1 [Check the Cloud Integration Monitoring](#check-the-cloud-integration-monitoring)
-7.2 [Check your Email Inbox for Welcome Email along with the Survey Link](#check-your-email-inbox-for-welcome-email-along-with-the-survey-link)
-7.3 [Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox](/exercises/ex4/ex43)
-7.4 [Check your Email and navigate to the created Purchase Requisition in SAP S/4Hana Cloud system]()
+**7.1** [**Check the Cloud Integration Monitoring**](#check-the-cloud-integration-monitoring)
+<br/>**7.2** [**Check your Email Inbox for Welcome Email along with the Survey Link**](#check-your-email-inbox-for-welcome-email-along-with-the-survey-link)
+<br/>**7.3** [**Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox**](/exercises/ex4/ex43)
+<br/>**7.4** [**Check your Email and navigate to the created Purchase Requisition in SAP S/4Hana Cloud system**]()
 
 ### 7.1 Check the Cloud Integration Monitoring
 
