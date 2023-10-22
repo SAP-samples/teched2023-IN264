@@ -8,7 +8,7 @@ Run through the exercise steps in the given order.
 
 **7.1** [**Check the Cloud Integration Monitoring**](#71-check-the-cloud-integration-monitoring)
 <br/>**7.2** [**Check your Email Inbox for Welcome Email along with the Survey Link**](#72-check-your-email-inbox-for-welcome-email-along-with-the-survey-link)
-<br/>**7.3** [**Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox**](/exercises/ex4/ex43)
+<br/>**7.3** [**Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox**](#73-approve-the-equipment-and-training-requirements-of-newly-hired-employee-in-sap-build-process-automation-inbox)
 <br/>**7.4** [**Check your Email and navigate to the created Purchase Requisition in SAP S/4Hana Cloud system**]()
 
 ### 7.1 Check the Cloud Integration Monitoring
