@@ -1,6 +1,6 @@
 # Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow
-In this exercise, you will setup an integration flow, which triggers the SAP Build Process Automation approval workflow based on 
-new hire events received from SuccessFactors via Advanced Event Mesh.
+
+In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue using the Cloud Integration AMQP sender adapter. This queue is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` where SAP SuccessFactors publishes new hire events. This integration triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow in real-time. Once the manager approves the new hire equipments and trainings, SBPA publishes an event to the SAP Integration Suite, advanced event mesh topic `SBPA/NewHire/{EmployeeId}/Approval` for further integration.
 
 ## Exercise steps
 
@@ -8,24 +8,28 @@ Run through the exercise steps in the given order.
 
 ### Create a new Integration Package
 
-1. First you need to open the SAP Integration Suite tenant via this [URL](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home)
-<br/>Choose <b>"tdct3ched2.accounts.ondemand.com"</b> as Identity Provider.
-<br/>![image](https://media.github.tools.sap/user/13842/files/49e84695-aefe-4f11-b77b-a62d774a2598)
+1. Open the [SAP Integration Suite tenant](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home) and log in using the user ID and password provided to you by the instructors.
+<br><img src="/exercises/ex3/images/IS_Login.png" width=50% height=50%> 	
 
-2. Log onto the system with the username and password provided by your instructor and press <b>"Continue"</b>:
-<br/>![image](https://media.github.tools.sap/user/13842/files/d74deae6-3ec4-4be0-9e96-609195913341)
+2. From the navigation pane on the left side, switch to the **Design --> Integrations** area.
+<br><img src="/exercises/ex3/images/IS_CI_Navigate.png" width=90% height=90%>
 
-3. Navigate to "<b>Design > Integrations</b>" and press "<b>Create</b>"
-![image](https://media.github.tools.sap/user/13842/files/3ae039f0-1897-4454-8a26-b7d56a387f0e)
+3. Click **"Create"** button on the top right area to create your own package
+<br><img src="/exercises/ex3/images/CI_Create_Package_1.png" width=90% height=90%>
 
-4. Provide following details <b>(Replace XXX with the participant number provided by your instructor)</b> and press "<b>Save</b>":
-- <b>Name:</b> Combine SAP Integration Suite and SAP Build Process Automation in HR - <b>IN264-XXX</b>
-- <b>Short Description:</b> An event-driven enterprise auto scenario where you react and respond to a new hire business event using SAP Integration Suite and includes human interactions to achieve an end-to-end employee onboarding business process using SAP Build Process Automation.</b>  
-![image](https://media.github.tools.sap/user/13842/files/16a49223-1861-4e21-afb2-8e055834301a)
+4. Provide the following details and then press **"Save"** button.
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+   
+- Name: **Combine SAP Integration Suite and SAP Build Process Automation in HR - IN264-XXX**
+- Short Description: **An event-driven enterprise automation scenario using SAP Integration Suite, SAP Integration Suite advanced event mesh, also incorporating human interactions by leveraging SAP Build Process Automation for streamlined employee onboarding subprocess.**
+- Version: **1.0.0**
+- Vendor: **SAP TechEd 2023**
+<br><img src="/exercises/ex3/images/CI_Create_Package_2.png" width=90% height=90%>
 
 5. Now you have two options:   
-a) Either you can copy&configure the integration flow from the solution package and continue with [Option A](#option-a-copyconfigure-integration-flow-from-solution-package)  
-b) You can create the Integration Flow from scratch, continue with [Option B](option-a-copyconfigure-integration-flow-from-solution-package)
+a) [Option A](#option-a-copyconfigure-integration-flow-from-solution-package): Either you can copy & configure the integration flow from the solution package. <br/>
+b) [Option B](option-a-copyconfigure-integration-flow-from-solution-package): Or, you can create the Integration Flow from scratch.
 
 ### Option A) Copy&Configure Integration Flow from solution package
 
