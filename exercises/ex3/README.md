@@ -89,13 +89,13 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
     > [!Note]
     > Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.  
 
-   <br><img src="/exercises/ex3/images/CI_SBPA_Model_9.png">
+      <br><img src="/exercises/ex3/images/CI_SBPA_Model_9.png">
    
 13. Select **“SC MPL_Utils”** and press **“OK”**. Now you have successfully added a Global Script Collection as reference in your integration flow.
     > [!Note]
     > The "SC MPL_Utils" contains one script "Log Payload" to add payloads as attachments in the message processing log (MPL).   
 
-   <br><img src="/exercises/ex3/images/CI_SBPA_Model_10.png">
+      <br><img src="/exercises/ex3/images/CI_SBPA_Model_10.png">
    
 14. Next, you need to add a mapping reference. Press **"Add References"** and choose **"Message Mapping"**.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_11.png">
@@ -106,29 +106,29 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 16. Select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>" and press <b>OK</b>.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_13.png">
 
-19. Select the <b>“Start”</b> step and press the “<b>+</b>” button to create a new flow step.  
-![image](https://media.github.tools.sap/user/13842/files/6d0ff469-5e5c-4d30-b7b0-11c76dd2c837)  
+17. Select the <b>“Start”</b> step and press the “<b>+</b>” button to create a new flow step.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_13_5.png"> 
 
-20. Choose <b>"Groovy Script"</b> step.
-![image](https://media.github.tools.sap/user/13842/files/16d89b2f-5160-4b7a-bb12-a9bd467c03d8)  
+18. Choose <b>"Groovy Script"</b> step.
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_14.png">  
 
-21. Rename the step to <b>Log New Hire Event Payload</b>  
-![image](https://media.github.tools.sap/user/13842/files/33bc0326-9170-4270-ba36-a27983cf65eb)  
+19. Rename the step to <b>Log New Hire Event Payload</b>  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_15.png">
 
-22. Switch to tab "<b>Processing</b>" and press the "<b>Select</b>" button.  
-![image](https://media.github.tools.sap/user/13842/files/c734f39b-23bf-4f3e-9526-6c4a70d52039)  
+20. Switch to tab "<b>Processing</b>" and press the "<b>Select</b>" button.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_16.png"> 
 
-23. Navigate to "<b>Global Resources</b>" and choose "<b>Log_Payload</b>". Press "<b>OK</b>".  
-![image](https://media.github.tools.sap/user/13842/files/9bfc44b8-5f40-4a28-b09f-1082e2e338ea)  
+21. Navigate to "<b>Global Resources</b>" and choose "<b>Log_Payload</b>". Press "<b>OK</b>".  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_17.png">
 
-24. Enter <b>logNewHireEventPayload</b> as Script Function.  
-![image](https://media.github.tools.sap/user/13842/files/bb88ca46-95ee-4ef6-8f50-5c7efb94c1cc)  
+22. Enter <b>logNewHireEventPayload</b> as Script Function.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_18.png">
 
-25. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.  
-![image](https://media.github.tools.sap/user/13842/files/76f1bfbd-85a9-4b7c-9ab7-486ec59ab5bf)  
+23. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_19.png">
 
-26. Choose "<b>Content Modifier</b>".  
-![image](https://media.github.tools.sap/user/13842/files/6603992c-87c1-4079-be43-0b9f902efb17)  
+24. Choose "<b>Content Modifier</b>".  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_20.png"> 
 
 27. Rename the step to <b>Set Properties</b>.  
 ![image](https://media.github.tools.sap/user/13842/files/3294eca9-6c83-43f6-a20a-2c51ef783e01)  
