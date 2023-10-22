@@ -9,7 +9,7 @@ Run through the exercise steps in the given order.
 **7.1** [**Check the Cloud Integration Monitoring**](#71-check-the-cloud-integration-monitoring)
 <br/>**7.2** [**Check your Email Inbox for Welcome Email along with the Survey Link**](#72-check-your-email-inbox-for-welcome-email-along-with-the-survey-link)
 <br/>**7.3** [**Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox**](#73-approve-the-equipment-and-training-requirements-of-newly-hired-employee-in-sap-build-process-automation-inbox)
-<br/>**7.4** [**Check the Cloud Integration Monitoring and your Email Inbox to navigate to the created Purchase Requisition in SAP S/4Hana Cloud system**]()
+<br/>**7.4** [**Check the Cloud Integration Monitoring and your Email Inbox to navigate to the created Purchase Requisition in SAP S/4Hana Cloud system**](#74-check-the-cloud-integration-monitoring-and-your-email-inbox-to-navigate-to-the-created-purchase-requisition-in-sap-s4hana-cloud-system)
 
 ### 7.1 Check the Cloud Integration Monitoring
 
@@ -73,3 +73,8 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 4. After the manager's approval, SAP Build Process Automation (SBPA) publishes the manager's approval event to the SAP Integration Suite's advanced event mesh topic `SBPA/NewHire/{EmployeeId}/Approval`, which triggers an integration to generate a purchase requisition (PR) containing the approved list of equipment in the S/4HANA Cloud system."
 
 ### 7.4 Check the Cloud Integration Monitoring and your Email Inbox to navigate to the created Purchase Requisition in SAP S/4Hana Cloud system
+
+## Summary
+Congratulations, you have completed all the exercises of this session successfully.
+
+Kindly refer back to [Scenario Overview](/intro/intro1/README.md) to see what you have just completed in entirety or navigate back to [Exercise overview page](/README.md#exercises).
