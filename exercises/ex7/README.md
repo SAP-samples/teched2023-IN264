@@ -89,9 +89,8 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
    > [!IMPORTANT]
    > Replace **XXX** with the participant number that is assigned to you.
 
-   Here, you would see the complete messages for the following three integration flows:
-   * **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**
-   * **SAP SFSF New Hire Welcome Email with Survey Link - IN264-000**
+   Here, you would see the complete messages for the Purchase Requisition integration flow:
+   * **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**
    
    <br><img src="/exercises/ex7/images/CI_Monitor_Messages_Filter_2.png" width=90% height=90%>
 
