@@ -74,11 +74,11 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_6.png">
 
 10. Switch to "<b>Processing</b>" tab and privde the following details:
-   > [!IMPORTANT]  
-   > Replace **XXX** with the participant number that is assigned to you.
-- Queue Name: **NewHire_Workflow_IN264-XXX**
-- Max. Number of Retries: **0**  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_7.png">
+    > [!IMPORTANT]
+    > Replace **XXX** with the participant number that is assigned to you.
+   - Queue Name: **NewHire_Workflow_IN264-XXX**
+   - Max. Number of Retries: **0**  
+   <br><img src="/exercises/ex3/images/CI_SBPA_Model_7.png">
 
 11. In order to open the general <b>Integration Flow settings</b>, click on a white space in the IFlow Diagram as shown in the screenshot.  
 Change to <b>“References”</b> tab and navigate to <b>“Global”</b> tab.  
@@ -88,50 +88,52 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 12. Select the Package **"IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution"**.
     > [!Note]
     > Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.  
+
    <br><img src="/exercises/ex3/images/CI_SBPA_Model_9.png">
    
 13. Select **“SC MPL_Utils”** and press **“OK”**. Now you have successfully added a Global Script Collection as reference in your integration flow.
     > [!Note]
     > The "SC MPL_Utils" contains one script "Log Payload" to add payloads as attachments in the message processing log (MPL).   
+
    <br><img src="/exercises/ex3/images/CI_SBPA_Model_10.png">
    
-14. Next, you need to add a mapping reference. Press <b>Add References</b> and choose <b>Message Mapping</b>
-![image](https://media.github.tools.sap/user/13842/files/afa1aedb-6be6-49ad-a2f5-319d3f5d439e)  
+14. Next, you need to add a mapping reference. Press **"Add References"** and choose **"Message Mapping"**.
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_11.png">
 
-15. Select Package “IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution”.  
-![image](https://media.github.tools.sap/user/13842/files/4ef67b56-34fe-4658-8d24-dcb21f8e7848)  
+15. Select the Package **"IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution"**.
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_12.png">
 
 16. Select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>" and press <b>OK</b>.  
-![image](https://media.github.tools.sap/user/13842/files/dba1fd8f-a2ae-4239-b46e-62e23bfceee4)  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_13.png">
 
-17. Select the <b>“Start”</b> step and press the “<b>+</b>” button to create a new flow step.  
+19. Select the <b>“Start”</b> step and press the “<b>+</b>” button to create a new flow step.  
 ![image](https://media.github.tools.sap/user/13842/files/6d0ff469-5e5c-4d30-b7b0-11c76dd2c837)  
 
-18. Choose <b>"Groovy Script"</b> step.
+20. Choose <b>"Groovy Script"</b> step.
 ![image](https://media.github.tools.sap/user/13842/files/16d89b2f-5160-4b7a-bb12-a9bd467c03d8)  
 
-19. Rename the step to <b>Log New Hire Event Payload</b>  
+21. Rename the step to <b>Log New Hire Event Payload</b>  
 ![image](https://media.github.tools.sap/user/13842/files/33bc0326-9170-4270-ba36-a27983cf65eb)  
 
-20. Switch to tab "<b>Processing</b>" and press the "<b>Select</b>" button.  
+22. Switch to tab "<b>Processing</b>" and press the "<b>Select</b>" button.  
 ![image](https://media.github.tools.sap/user/13842/files/c734f39b-23bf-4f3e-9526-6c4a70d52039)  
 
-21. Navigate to "<b>Global Resources</b>" and choose "<b>Log_Payload</b>". Press "<b>OK</b>".  
+23. Navigate to "<b>Global Resources</b>" and choose "<b>Log_Payload</b>". Press "<b>OK</b>".  
 ![image](https://media.github.tools.sap/user/13842/files/9bfc44b8-5f40-4a28-b09f-1082e2e338ea)  
 
-22. Enter <b>logNewHireEventPayload</b> as Script Function.  
+24. Enter <b>logNewHireEventPayload</b> as Script Function.  
 ![image](https://media.github.tools.sap/user/13842/files/bb88ca46-95ee-4ef6-8f50-5c7efb94c1cc)  
 
-23. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.  
+25. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.  
 ![image](https://media.github.tools.sap/user/13842/files/76f1bfbd-85a9-4b7c-9ab7-486ec59ab5bf)  
 
-24. Choose "<b>Content Modifier</b>".  
+26. Choose "<b>Content Modifier</b>".  
 ![image](https://media.github.tools.sap/user/13842/files/6603992c-87c1-4079-be43-0b9f902efb17)  
 
-25. Rename the step to <b>Set Properties</b>.  
+27. Rename the step to <b>Set Properties</b>.  
 ![image](https://media.github.tools.sap/user/13842/files/3294eca9-6c83-43f6-a20a-2c51ef783e01)  
 
-26. Switch to tab "<b>Exchange Property</b>". And press the "<b>Add</b>" button twice and provide following values: 
+28. Switch to tab "<b>Exchange Property</b>". And press the "<b>Add</b>" button twice and provide following values: 
 >Provide your personal email address to receive a notification email once a Purchase Order Requisition has been created  
 
 <b>Property 1</b>  
