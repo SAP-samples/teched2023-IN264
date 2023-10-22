@@ -15,7 +15,7 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex3/images/IS_CI_Navigate.png" width=90% height=90%>
 
 3. Click the **"Create"** button on the top right area to create your own package.
-<br><img src="/exercises/ex3/images/CI_Create_Package_1.png" width=90% height=90%>
+<br><img src="/exercises/ex3/images/CI_Create_Package_1.png" width=100% height=100%>
 
 4. Provide the following details:
    > [!IMPORTANT]  
@@ -26,7 +26,7 @@ Run through the exercise steps in the given order.
 - Version: **1.0.0**
 - Vendor: **SAP TechEd 2023**
 <br/><br/>Press the **"Save"** button.
-<br><img src="/exercises/ex3/images/CI_Create_Package_2.png" width=90% height=90%>
+<br><img src="/exercises/ex3/images/CI_Create_Package_2.png" width=100% height=100%>
 
 5. Now you have two options:   
 a) [Option A](#option-a-create-integration-flow-from-scratch): Either you can create the Integration Flow from scratch.<br/>
@@ -35,7 +35,7 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 ### Option A) Create Integration Flow from scratch
 
 1. Switch to the "<b>Artifacts</b>" tab and press "<b>Add > Integration Flow</b>"
-<br><img src="/exercises/ex3/images/CI_SBPA_Create_2.png" width=90% height=90%>
+<br><img src="/exercises/ex3/images/CI_SBPA_Create_1.png" width=90% height=90%>
 
 2. Provide the following details:
    > [!IMPORTANT]  
@@ -49,21 +49,25 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 <br><img src="/exercises/ex3/images/CI_SBPA_Create_2.png" width=90% height=90%>
 
 3. Click on the created Integration Flow to open it.
-<br><img src="/exercises/ex3/images/CI_SBPA_Create_3.png" width=90% height=90%>
+<br><img src="/exercises/ex3/images/CI_SBPA_Create_3.png" width=100% height=100%>
 
-4.Enable edit mode.
-<br/>![image](https://media.github.tools.sap/user/13842/files/c149af40-4fea-4a43-853a-f43ab4bb7e14)  
+4.Enable **Edit** mode.
+<br><img src="/exercises/ex3/images/CI_SBPA_Edit.png" width=90% height=90%>
 
 5. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
 <br/>![image](https://media.github.tools.sap/user/13842/files/19e8a446-61b3-4360-b93c-cb812a67fe14)
+
 6. Rename "<b>Sender</b>" to AEM.<br/>
-![image](https://media.github.tools.sap/user/13842/files/d60f2bbc-2770-41f4-bcb9-7a8fb893e6b1)  
+![image](https://media.github.tools.sap/user/13842/files/d60f2bbc-2770-41f4-bcb9-7a8fb893e6b1)
+
 7. Press and drag the "<b>Connector</b>" button to connect the <b>AEM</b> sender with the <b>Start</b> step.  
 ![image](https://media.github.tools.sap/user/13842/files/b6d8947b-108d-48c3-99ad-b204bb9df251)
+
 8. Select <b>AMQP</b> as sender adapter and choose <b>TCP</b> as Transport Protocol.  
 ![image](https://media.github.tools.sap/user/13842/files/5cc8e23f-c0bc-4cd7-bf85-43b7dab3e1f7)  
-![image](https://media.github.tools.sap/user/13842/files/b27f9c48-bbc9-486b-87e5-8a5bac8b92a2)  
-9. Switch to tab "<b>Connection</b>" and provide following details:  
+![image](https://media.github.tools.sap/user/13842/files/b27f9c48-bbc9-486b-87e5-8a5bac8b92a2)
+
+12. Switch to tab "<b>Connection</b>" and provide following details:  
 - <b>Host</b>: mr-connection-qs6tj0v0zlv.messaging.solace.cloud  
 - <b>Port</b>: 5671  
 - <b>Credential Name</b>: AEM_Credential  
