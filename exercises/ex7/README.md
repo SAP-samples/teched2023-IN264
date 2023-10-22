@@ -60,9 +60,10 @@ In the scenario, the hiring manager will need to approve equipment and training 
 In this section, you (as a hiring manager) will check the SAP Build Process Automation inbox for the Equipment and Training Approval form as result of the successful completion of your integration flow.
 
 1. Open the [SAP Build Process Automation - My Inbox](https://in264-72e8h9xc.sap-process-automation.cfapps.eu10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html) and log in using the user ID and password provided to you by the instructors. You will find a task waiting for your approval.
-<br><img src="/exercises/ex7/images/Approval_Form.png" width=90% height=90%>
+<br><img src="/exercises/ex7/images/SBPA_Approval_Form_1.png" width=90% height=90%>
+<br><img src="/exercises/ex7/images/SBPA_Approval_Form_2.png" width=90% height=90%>
 
-2. The manager can select the equipment and training that are suited for this employee and approve them. Do not change any default selection and click on <b>Approve</b> button.
+2. Equipments and Training that are suited for this employee and approve them. Do not change any default selection and click on <b>Approve</b> button.
 <br><img src="/exercises/ex4/ex43/images/Step02.png" width=90% height=90%>
 
 3. The employee should have received a notification as well with information on the equipment and training selected by the manager on the newly hired candidate's email id configured in the integration flow.
