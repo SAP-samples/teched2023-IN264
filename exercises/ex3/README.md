@@ -12,12 +12,14 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex3/images/IS_Login.png" width=50% height=50%> 	
 
 2. From the navigation pane on the left side, switch to the **Design --> Integrations** area.
-<br><img src="/exercises/ex3/images/IS_CI_Navigate.png" width=90% height=90%>
+   >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
+   
+   <br><img src="/exercises/ex3/images/IS_CI_Navigate.png" width=90% height=90%>
 
-3. Click the **"Create"** button on the top right area to create your own package.
+4. Click the **"Create"** button on the top right area to create your own package.
 <br><img src="/exercises/ex3/images/CI_Create_Package_1.png" width=100% height=100%>
 
-4. Provide the following details:
+5. Provide the following details:
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    
