@@ -48,7 +48,7 @@ In this section, you check your email inbox for the welcome email, which include
 1. Open the email inbox that is associated with the Email ID you provided while adding a new employee in SAP SuccessFactors.
 
 2. You should have received an email from saprover123@gmail.com. In case you do not see it in the inbox, check your spam or junk email folder.
-<br><img src="/exercises/ex7/images/Welcome_Email.png" width=90% height=90%>
+<br><img src="/exercises/ex7/images/Welcome_Email.png" width=100% height=100%>
 
 3. The email also has a link to survey. Click on the link and observe that the onboarding experience survey has been contextualized to you as a specific individual who has been newly hired in the organization, with team and manager specific questions getting reflected (these items were selected in SuccessFactors while adding the new employee). Fill the entire surveyif you like else leave it fatre  checking the few screens.
-<br><img src="/exercises/ex7/images/Survey.png" width=90% height=90%>
+<br><img src="/exercises/ex7/images/Survey.png" width=100% height=100%>
