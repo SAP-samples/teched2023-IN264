@@ -6,11 +6,10 @@ In the last part of the exercise, you will verify and check as part of testing w
 
 Run through the exercise steps in the given order.
 
-[Check the Cloud Integration Monitoring](/exercises/ex4/ex41)
-<br>[Check your Email Inbox and Click through Qualtrics Survey](/exercises/ex4/ex42)
+* [Check the Cloud Integration Monitoring](#check-the-cloud-integration-monitoring)
+* [Check your Email Inbox and Click through Qualtrics Survey](/exercises/ex4/ex42)
 <br>[Approve the new hire in SAP Build Process Automation Inbox](/exercises/ex4/ex43)
-* Check Integration Flow(s) Success in Cloud Integration Monitoring.
-* Check Email Inbox for Welcome Email along with the Qualtrics Survey Link.
+* Check your Email Inbox for Welcome Email along with the Survey Link.
 * Click through the Qualtrics Survey.
 * Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox.
 
@@ -41,3 +40,15 @@ In this section, you will check the cloud integration monitoring page to ensure 
 
 > [!Note]
 > If the status does not reflect as **Completed** for any of the mentioned integration flows, please reach out to one of the session instructors for troubleshooting.
+
+### Check your Email Inbox for Welcome Email along with the Survey Link
+
+In this section, you check your email inbox for the welcome email, which includes the survey link as a confirmation of the successful completion of your integration flow.
+
+1. Open the email inbox that is associated with the Email ID you provided while adding a new employee in SAP SuccessFactors.
+
+2. You should have received an email from saprover123@gmail.com. In case you do not see it in the inbox, check your spam or junk email folder.
+<br><img src="/exercises/ex7/images/Welcome_Email.png" width=90% height=90%>
+
+3. The email also has a link to survey. Click on the link and observe that the onboarding experience survey has been contextualized to you as a specific individual who has been newly hired in the organization, with team and manager specific questions getting reflected (these items were selected in SuccessFactors while adding the new employee). Fill the entire surveyif you like else leave it fatre  checking the few screens.
+<br><img src="/exercises/ex7/images/Survey.png" width=90% height=90%>
