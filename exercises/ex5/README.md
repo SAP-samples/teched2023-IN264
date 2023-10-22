@@ -20,7 +20,7 @@ Run through the exercise steps in the given order.
    <img src="/exercises/ex5/images/CI_PR_Copy_2.png" width=90% height=90%>
 
 4. Press **Select** to choose another package as destination.
-<br/>As the target package, choose the the package that you had created in [exercise 3](../ex3/README.md) i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX** to ensure that the integration flow is copied into your package.
+<br/>As the target package, choose the package that you had created in [exercise 3](../ex3/README.md) i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX** to ensure that the integration flow is copied into your package.
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex5/images/CI_PR_Copy_3.png" width=90% height=90%>
