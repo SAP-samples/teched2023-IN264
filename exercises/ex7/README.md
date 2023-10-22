@@ -94,6 +94,14 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
    
    <br><img src="/exercises/ex7/images/CI_Monitor_Messages_Filter_2.png" width=90% height=90%>
 
+5. Once the purchase requisition gets created, Cloud Integration also sends an email to the given newly hired candidate's email ID with the PR number.
+6. Open the email inbox that is associated with the Email ID you provided while adding a new employee in SAP SuccessFactors.
+7. You should have received an email from saprover123@gmail.com. In case you do not see it in the inbox, check your spam or junk email folder.
+<br><img src="/exercises/ex7/images/PR_Email.png" width=100% height=100%>
+8. The email has a link to created PR in SAP S/4Hana Cloud System. Click on the link and login to the [SAP S/4Hana Cloud System](https://my407161.s4hana.cloud.sap/ui) using the user ID and password provided by the instructors.
+<br/>It will display the created Purchasse Requistion with all the equipments as PR items.
+<br><img src="/exercises/ex7/images/S4Hana_PR.png" width=100% height=100%>
+   
 ## Summary
 Congratulations, you have completed all the exercises of this session successfully.
 
