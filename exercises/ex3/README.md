@@ -124,10 +124,10 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 22. Enter <b>logNewHireEventPayload</b> as Script Function.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_18.png">
 
-23. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.  
+23. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_19.png">
 
-24. Choose "<b>Content Modifier</b>".  
+25. Choose "<b>Content Modifier</b>".
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_20.png"> 
 
 27. Rename the step to <b>Set Properties</b>.  
