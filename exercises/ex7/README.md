@@ -74,6 +74,27 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 
 ### 7.4 Check the Cloud Integration Monitoring and your Email Inbox to navigate to the created Purchase Requisition in SAP S/4Hana Cloud system
 
+1. Open the [SAP Integration Suite tenant](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home) and log in using the user ID and password provided to you by the instructors.
+<br><img src="/exercises/ex7/images/IS_Login.png" width=50% height=50%>
+
+2. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
+   >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
+   
+   <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=90% height=90%>
+
+3. You can see the multiple tiles providing a rich variety of monitoring options. For this exercise, we will monitor messages that have been processed. Click on the tile under <b>Monitor Message Processing</b> to look at **All Artifacts** from past one hour.
+<br><img src="/exercises/ex7/images/CI_Monitor_Messages.png" width=90% height=90%>
+
+4. In this view, you can filter your integration messages by using the <b>ID</b> field. Here, to filter through the multiple messages that could have been processed in the last hour, you can use the added employee ID i.e. **IN264-XXX**.
+   > [!IMPORTANT]
+   > Replace **XXX** with the participant number that is assigned to you.
+
+   Here, you would see the complete messages for the following three integration flows:
+   * **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**
+   * **SAP SFSF New Hire Welcome Email with Survey Link - IN264-000**
+   
+   <br><img src="/exercises/ex7/images/CI_Monitor_Messages_Filter_2.png" width=90% height=90%>
+
 ## Summary
 Congratulations, you have completed all the exercises of this session successfully.
 
