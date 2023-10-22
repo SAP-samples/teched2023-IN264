@@ -34,7 +34,7 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 
 ### Option A) Create Integration Flow from scratch
 
-1. Switch to the "<b>Artifacts</b>" tab and press "<b>Add > Integration Flow</b>"
+1. Switch to the "<b>Artifacts</b>" tab and press "<b>Add > Integration Flow</b>".
 <br><img src="/exercises/ex3/images/CI_SBPA_Create_1.png" width=90% height=90%>
 
 2. Provide the following details:
@@ -57,20 +57,20 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
    
    <br><img src="/exercises/ex3/images/CI_SBPA_Edit.png" width=90% height=90%>
 
-6. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
+5. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_1.png">
 
-7. Rename "<b>Sender</b>" to **AEM**.<br/>
+6. Rename "<b>Sender</b>" to **AEM**.<br/>
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_2.png">
 
-8. Press and drag the "<b>Connector</b>" button to connect the <b>AEM</b> sender with the <b>Start</b> step.  
+7. Press and drag the "<b>Connector</b>" button to connect the <b>AEM</b> sender with the <b>Start</b> step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_3.png">
 
-9. Select <b>AMQP</b> as sender adapter and choose <b>TCP</b> as Transport Protocol.  
+8. Select <b>AMQP</b> as sender adapter and choose <b>TCP</b> as Transport Protocol.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_4.png">
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_5.png">
 
-10. Switch to "<b>Connection</b>" tab and provide the following details:  
+9. Switch to "<b>Connection</b>" tab and provide the following details:  
 - Host: **mr-connection-qs6tj0v0zlv.messaging.solace.cloud**  
 - Port: **5671**  
 - Credential Name: **AEM_Credential**  
@@ -115,7 +115,7 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 18. Choose <b>"Groovy Script"</b> step.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_14.png">  
 
-19. Rename the step to <b>Log New Hire Event Payload</b>  
+19. Rename the step to <b>Log New Hire Event Payload</b>.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_15.png">
 
 20. Switch to tab "<b>Processing</b>" and press the "<b>Select</b>" button.  
@@ -139,7 +139,8 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 26. Switch to the "<b>Exchange Property</b>" tab and press the "<b>Add</b>" button twice to provide the following values:
     > [!IMPORTANT]
     > Replace **XXX** with the participant number that is assigned to you.
-    > <br/>You only act as a manager for the hired new employee that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+    > <br/> Make sure to add the manager Email ID in small case.
+    > <br/><br/>You only act as a manager for the hired new employee that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
     
     - <b>Property 1</b>
        - Name: **managerEmailID**
@@ -159,10 +160,10 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 28. Search for <b>Message</b> and choose <b>Message Mapping</b> step.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_24.png">   
 
-29. Rename the step to <b>Map New Hire Event Payload to SBPA Workflow Payload</b>
-    >Hint: Widen the process step to see the full name 
-
-   <br><img src="/exercises/ex3/images/CI_SBPA_Model_25.png">
+29. Rename the step to <b>Map New Hire Event Payload to SBPA Workflow Payload</b>.
+    >Hint: Widen the process step to see the full name.
+    
+    <br><img src="/exercises/ex3/images/CI_SBPA_Model_25.png">
 
 30. Switch to the "<b>Processing</b>" tab and press the "<b>Select</b>" button.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_26.png">
@@ -181,7 +182,7 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 
 35. Switch to the "<b>Message Header</b>" tab and press the "<b>Add</b>" button twice to provide the following headers:
    > [!Note]
-   > **SAP_ApplicationID** header allows you to search the Message Procesing Logs (MPL) with the new hire employeeId in the monitoring.
+   > **SAP_ApplicationID** header allows you to search with the new hire employeeId in the Message Procesing Logs (MPL).
 
    - <b>Header 1</b>
        - Name: **Content-Type**
@@ -201,18 +202,19 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 37. Choose "<b>Request Reply</b>" step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_32.png">  
 
-38. Rename the step to <b>Trigger SAP Build Process Automation Workflow</b>
+38. Rename the step to <b>Trigger SAP Build Process Automation Workflow</b>.
 >Hint: Widen the process step to see the full name.  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_33.png"> 
+
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_32_5.png"> 
 
 39. Place the "<b>Receiver</b>" underneath to the Integration Process and rename it to <b>SBPA</b>.  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_34.png">
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_33.png">
 
 40. Select the "<b>Trigger SAP Build Process Automation Workflow</b>" step. Press and drag the "<b>Connector</b>" button to connect the Request Reply step with the <b>SPBA</b> receiver.  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_35.png">
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_34.png">
 
 41. Select "<b>HTTP</b>" as Receiver Adapter.  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_36.png">
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_35.png">
 
 42. Navigate to "<b>Connection</b>" and provide the following details:  
 
@@ -222,18 +224,18 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 - Credential Name: **SBPA_OAuth2**
 - Request Headers: **Content-Type**  
 
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_37.png">
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_36.png">
 
 43. Click “<b>Save as Version</b>” on top right of the window.  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_38.png"> 
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_37.png"> 
 
-43. Provide the following properties and Press "<b>OK</b>".
+44. Provide the following properties and Press "<b>OK</b>".
  - Version: **1.0.0**
  - Comment: **initial version**  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_39.png"> 
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_37_5.png"> 
 
-44. Press “<b>Deploy</b>” and confirm the dialog with “<b>Yes</b>” to deploy your integration flow.
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_40.png"> 
+45. Press “<b>Deploy</b>” and confirm the dialog with “<b>Yes</b>” to deploy your integration flow.
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_38.png"> 
 
 ### Option B) Copy & Configure Integration Flow from solution package
 
