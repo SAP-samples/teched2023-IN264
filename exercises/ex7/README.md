@@ -21,7 +21,7 @@ In this section, you will check the cloud integration monitoring page to ensure 
 2. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
    >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
    
-   <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=90% height=90%>
+   <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=50% height=50%>
 
 3. You can see the multiple tiles providing a rich variety of monitoring options. For this exercise, we will monitor messages that have been processed. Click on the tile under <b>Monitor Message Processing</b> to look at **All Artifacts** from past one hour.
 <br><img src="/exercises/ex7/images/CI_Monitor_Messages.png" width=90% height=90%>
@@ -33,11 +33,12 @@ In this section, you will check the cloud integration monitoring page to ensure 
    Here, you would see the complete messages for the following two integration flows:
    * **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**
    * **SAP SFSF New Hire Welcome Email with Survey Link - IN264-000**
+   <br/>
+
+   > [!Note]
+   > If the status does not reflect as **Completed** for any of the mentioned integration flows, please reach out to one of the session instructors for troubleshooting.
    
    <br><img src="/exercises/ex7/images/CI_Monitor_Messages_Filter.png" width=90% height=90%>
-
-> [!Note]
-> If the status does not reflect as **Completed** for any of the mentioned integration flows, please reach out to one of the session instructors for troubleshooting.
 
 ### 7.2 Check your Email Inbox for Welcome Email along with the Survey Link
 
@@ -53,7 +54,7 @@ In this section, you check your email inbox for the welcome email, which include
 
 ### 7.3 Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox
 
-In the previous section, you were in the role of the newly hired employee. In the following exercise, you will be switching roles, and acting as the hiring manager.
+In the previous section, you were in the role of the newly hired employee. In the following section, you will be switching roles, and acting as the hiring manager.
 
 In the scenario, the hiring manager will need to approve equipment and training requirements of newly hired employee. To make this whole process a smooth experience for the manager, we make use of SAP Build Process Automation.
 
@@ -63,11 +64,11 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 <br><img src="/exercises/ex7/images/SBPA_Approval_Form_1.png" width=90% height=90%>
 <br><img src="/exercises/ex7/images/SBPA_Approval_Form_2.png" width=90% height=90%>
 
-2. it's important to note that the SAP Build Process Automation (SBPA) employs equipment determination decisions specific to roles such as Sales, Marketing, Analyst, Consulting, and Default. Your selected role will dictate the equipment and training list displayed in the approval form.
+2. it's important to note that the SAP Build Process Automation (SBPA) employs equipment determination decisions specific to roles such as **Sales**, **Marketing**, **Analyst**, **Consulting**, and **Default**. Your selected role will dictate the equipment and training list displayed in the approval form.
 <br/> Provide the **Comment** and click on the <b>Approve</b> button.
 <br><img src="/exercises/ex7/images/SBPA_Approve.png" width=90% height=90%>
 
-3. The employee should have received the approval notification along with the manager's comment on the newly hired candidate's Email ID as provided in the SAP SuccessFactors application.
+3. The employee should have received the approval notification along with the manager's **comment** on the newly hired candidate's Email ID as provided in the SAP SuccessFactors application.
 <br><img src="/exercises/ex7/images/SBPA_Approve_Email.png" width=60% height=60%>
 
 4. After the manager's approval, SAP Build Process Automation (SBPA) publishes the manager's approval event to the SAP Integration Suite's advanced event mesh topic `SBPA/NewHire/{EmployeeId}/Approval`, which triggers an integration to generate a purchase requisition (PR) containing the approved list of equipment in the S/4HANA Cloud system."
@@ -80,7 +81,7 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 2. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
    >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
    
-   <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=90% height=90%>
+   <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=50% height=50%>
 
 3. You can see the multiple tiles providing a rich variety of monitoring options. For this exercise, we will monitor messages that have been processed. Click on the tile under <b>Monitor Message Processing</b> to look at **All Artifacts** from past one hour.
 <br><img src="/exercises/ex7/images/CI_Monitor_Messages.png" width=90% height=90%>
@@ -89,16 +90,20 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
    > [!IMPORTANT]
    > Replace **XXX** with the participant number that is assigned to you.
 
-   Here, you would see the complete messages for the Purchase Requisition integration flow:
+   Here, you would see the Completed message for the Purchase Requisition integration flow:
    * **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**
-   
+   <br/>
+
+   > [!Note]
+   > If the status does not reflect as **Completed**, please reach out to one of the session instructors for troubleshooting.
+
    <br><img src="/exercises/ex7/images/CI_Monitor_Messages_Filter_2.png" width=90% height=90%>
 
 5. Once the purchase requisition gets created, Cloud Integration also sends an email to the given newly hired candidate's email ID with the PR number.
 6. Open the email inbox that is associated with the Email ID you provided while adding a new employee in SAP SuccessFactors.
 7. You should have received an email from saprover123@gmail.com. In case you do not see it in the inbox, check your spam or junk email folder.
 <br><img src="/exercises/ex7/images/PR_Email.png" width=100% height=100%>
-8. The email has a link to created PR in SAP S/4Hana Cloud System. Click on the link and login to the [SAP S/4Hana Cloud System](https://my407161.s4hana.cloud.sap/ui) using the user ID and password provided by the instructors.
+8. The email has a link to the created PR in SAP S/4Hana Cloud System. Click on the link and login using the user ID and password provided by the instructors.
 <br/>It will display the created Purchasse Requistion with all the equipments as PR items.
 <br><img src="/exercises/ex7/images/S4Hana_PR.png" width=100% height=100%>
    
