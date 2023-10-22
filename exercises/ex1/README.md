@@ -36,7 +36,7 @@ Run through the following steps in the given order:
 7. From these connectivity option, <b>AMQP</b> connectivity details will be used by the Integration Flows in Cloud Intgeration capability of SAP Integration Suite to subscribe to AEM Queues. 
 <br><img src="/exercises/ex1/images/AEM_Connect_AMQP.png" width=90% height=90%>
 
-8. Navigate to the <b>"Manage"</b> tab, and click on <b>"Queues"</b> tile.
+8. Navigate to the <b>"Manage"</b> tab, and click on the <b>"Queues"</b> tile.
 <br><img src="/exercises/ex1/images/AEM_Manage.png" width=90% height=90%> 	
 
 9. A new tab will be open and list all the Queues. <br/>
@@ -50,7 +50,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
    - Third Queue: **ApprovedNewHire_PR_IN264-XXX**
       - Topic Subscription: **SBPA/NewHire/IN264-XXX/Approval**
    
-   Click <b>"+ Queue"</b> button on the top right area to create a first queue.
+   Click the <b>"+ Queue"</b> button on the top right area to create a first queue.
    <br><img src="/exercises/ex1/images/AEM_Manage_1_Queue.png" width=90% height=90%> 	
 
 10. Enter the following Queue Name and click the <b>"Create"</b> button:
@@ -63,7 +63,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 12. Select the Queue thay you have just created i.e., <b>NewHire_Workflow_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_1_Queue.png" width=90% height=90%>
 
-13. Navigate to <b>"Subscriptions"</b> tab and click <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
+13. Navigate to <b>"Subscriptions"</b> tab and click the <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
 <br><img src="/exercises/ex1/images/AEM_1_Queue_Topic_Subscription.png" width=90% height=90%>
 
 14. Enter the following topic value and click the <b>"Create"</b> button:
@@ -73,7 +73,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 15. Naviagte back to Queues.  
 <br><img src="/exercises/ex1/images/AEM_Navigate_Back_Queues_1.png" width=90% height=90%> 
 
-16. Click <b>"+ Queue"</b> button on the top right area to create a second queue.
+16. Click the <b>"+ Queue"</b> button on the top right area to create a second queue.
 <br><img src="/exercises/ex1/images/AEM_Manage_2_Queue.png" width=90% height=90%>  
 
 17. Enter the following Queue Name and click the <b>"Create"</b> button:
@@ -86,7 +86,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 19. Select the Queue thay you have just created i.e., <b>NewHire_SurveyEmail_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_2_Queue.png" width=90% height=90%>
 
-20. Navigate to <b>"Subscriptions"</b> tab and click <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
+20. Navigate to <b>"Subscriptions"</b> tab and click the <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
 <br><img src="/exercises/ex1/images/AEM_2_Queue_Topic_Subscription.png" width=90% height=90%>
 
 21. Enter the following topic value and click the <b>"Create"</b> button:
@@ -96,7 +96,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 22.  Naviagte back to Queues.  
 <br><img src="/exercises/ex1/images/AEM_Navigate_Back_Queues_2.png" width=90% height=90%>
 
-23. Click <b>"+ Queue"</b> button on the top right area to create a second queue.
+23. Click the <b>"+ Queue"</b> button on the top right area to create a second queue.
 <br><img src="/exercises/ex1/images/AEM_Manage_3_Queue.png" width=90% height=90%>    
 
 24. Enter the following Queue Name and click the <b>"Create"</b> button:
@@ -109,7 +109,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 26. Select the Queue thay you have just created i.e., <b>ApprovedNewHire_PR_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_3_Queue.png" width=90% height=90%>
 
-27. Navigate to <b>"Subscriptions"</b> tab and click <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
+27. Navigate to <b>"Subscriptions"</b> tab and click the <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
 <br><img src="/exercises/ex1/images/AEM_3_Queue_Topic_Subscription.png" width=90% height=90%>
 
 28. Enter the following topic value and click the <b>"Create"</b> button:
