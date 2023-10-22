@@ -51,7 +51,7 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 3. Click on the created Integration Flow to open it.
 <br><img src="/exercises/ex3/images/CI_SBPA_Create_3.png" width=100% height=100%>
 
-4.Enable **Edit** mode.
+4. Enable **Edit** mode.
 <br><img src="/exercises/ex3/images/CI_SBPA_Edit.png" width=90% height=90%>
 
 5. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
