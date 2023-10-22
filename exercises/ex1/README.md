@@ -9,7 +9,7 @@ These queues are then required and subscribed in the later part of the session w
 ## Exercise steps
 Run through the following steps in the given order:
 
-1. Open the [SAP Integration Suite, advanced event mesh](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95) tenant and log in using the user ID and password provided to you by the instructors.
+1. Open the [SAP Integration Suite, advanced event mesh tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95) and log in using the user ID and password provided to you by the instructors.
 <br><img src="/exercises/ex1/images/AEM_Login.png" width=50% height=50%> 	
    
 2. Open the <b>"Cluster Manager"</b> tile.
