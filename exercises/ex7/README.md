@@ -9,7 +9,7 @@ Run through the exercise steps in the given order.
 **7.1** [**Check the Cloud Integration Monitoring**](#71-check-the-cloud-integration-monitoring)
 <br/>**7.2** [**Check your Email Inbox for Welcome Email along with the Survey Link**](#72-check-your-email-inbox-for-welcome-email-along-with-the-survey-link)
 <br/>**7.3** [**Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox**](#73-approve-the-equipment-and-training-requirements-of-newly-hired-employee-in-sap-build-process-automation-inbox)
-<br/>**7.4** [**Check your Email and navigate to the created Purchase Requisition in SAP S/4Hana Cloud system**]()
+<br/>**7.4** [**Check the Cloud Integration Monitoring and your Email Inbox to navigate to the created Purchase Requisition in SAP S/4Hana Cloud system**]()
 
 ### 7.1 Check the Cloud Integration Monitoring
 
@@ -63,8 +63,13 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 <br><img src="/exercises/ex7/images/SBPA_Approval_Form_1.png" width=90% height=90%>
 <br><img src="/exercises/ex7/images/SBPA_Approval_Form_2.png" width=90% height=90%>
 
-2. Equipments and Training that are suited for this employee and approve them. Do not change any default selection and click on <b>Approve</b> button.
-<br><img src="/exercises/ex4/ex43/images/Step02.png" width=90% height=90%>
+2. it's important to note that the SAP Build Process Automation (SBPA) employs equipment determination decisions specific to roles such as Sales, Marketing, Analyst, Consulting, and Default. Your selected role will dictate the equipment and training list displayed in the approval form.
+<br/> Provide the **Comment** and click on the <b>Approve</b> button.
+<br><img src="/exercises/ex7/images/SBPA_Approve.png" width=90% height=90%>
 
-3. The employee should have received a notification as well with information on the equipment and training selected by the manager on the newly hired candidate's email id configured in the integration flow.
-<br><img src="/exercises/ex4/ex43/images/Step03.png" width=60% height=60%>
+3. The employee should have received the approval notification along with the manager's comment on the newly hired candidate's Email ID as provided in the SAP SuccessFactors application.
+<br><img src="/exercises/ex7/images/SBPA_Approve_Email.png" width=60% height=60%>
+
+4. After the manager's approval, SAP Build Process Automation (SBPA) publishes the manager's approval event to the SAP Integration Suite's advanced event mesh topic `SBPA/NewHire/{EmployeeId}/Approval`, which triggers an integration to generate a purchase requisition (PR) containing the approved list of equipment in the S/4HANA Cloud system."
+
+### 7.4 Check the Cloud Integration Monitoring and your Email Inbox to navigate to the created Purchase Requisition in SAP S/4Hana Cloud system
