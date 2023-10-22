@@ -51,12 +51,14 @@ Run through the exercise steps in the given order.
 ### Check the deployment status
 
 11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
-<br><img src="/exercises/ex5/images/CI_PR_Monitor_1.png" width=40% height=40%>
+    >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
+    
+    <br><img src="/exercises/ex5/images/CI_PR_Monitor_1.png" width=40% height=40%>
 
-12. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
+13. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
 <br><img src="/exercises/ex5/images/CI_PR_Monitor_2.png" width=80% height=80%>
 
-13. Search for your integration flow i.e. **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**. Check and confirm that the status has turned to **Started**.
+14. Search for your integration flow i.e. **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**. Check and confirm that the status has turned to **Started**.
     > [!IMPORTANT]
     > Replace **XXX** with the participant number that is assigned to you.
     <img src="/exercises/ex5/images/CI_PR_Monitor_Started.png" width=90% height=90%>
