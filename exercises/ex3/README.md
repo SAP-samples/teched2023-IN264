@@ -1,4 +1,4 @@
-# Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow
+![image](https://github.com/SAP-samples/teched2023-IN264/assets/4324378/d050e676-20b8-4f6c-96f6-9ef2a1f10da7)# Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow
 
 In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue using the Cloud Integration AMQP sender adapter. This queue is subscribed to the topic `SuccessFactors/NewHire/{EmployeeId}` where SAP SuccessFactors publishes new hire events. This integration triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow in real-time. Once the manager approves the new hire equipments and trainings, SBPA publishes an event to the SAP Integration Suite, advanced event mesh topic `SBPA/NewHire/{EmployeeId}/Approval` for further integration.
 
@@ -30,7 +30,7 @@ Run through the exercise steps in the given order.
 
 5. Now you have two options:   
 a) [Option A](#option-a-create-integration-flow-from-scratch): Either you can create the Integration Flow from scratch.<br/>
-b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): Or, you can copy & configure the integration flow from the solution package.
+b) [Option B](#option-b-copy--configure-integration-flow-from-solution-package): Or, you can copy & configure the integration flow from the solution package.
 
 ### Option A) Create Integration Flow from scratch
 
@@ -150,7 +150,7 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
     - <b>Property 2</b>
        - Name: **workflowDefinitionID**
        - Source Type: **Constant**
-       - Source Value: [**workflowDefinitionID-created-in-ex1**](../ex2/README.md)
+       - Source Value: [**workflowDefinitionID-created-in-exercise-1**](../ex2/README.md)
 
       <br><img src="/exercises/ex3/images/CI_SBPA_Model_22.png"> 
 
@@ -235,66 +235,70 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_37_5.png"> 
 
 45. Press “<b>Deploy</b>” and confirm the dialog with “<b>Yes</b>” to deploy your integration flow.
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_38.png"> 
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_38.png">
+<br><img src="/exercises/ex3/images/CI_SBPA_Deploy_Confirmation.png" width=80% height=80%>
+<br><img src="/exercises/ex3/images/CI_SBPA_Deployment.png" width=80% height=80%>
 
 ### Option B) Copy & Configure Integration Flow from solution package
 
-1. <b>Open</b> the solution package by clicking this [URL](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS)  
-2. Search for the "SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation" integration flow, press the "<b>Action</b>" button and select "<b>Copy</b>"  
-![image](https://media.github.tools.sap/user/13842/files/3306b461-d748-4cd5-8f08-f318cba2592c) 
-
-3. Press the "<b>Select</b>" button and choose your Integration Package just created.  
-![image](https://media.github.tools.sap/user/13842/files/5af07785-d794-4a97-bf55-f6f5e3320473) 
-
-![image](https://media.github.tools.sap/user/13842/files/acad9d17-0174-4480-9b85-902ce8286a9a)
-
-4. As name enter <b>(Replace XXX with the participant number provided by your instructor)</b>:  
-SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - <b>IN264-XXX</b>  
-![image](https://media.github.tools.sap/user/13842/files/d59884b8-1904-4788-8152-3c7f79c927ed)
-
-5. Press "<b>Copy</b>"  
-![image](https://media.github.tools.sap/user/13842/files/93bc719e-4ccf-4b62-9349-e2f219a92a1b)
-
-6. The Success Dialog will pop-up. Press "<b>Navigate</b>" to open the package.  
-![image](https://media.github.tools.sap/user/13842/files/ba634d88-ab6d-4153-b04b-e8dca85dc845)
-
-7. Press the "<b>Action</b>" button and click on "<b>Configure</b>".
-![image](https://media.github.tools.sap/user/13842/files/e6246e71-0e49-48ae-ad89-7b7c7ac03c9c)
-
-8. As Queue Name enter <b>(Replace XXX with the participant number provided by your instructor)</b>:  
-NewHire_Workflow_<b>IN264-XXX</b>  
-![image](https://media.github.tools.sap/user/13842/files/9b7dddc3-9a64-4cd4-b99e-7c1a45c69ae5)  
-
-9. Switch to tab <b>"More"</b> and provide following properties:  
-  >Provide your personal email address to receive a notification email once a Purchase Order Requisition has been created   
+1. Open the [solution package](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS) available in Cloud Integration capability of SAP Integration Suite and log in using the user ID and password provided to you by the instructors.
+<br><img src="/exercises/ex3/images/CI_Solution_Package.png" width=90% height=90%>
   
-  - Manager_Email: <b>your-personal-email-address</b>  
-  >Provide the workflow definition ID created in exercise 1.  
+2. Search for the **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation** integration flow and from the **Actions** menu, select the **Copy** menu entry.
+<br><img src="/exercises/ex3/images/CI_SBPA_Copy_1.png" width=90% height=90%>
+
+3. In the **Copy** dialog, update the name of the integration flow to **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+   <img src="/exercises/ex3/images/CI_SBPA_Copy_2.png" width=90% height=90%>
+
+4. Press **Select** to choose another package as destination.
+<br/>As the target package, choose the package that you had created i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR - IN264-XXX** to ensure that the integration flow is copied into your package.
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+   <img src="/exercises/ex3/images/CI_SBPA_Copy_3.png" width=90% height=90%>
+
+5. When done, select the **Copy** button to copy the Integration Flow into your package.
+<br><img src="/exercises/ex3/images/CI_SBPA_Copy_4.png" width=90% height=90%>
+
+6. After the integration flow has been copied, you are asked to navigate to your package. Confirm by clicking on the **Navigate** button.
+<br><img src="/exercises/ex3/images/CI_SBPA_Navigate.png" width=90% height=90%>
+
+7. After copying the integration flow **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
+<br><img src="/exercises/ex3/images/CI_SBPA_Configure_1.png" width=90% height=90%>
+
+8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_Workflow_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md).
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+   <img src="/exercises/ex3/images/CI_SBPA_Configure_2.png" width=90% height=90%>
+
+9. Switch to the <b>"More"</b> tab and provide the following values:
+    > [!IMPORTANT]
+    > Replace **XXX** with the participant number that is assigned to you.
+    > <br/> Make sure to add the manager Email ID in small case.
+    > <br/><br/>You only act as a manager for the hired new employee that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+
+   - Manager_Email: **in264-XXX@education.cloud.sap**
+   - SBPA_Workflow_Definition_ID: [**workflowDefinitionID-created-in-exercise-1**](../ex2/README.md)
   
-  
-  - SBPA_Workflow_Definition: <b>workflowDefinitionID-created-in-ex1</b>  
-![image](https://media.github.tools.sap/user/13842/files/701f3ce3-58df-4c55-890c-bf15ac44d858)  
-
-10. Press "<b>Save</b>" and close the Warning Dialog.  
-![image](https://media.github.tools.sap/user/13842/files/401ff6df-4105-40da-8db1-1232b2c56f3e)  
-
-
-11. Press <b>"Deploy"</b> and confirm the deployment.  
-![image](https://media.github.tools.sap/user/13842/files/9ee1027d-01f8-49f1-99ff-7db0a5844831)  
-
-Congratulations! You successfully completed the exercise.
-
-
+   <br><img src="/exercises/ex3/images/CI_SBPA_Configure_3.png">
+   
+10. Then click on **Save** button, in case of any warning just ignore it. Once saved, click on the **Deploy** button.
+<br><img src="/exercises/ex3/images/CI_SBPA_Configure_Save.png" width=90% height=90%>
+    
+11. Click on **Yes** to confirm the deployment and close the confirmation dialog.
+<br><img src="/exercises/ex3/images/CI_SBPA_Deploy_Confirmation.png" width=80% height=80%>
+<br><img src="/exercises/ex3/images/CI_SBPA_Deployment.png" width=80% height=80%>
 
 ### Check the deployment status
 
-11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
+1. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
 <br><img src="/exercises/ex3/images/CI_SBPA_Monitor_1.png" width=40% height=40%>
 
-12. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
+2. In the Monitor overview, select the first tile below the **Manage Integration Content** section.
 <br><img src="/exercises/ex3/images/CI_SBPA_Monitor_2.png" width=80% height=80%>
 
-13. Search for your integration flow i.e. **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**. Check and confirm that the status has turned to **Started**.
+3. Search for your integration flow i.e. **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**. Check and confirm that the status has turned to **Started**.
     > [!IMPORTANT]
     > Replace **XXX** with the participant number that is assigned to you.
     <img src="/exercises/ex3/images/CI_SBPA_Monitor_Started.png" width=90% height=90%>
