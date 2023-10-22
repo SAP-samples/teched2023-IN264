@@ -36,7 +36,8 @@ In this section, you will check the cloud integration monitoring page to ensure 
    Here, you would see the complete messages for the following two integration flows:
    * **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**
    * **SAP SFSF New Hire Welcome Email with Survey Link - IN264-000**
+   
    <br><img src="/exercises/ex7/images/CI_Monitor_Messages_Filter.png" width=90% height=90%>
 
 > [!Note]
-> If the status is not reflecting as **Completed** for any of the mentioned integration flow, kindly contact one of the session instructor to troubleshoot.
+> If the status does not reflect as **Completed** for any of the mentioned integration flows, please reach out to one of the session instructors for troubleshooting.
