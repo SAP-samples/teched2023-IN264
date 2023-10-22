@@ -52,22 +52,25 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 <br><img src="/exercises/ex3/images/CI_SBPA_Create_3.png" width=100% height=100%>
 
 4. Enable **Edit** mode.
-<br><img src="/exercises/ex3/images/CI_SBPA_Edit.png" width=90% height=90%>
+   > [!IMPORTANT]
+   > Remember to **save** your work regularly.
+   
+   <br><img src="/exercises/ex3/images/CI_SBPA_Edit.png" width=90% height=90%>
 
-5. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
+6. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_1.png">
 
-6. Rename "<b>Sender</b>" to **AEM**.<br/>
+7. Rename "<b>Sender</b>" to **AEM**.<br/>
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_2.png">
 
-7. Press and drag the "<b>Connector</b>" button to connect the <b>AEM</b> sender with the <b>Start</b> step.  
+8. Press and drag the "<b>Connector</b>" button to connect the <b>AEM</b> sender with the <b>Start</b> step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_3.png">
 
-8. Select <b>AMQP</b> as sender adapter and choose <b>TCP</b> as Transport Protocol.  
+9. Select <b>AMQP</b> as sender adapter and choose <b>TCP</b> as Transport Protocol.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_4.png">
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_5.png">
 
-9. Switch to "<b>Connection</b>" tab and provide the following details:  
+10. Switch to "<b>Connection</b>" tab and provide the following details:  
 - Host: **mr-connection-qs6tj0v0zlv.messaging.solace.cloud**  
 - Port: **5671**  
 - Credential Name: **AEM_Credential**  
@@ -127,105 +130,112 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 23. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_19.png">
 
-25. Choose "<b>Content Modifier</b>".
+24. Choose "<b>Content Modifier</b>" step.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_20.png"> 
 
-27. Rename the step to <b>Set Properties</b>.  
-![image](https://media.github.tools.sap/user/13842/files/3294eca9-6c83-43f6-a20a-2c51ef783e01)  
+25. Rename the step to <b>Set Properties</b>.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_21.png"> 
 
-28. Switch to tab "<b>Exchange Property</b>". And press the "<b>Add</b>" button twice and provide following values: 
->Provide your personal email address to receive a notification email once a Purchase Order Requisition has been created  
+26. Switch to the "<b>Exchange Property</b>" tab and press the "<b>Add</b>" button twice to provide the following values:
+    > [!IMPORTANT]
+    > Replace **XXX** with the participant number that is assigned to you.
+    > <br/>You only act as a manager for the hired new employee that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+    
+    - <b>Property 1</b>
+       - Name: **managerEmailID**
+       - Source Type: **Constant**
+       - Source Value: **in264-XXX@education.cloud.sap**
+         
+    - <b>Property 2</b>
+       - Name: **workflowDefinitionID**
+       - Source Type: **Constant**
+       - Source Value: [**workflowDefinitionID-created-in-ex1**](../ex2/README.md)
 
-<b>Property 1</b>  
-- Name: managerEmailID  
-- Source Type: Constant  
-- Source Value: <b>your-personal-email-address</b>  
-
->Provide the workflow definition ID created in exercise 1.  
-
-<b>Property 2</b>
-- Name: workflowDefinitionID  
-- Source Type: Constant  
-- Source Value: <b>workflowDefinitionID-created-in-ex1</b>  
-
-![image](https://media.github.tools.sap/user/13842/files/4dd691ff-6b4a-4823-8371-d351d873a773)  
+      <br><img src="/exercises/ex3/images/CI_SBPA_Model_22.png"> 
 
 27. Widen the Integration Process box to make space for some more steps. Select the "<b>Set Properties</b>" step and press the "<b>+</b>" button to create a new step.  
-![image](https://media.github.tools.sap/user/13842/files/1cd4f55d-0ebc-4cf2-bc63-f7404cd1809f)  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_23.png"> 
 
-28. Search for <b>Message</b> and choose <b>Message Mapping</b>  
-![image](https://media.github.tools.sap/user/13842/files/f259679e-b82c-4d8f-953e-ffa4143458d2)  
+28. Search for <b>Message</b> and choose <b>Message Mapping</b> step.
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_24.png">   
 
-29. Rename the step to <b>Map New Hire Event Payload to SBPA Workflow Payload</b>  
-![image](https://media.github.tools.sap/user/13842/files/75107af9-af0f-4d19-aae5-057e625af5d1)  
+29. Rename the step to <b>Map New Hire Event Payload to SBPA Workflow Payload</b>
+    >Hint: Widen the process step to see the full name 
 
-30. Navigate to tab "<b>Processing</b>" and press the "<b>Select</b>" button.  
-![image](https://media.github.tools.sap/user/13842/files/143d49ef-9034-4ecf-b344-59363f70d221)  
+   <br><img src="/exercises/ex3/images/CI_SBPA_Model_25.png">
 
-31. Open "<b>Global Resources</b>" and select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>".  
-![image](https://media.github.tools.sap/user/13842/files/315b6b7f-bb6d-4d54-82cc-e30504ded711)  
+30. Switch to the "<b>Processing</b>" tab and press the "<b>Select</b>" button.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_26.png">
 
-32. Select the "<b>Map New Hire Event Payload to SBPA Workflow Payload</b> " step and press the "+" button.  
-![image](https://media.github.tools.sap/user/13842/files/b075c50f-1e36-409e-af3c-abc3e25b638c)  
+31. Open "<b>Global Resources</b>" and select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>" mapping.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_27.png">
 
-33. Choose "<b>Content Modifier</b>".  
-![image](https://media.github.tools.sap/user/13842/files/c0f647b8-d4a5-4831-a091-42499ea1bc6d)  
+32. Select the "<b>Map New Hire Event Payload to SBPA Workflow Payload</b>" step and press the "<b>+</b>" button.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_28.png">
+
+33. Choose "<b>Content Modifier</b>" step.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_29.png">
 
 34. Rename the step to <b>Set Headers</b>.  
-![image](https://media.github.tools.sap/user/13842/files/57e5e239-d905-44ac-8a96-106bd317eb33)  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_30.png">
 
-35. Navigate to "<b>Message Header</b>" tab, press the "<b>Add</b>" button twice and provide following headers:  
-<b>Header 1</b>
-- Name: Content-Type  
-- Source Type: Constant  
-- Source Value: application/json  
+35. Switch to the "<b>Message Header</b>" tab and press the "<b>Add</b>" button twice to provide the following headers:
+   > [!Note]
+   > **SAP_ApplicationID** header allows you to search the Message Procesing Logs (MPL) with the new hire employeeId in the monitoring.
 
-<b>Header 2</b>
-- Name: SAP_ApplicationID  
-- Source Type: <b>Property</b>  
-- Source Value: employeeId
+   - <b>Header 1</b>
+       - Name: **Content-Type**
+       - Source Type: **Constant**
+       - Source Value: **application/json**
+         
+   - <b>Header 2</b>
+       - Name: **SAP_ApplicationID**
+       - Source Type: **Property**
+       - Source Value: **employeeId**
+
+      <br><img src="/exercises/ex3/images/CI_SBPA_Model_30_5.png">
 
 36. Select the "<b>Set Headers</b>" step and press the "<b>+</b>" button to add the last step.  
-![image](https://media.github.tools.sap/user/13842/files/d3cbb610-7fe0-4833-86a0-88fadc7b69cc)  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_31.png"> 
 
-37. Select "<b>Request Reply</b>"  
-![image](https://media.github.tools.sap/user/13842/files/805d8e84-aeac-4744-ac06-21026dd3046f)  
+37. Choose "<b>Request Reply</b>" step.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_32.png">  
 
 38. Rename the step to <b>Trigger SAP Build Process Automation Workflow</b>
->Hint: Widen the process step to see the full name  
-![image](https://media.github.tools.sap/user/13842/files/56d73617-2964-4c00-bb31-ef2e1a882255)  
+>Hint: Widen the process step to see the full name.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_33.png"> 
 
-39. Place the "<b>Receiver</b>" underneath the Integration Process and rename it to <b>SBPA</b>.  
-![image](https://media.github.tools.sap/user/13842/files/786a906a-3094-4a6f-8a7b-2115f4691c40)  
+39. Place the "<b>Receiver</b>" underneath to the Integration Process and rename it to <b>SBPA</b>.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_34.png">
 
 40. Select the "<b>Trigger SAP Build Process Automation Workflow</b>" step. Press and drag the "<b>Connector</b>" button to connect the Request Reply step with the <b>SPBA</b> receiver.  
-![image](https://media.github.tools.sap/user/13842/files/44567ee5-eb2e-44d7-bb2e-8beabc2255cc)  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_35.png">
 
-41. Select "<b>HTTP</b>" as Adapter.  
-![image](https://media.github.tools.sap/user/13842/files/2bdfe99d-ce32-4367-87b6-2a8e9b435a1b)
+41. Select "<b>HTTP</b>" as Receiver Adapter.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_36.png">
 
-42. Navigate to "<b>Connection</b>" and provide following details:  
+42. Navigate to "<b>Connection</b>" and provide the following details:  
 
-- Address: https://spa-api-gateway-bpi-eu-prod.cfapps.eu10.hana.ondemand.com/workflow/rest/v1/workflow-instances
-- Method: POST
-- Authentication: OAuth2 Client Credentials
-- Credential Name: SBPA_OAuth2
-- Request Headers: Content-Type  
+- Address: **https://spa-api-gateway-bpi-eu-prod.cfapps.eu10.hana.ondemand.com/workflow/rest/v1/workflow-instances**
+- Method: **POST**
+- Authentication: **OAuth2 Client Credentials**
+- Credential Name: **SBPA_OAuth2**
+- Request Headers: **Content-Type**  
 
-![image](https://media.github.tools.sap/user/13842/files/250526d1-d528-44e5-851d-2e44049169c6)  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_37.png">
 
-42. Click “<b>Save as Version</b>” on top right of the window.  
-![image](https://media.github.tools.sap/user/13842/files/5467c7eb-fd91-44d1-b35a-b38fc6668990)  
+43. Click “<b>Save as Version</b>” on top right of the window.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_38.png"> 
 
-43. Step 103. Provide the following properties and Press "<b>OK</b>".
- - Version: 1.0.0
-- Comment: initial version  
-![image](https://media.github.tools.sap/user/13842/files/f1afac41-a905-40d0-b5f5-aa537af9568e)  
+43. Provide the following properties and Press "<b>OK</b>".
+ - Version: **1.0.0**
+ - Comment: **initial version**  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_39.png"> 
 
 44. Press “<b>Deploy</b>” and confirm the dialog with “<b>Yes</b>” to deploy your integration flow.
-![image](https://media.github.tools.sap/user/13842/files/e047f158-c289-4696-8aaf-e50d9f324cfd)
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_40.png"> 
 
-### Option B) Copy&Configure Integration Flow from solution package
+### Option B) Copy & Configure Integration Flow from solution package
 
 1. <b>Open</b> the solution package by clicking this [URL](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/design/contentpackage/IN264CombineSAPIntegrationSuiteandSAPBuildProcessAutomationinHR?section=ARTIFACTS)  
 2. Search for the "SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation" integration flow, press the "<b>Action</b>" button and select "<b>Copy</b>"  
