@@ -1,62 +1,63 @@
 # Exercise 6 - Add a New Employee in SAP SuccessFactors
 
-In this exercise, we will be adding a new employee in the SAP SuccessFactors application.
-
-Please do note that while the steps shown are comprehensive, due to time constraints on the session this process will be run by the instructor of the session for you, but this will match exactly with what is shown below.
+In this exercise, you will be adding a new employee in the SAP SuccessFactors application.
 
 ## Exercise steps
 
 Run through the following steps:
 
-1. Logon to the SAP SuccessFactors with the SFSF Admin User ID.
-<br><img src="/exercises/ex6/images/1. SFSF_Logon.png" width=60% height=60%>
+1. Logon to the SAP SuccessFactors using the user ID and password provided to you by the instructors.
+<br><img src="/exercises/ex6/images/SAP_SFSF_Logon.png" width=60% height=60%>
 
-2. Enter `Add New Employee` in the search field. This would bring us to the <b>Add New Employee Wizard</b>.
-<br><img src="/exercises/ex6/images/2. SFSF_Admin.jpg" width=90% height=90%>
+2. Search for `Add New Employee` and select **Add New Employee** list entry and this would bring us to the **Add New Employee Wizard**.
+<br><img src="/exercises/ex6/images/SFSF_Add_1.png" width=90% height=90%>
 
-3. In the <b>Identity</b> section, details will vary by company, but we will enter the following critical employee information for our new employee:
+3. In the **Identity** section, enter the following details:
+   > [!IMPORTANT]
+   > Replace **XXX** with the participant number that is assigned to you.
       <ol type="i">
-      <li><b>Hire Date:</b> Jan 30, 2023</li>
+      <li><b>Hire Date:</b> Keep the default current date</li>
       <li><b>Company:</b> From the drop down list - BestRun (10000)</li>
       <li><b>Event Reason:</b> From the drop down list - New Hire (HIRNEW)</li>
-      <li><b>First Name:</b> Jim</li>
-      <li><b>Last Name:</b> Halpert</li>
-      <li><b>Date Of Birth:</b> Oct 01, 1978</li>
-      <li><b>Country Of Birth:</b> United States</li>
-      <li><b>Person Id:</b> DCOM2023</li>
-      <li><b>User Name:</b> DCOM2023</li>
+      <li><b>First Name:</b> Any name of your choice</li>
+      <li><b>Last Name:</b> Any name of your choice</li>
+      <li><b>Date Of Birth:</b> Select any date, e.g.: Oct 18, 2000</li>
+      <li><b>Country Of Birth:</b> Select any country, e.g.: India</li>
+      <li><b>Person Id:</b> IN264_XXX</li>
+      <li><b>User Name:</b> IN264_XXX</li>
       </ol>
       <br>Then we click <b>Continue</b> to continue the wizard.
-      <br><img src="/exercises/ex6/images/3a. New Hire.PNG" width=90% height=90%>
+      <br><img src="/exercises/ex6/images/SFSF_Add_2.png" width=90% height=90%>
 
-4. In Personal Information section, enter details as given below:
+5. In the **Personal Information** section, enter the following details:
       <ol type="i">
       <li><b>Gender:</b> Male</li>
       <li><b>Preferred Language:</b> From drop down list - English (US)</li>
       <li><b>Nationality:</b> From drop down list - United States</li>
-      <li>Enter Email Information:</li>(You have overwritten this Email ID in the Integration Flow with your own Email Id)
+      <li><b></b>Add the following Email Information:</li>
             <ol type="a">
                   <li><b>Email Type:</b> Business</li>
-                  <li><b>Email Address:</b> dcom_participant@sap.com</li>
+                  <li><b>Email Address:</b> Enter any Email ID that you can access to see the email generated as part of employee onboarding in SAP SuccessFactors</li>
                   <li><b>Is Primary:</b> From drop down list - Yes</li>
             </ol>
       </ol>
       <br>Then we click <b>Continue</b> to continue the wizard.
-      <br><img src="/exercises/ex6/images/3b. New Hire.PNG" width=90% height=90%>
+      <br><img src="/exercises/ex6/images/SFSF_Add_3.png" width=90% height=90%>
+      <br><img src="/exercises/ex6/images/SFSF_Add_4.png" width=90% height=90%>
 
-5. In Job Information section, enter details as given below:
+6. In Job Information section, enter details as given below:
       <ol type="i">
       <li><b>Select Position:</b> From drop down list - Inspector (It automatically fills all the other fields) </li>
       <li>In Organizational Information, No data for <b>Cost Center</b></li>
       </ol>
       <br><img src="/exercises/ex6/images/3d. New Hire.PNG" width=90% height=90%>
 
-6. Scrolling down to the end of the page to Employment Details, because it would be cruel to make an employees first day be on Valentine's Day. Set the First Date Worked to February 15th, so they can attend this sesssion.
+7. Scrolling down to the end of the page to Employment Details, because it would be cruel to make an employees first day be on Valentine's Day. Set the First Date Worked to February 15th, so they can attend this sesssion.
 <br>Click <b>Continue</b> to move the wizard forward, and then click <b>Submit</b> to finalize the addition of the new Employee.
 <br><img src="/exercises/ex3/ex6/images/3e. New Hire.PNG" width=90% height=90%>
 <br><img src="/exercises/ex3/ex6/images/3e2. New Hire.PNG" width=90% height=90%>
 
-7. When the employee has been added successfully the following screen appears.
+8. When the employee has been added successfully the following screen appears.
 <br><img src="/exercises/ex3/ex6/images/3f. New Hire.PNG" width=70% height=70%>
 
 ## Summary
