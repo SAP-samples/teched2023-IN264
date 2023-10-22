@@ -6,14 +6,12 @@ In the last part of the exercise, you will verify and check as part of testing w
 
 Run through the exercise steps in the given order.
 
-* [Check the Cloud Integration Monitoring](#check-the-cloud-integration-monitoring)
-* [Check your Email Inbox and Click through Qualtrics Survey](/exercises/ex4/ex42)
-<br>[Approve the new hire in SAP Build Process Automation Inbox](/exercises/ex4/ex43)
-* Check your Email Inbox for Welcome Email along with the Survey Link.
-* Click through the Qualtrics Survey.
-* Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox.
+7.1 [Check the Cloud Integration Monitoring](#check-the-cloud-integration-monitoring)
+7.2 [Check your Email Inbox for Welcome Email along with the Survey Link](#check-your-email-inbox-for-welcome-email-along-with-the-survey-link)
+7.3 [Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox](/exercises/ex4/ex43)
+7.4 [Check your Email and navigate to the created Purchase Requisition in SAP S/4Hana Cloud system]()
 
-### Check the Cloud Integration Monitoring
+### 7.1 Check the Cloud Integration Monitoring
 
 In this section, you will check the cloud integration monitoring page to ensure that your integration flows receiving the data event messages, processing it and getting completed successfully.
 
@@ -41,7 +39,7 @@ In this section, you will check the cloud integration monitoring page to ensure 
 > [!Note]
 > If the status does not reflect as **Completed** for any of the mentioned integration flows, please reach out to one of the session instructors for troubleshooting.
 
-### Check your Email Inbox for Welcome Email along with the Survey Link
+### 7.2 Check your Email Inbox for Welcome Email along with the Survey Link
 
 In this section, you check your email inbox for the welcome email, which includes the survey link as a confirmation of the successful completion of your integration flow.
 
@@ -52,3 +50,20 @@ In this section, you check your email inbox for the welcome email, which include
 
 3. The email also has a link to survey. Click on the link and observe that the onboarding experience survey has been contextualized to you as a specific individual who has been newly hired in the organization, with team and manager specific questions getting reflected (these items were selected in SuccessFactors while adding the new employee). Fill the entire surveyif you like else leave it fatre  checking the few screens.
 <br><img src="/exercises/ex7/images/Survey.png" width=100% height=100%>
+
+### 7.3 Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox
+
+In the previous section, you were in the role of the newly hired employee. In the following exercise, you will be switching roles, and acting as the hiring manager.
+
+In the scenario, the hiring manager will need to approve equipment and training requirements of newly hired employee. To make this whole process a smooth experience for the manager, we make use of SAP Build Process Automation.
+
+In this section, you (as a hiring manager) will check the SAP Build Process Automation inbox for the Equipment and Training Approval form as result of the successful completion of your integration flow.
+
+1. Open the [SAP Build Process Automation - My Inbox](https://in264-72e8h9xc.sap-process-automation.cfapps.eu10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html) and log in using the user ID and password provided to you by the instructors. You will find a task waiting for your approval.
+<br><img src="/exercises/ex7/images/Approval_Form.png" width=90% height=90%>
+
+2. The manager can select the equipment and training that are suited for this employee and approve them. Do not change any default selection and click on <b>Approve</b> button.
+<br><img src="/exercises/ex4/ex43/images/Step02.png" width=90% height=90%>
+
+3. The employee should have received a notification as well with information on the equipment and training selected by the manager on the newly hired candidate's email id configured in the integration flow.
+<br><img src="/exercises/ex4/ex43/images/Step03.png" width=60% height=60%>
