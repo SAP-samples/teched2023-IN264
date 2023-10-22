@@ -26,8 +26,8 @@ In this section, you will check the cloud integration monitoring page to ensure 
    
    <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=90% height=90%>
 
-3. You can see the multiple tiles providing a rich variety of monitoring options. For this exercise, we will monitor messages that have been processed. Click on the tile under <b>Monitor Message Processing</b> to look at All Integration Flows from past one hour.
-<br><img src="/exercises/ex7/CI_Monitor_Messages.png" width=90% height=90%>
+3. You can see the multiple tiles providing a rich variety of monitoring options. For this exercise, we will monitor messages that have been processed. Click on the tile under <b>Monitor Message Processing</b> to look at **All Artifacts** from past one hour.
+<br><img src="/exercises/ex7/images/CI_Monitor_Messages.png" width=90% height=90%>
 
 4. In this view, you can filter your integration messages by using the <b>ID</b> field. Here, to filter through the multiple messages that could have been processed in the last hour, you can use the added employee ID i.e. **IN264-XXX**.
    > [!IMPORTANT]
