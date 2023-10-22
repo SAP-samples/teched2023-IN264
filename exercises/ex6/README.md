@@ -57,15 +57,15 @@ Run through the following steps:
    <br>Then we click <b>Continue</b> to continue the wizard.
    <br><img src="/exercises/ex6/images/SFSF_Add_6.png" width=100%>
 
-7. As a final step to create a new employee, click on the *Submit* button.
-   <br><img src="/exercises/ex6/images/SFSF_Add_Submit.png" width=100%>
+7. As a final step to create a new employee, click on the **Submit** button.
+   <br><img src="/exercises/ex6/images/SFSF_Add_Submit.png" width=90% height=90%>
    
 8. When the employee has been added successfully the following screen appears.
-<br><img src="/exercises/ex3/ex6/images/SFSF_Employee_Added.png" width=70% height=70%>
+<br><img src="/exercises/ex6/images/SFSF_Employee_Added.png" width=90% height=90%>
 
 ## Summary
 
 You should have been able to onboard a new employee successfully in SAP SuccessFactors.
-This will trigger an event to <b>SAP Integration Suite, advanced event mesh</b> and eventually triggers your integration flows in <b>Cloud Integration</b> capability of SAP Integration Suite
+This will trigger an event to <b>SAP Integration Suite, advanced event mesh</b> that eventually triggers your integration flows in <b>Cloud Integration</b> capability of SAP Integration Suite.
 
 Continue to - [Exercise 7 - Verify Scenario Success](/exercises/ex7/README.md)
