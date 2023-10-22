@@ -1,6 +1,6 @@
 # Exercise 6 - Add a New Employee in SAP SuccessFactors
 
-In this exercise, you will be adding a new employee in the SAP SuccessFactors application.
+In this exercise, you will test the integration scenario by adding a new employee in the SAP SuccessFactors application.
 
 ## Exercise steps
 
