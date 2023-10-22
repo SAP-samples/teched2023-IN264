@@ -46,7 +46,7 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 - Sender: **AEM**
 - Receiver: **SAP Build Process Automation**
 <br/><br/>Press the **"OK"** button.
-<br><img src="/exercises/ex3/images/CI_SBPA_Create_2.png" width=90% height=90%>
+<br><img src="/exercises/ex3/images/CI_SBPA_Create_2.png" width=70% height=70%>
 
 3. Click on the created Integration Flow to open it.
 <br><img src="/exercises/ex3/images/CI_SBPA_Create_3.png" width=100% height=100%>
@@ -55,41 +55,46 @@ b) [Option B](#option-b-copyconfigure-integration-flow-from-solution-package): O
 <br><img src="/exercises/ex3/images/CI_SBPA_Edit.png" width=90% height=90%>
 
 5. Double click on the "<b>Sender</b>" participant or press the "<b>Restore</b>" button on the bottom right to expand the details menu.
-<br/>![image](https://media.github.tools.sap/user/13842/files/19e8a446-61b3-4360-b93c-cb812a67fe14)
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_1.png">
 
-6. Rename "<b>Sender</b>" to AEM.<br/>
-![image](https://media.github.tools.sap/user/13842/files/d60f2bbc-2770-41f4-bcb9-7a8fb893e6b1)
+6. Rename "<b>Sender</b>" to **AEM**.<br/>
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_2.png">
 
 7. Press and drag the "<b>Connector</b>" button to connect the <b>AEM</b> sender with the <b>Start</b> step.  
-![image](https://media.github.tools.sap/user/13842/files/b6d8947b-108d-48c3-99ad-b204bb9df251)
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_3.png">
 
 8. Select <b>AMQP</b> as sender adapter and choose <b>TCP</b> as Transport Protocol.  
-![image](https://media.github.tools.sap/user/13842/files/5cc8e23f-c0bc-4cd7-bf85-43b7dab3e1f7)  
-![image](https://media.github.tools.sap/user/13842/files/b27f9c48-bbc9-486b-87e5-8a5bac8b92a2)
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_4.png">
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_5.png">
 
-12. Switch to tab "<b>Connection</b>" and provide following details:  
-- <b>Host</b>: mr-connection-qs6tj0v0zlv.messaging.solace.cloud  
-- <b>Port</b>: 5671  
-- <b>Credential Name</b>: AEM_Credential  
-![image](https://media.github.tools.sap/user/13842/files/3cb1c49c-8461-405d-b0a3-0dba088278d8) 
-10. Switch to tab Processing and privde following details <b>(Replace XXX with the participant number provided by your instructor)</b>:  
-- <b>Queue Name</b>: NewHire_Workflow_<b>IN264-XXX</b> 
-- <b>Max. Number of Retries</b>: 0  
+9. Switch to "<b>Connection</b>" tab and provide the following details:  
+- Host: **mr-connection-qs6tj0v0zlv.messaging.solace.cloud**  
+- Port: **5671**  
+- Credential Name: **AEM_Credential**  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_6.png">
 
-![image](https://media.github.tools.sap/user/13842/files/8e4ccfe4-c659-4302-b38f-a860008e1ba3)  
+10. Switch to "<b>Processing</b>" tab and privde the following details:
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+- Queue Name: **NewHire_Workflow_IN264-XXX**
+- Max. Number of Retries: **0**  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_7.png">
 
 11. In order to open the general <b>Integration Flow settings</b>, click on a white space in the IFlow Diagram as shown in the screenshot.  
 Change to <b>“References”</b> tab and navigate to <b>“Global”</b> tab.  
 Click <b>“Add References” -> “Script Collection”</b> to create a new Script Collection Reference. 
-![image](https://media.github.tools.sap/user/13842/files/e6b92098-7292-43aa-8e8c-d34bda74a675)  
-12. Select Package “IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution”.  
->Note: Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.  
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_8.png">
 
-![image](https://media.github.tools.sap/user/13842/files/4ef67b56-34fe-4658-8d24-dcb21f8e7848)  
-13. Select <b>“SC MPL_Utils”</b> and press <b>“OK”</b>. Now you have successfully added a Global Script Collection as reference in your integration flow.  
->Note: The "SC MPL_Utils" contains one script "Log Payload" to add payloads as attachments in the message processing log (MPL).  
-
-![image](https://media.github.tools.sap/user/13842/files/bd10bcf2-55fb-4603-acf3-484773571ac2)  
+12. Select the Package **"IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution"**.
+    > [!Note]
+    > Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.  
+   <br><img src="/exercises/ex3/images/CI_SBPA_Model_9.png">
+   
+13. Select **“SC MPL_Utils”** and press **“OK”**. Now you have successfully added a Global Script Collection as reference in your integration flow.  
+   > [!Note]
+   > The "SC MPL_Utils" contains one script "Log Payload" to add payloads as attachments in the message processing log (MPL).   
+   <br><img src="/exercises/ex3/images/CI_SBPA_Model_10.png">
+   
 14. Next, you need to add a mapping reference. Press <b>Add References</b> and choose <b>Message Mapping</b>
 ![image](https://media.github.tools.sap/user/13842/files/afa1aedb-6be6-49ad-a2f5-319d3f5d439e)  
 
