@@ -75,10 +75,6 @@ The complete list of exercise steps are listed below, run through them in the gi
 - [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](exercises/ex5/README.md)
 - [Exercise 6 - Add a New Employee in SAP SuccessFactors](exercises/ex6/README.md)
 - [Exercise 7 - Verify Scenario Success](exercises/ex7/README.md)
-    - [Check the Cloud Integration Monitoring](/exercises/ex7/ex71)
-    - [Check your Email Inbox and Click through Survey](/exercises/ex7/ex72)
-    - [Approve the new hire in SAP Build Process Automation Inbox](/exercises/ex7/ex73)
-    - [Check your Email and navigate to the created Purchase Requisition in SAP S/4Hana Cloud system](/exercises/ex7/ex74)
   
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
