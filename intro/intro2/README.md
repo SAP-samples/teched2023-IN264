@@ -58,4 +58,4 @@ After the review, save it to deploy it to the server.
 
 You should now be familiar with all the configurations that has been done in SAP SuccessFactors to enable the new hire event publication to <b>SAP Integration Suite, advanced event mesh</b>.
 
-Now, to learn more about the configuration that has been done in <b>SAP S/4Hana Cloud System</b>, you can navigate to [SAP S/4Hana Cloud System configuration](/intro/intro3) section.
+Now, to learn more about the configuration that has been done in <b>SAP S/4Hana Cloud System</b>, you can navigate to [SAP S/4Hana Cloud System configuration](/intro/intro3/README.md) section.
