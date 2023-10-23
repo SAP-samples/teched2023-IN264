@@ -52,7 +52,7 @@ Run through the exercise steps in the given order.
 ### Check the deployment status
 
 11. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
-    >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
+    >**Hint:** By clicking on the burger icon on the top left corner, you can expand the navigation pane.
     
     <br><img src="/exercises/ex5/images/CI_PR_Monitor_1.png" width=40% height=40%>
 
