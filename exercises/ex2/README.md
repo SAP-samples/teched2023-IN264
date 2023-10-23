@@ -93,19 +93,13 @@ Training Determination decision is configured now
 
 ## 5)	Configure Actions inputs to the data from equipment and training decisions
 
-  a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
-  <br>![](/exercises/ex2/images/Actions001.jpg) <br>
-  b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
-  <br>![](/exercises/ex2/images/Actions002.jpg) <br>
-  c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
-  <br>![](/exercises/ex2/images/Actions003.jpg) <br>
-  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
-  <br>![](/exercises/ex2/images/Actions004.png) <br>
-  e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
-  <br>![](/exercises/ex2/images/Actions008.jpg) <br>
-  f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID <br>
-  <br>![](/exercises/ex2/images/Actions009.jpg) <br>
-  g. Save the changes <br>
+  a. Click on the Action Project and check the data under Input tab. Note tht most of the fields are already mapped to the Process Inputs.
+  <br>![](/exercises/ex2/images/NewAction01.jpg) <br>
+  b. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , click on input field in Equipments and select Equipment Determination - Equipments. <br>
+  <br>![](/exercises/ex2/images/NewAction02.jpg) <br>
+  c. Now we will map the training data to the Actions project. For the Action, click on the Input tab , click on input field in Trainings and select TrainingDetermination - Trainings. <br>
+  <br>![](/exercises/ex2/images/NewAction03.jpg) <br>
+  d. Save the changes <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
 
 ## 6)	Release and Deploy
