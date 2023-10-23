@@ -122,7 +122,7 @@ Training Determination decision is configured now
 
   a. From the Lobby screen click Monitor.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
-  b. Click Processes and Workflows under Manage section and select your Project.
+  b. Click Processes and Workflows under Manage section and search with the text IN264-XXX for your Project.
   <br>![](/exercises/ex2/images/GetInstance002.jpg) <br><br>
   c. Note the instance ID and keep it handly for later exersices. <br>
   <br>![](/exercises/ex2/images/GetInstance003.jpg) <br><br>
