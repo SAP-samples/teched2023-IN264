@@ -23,8 +23,8 @@ Run through the following steps:
       <li><b>Last Name:</b> Any name of your choice</li>
       <li><b>Date Of Birth:</b> Select any date, e.g.: Oct 18, 2000</li>
       <li><b>Country Of Birth:</b> Select any country, e.g.: India</li>
-      <li><b>Person Id:</b> IN264_XXX</li>
-      <li><b>User Name:</b> IN264_XXX</li>
+      <li><b>Person Id:</b> IN264-XXX</li>
+      <li><b>User Name:</b> IN264-XXX</li>
       </ol>
       <br>Then we click <b>Continue</b> to continue the wizard.
       <br><img src="/exercises/ex6/images/SFSF_Add_2.png" width=90% height=90%>
