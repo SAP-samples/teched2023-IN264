@@ -25,20 +25,18 @@ c.	Click on More options and Choose “Save As New Project” <br>
   ii.	Give a different project name "New Hire Onboarding Experience - IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - IN264-000" if your user is 000  <br>
   iii Give description if required <br>  
   iv.	Click on “Save as new” <br>
-<br>![](/exercises/ex2/images/NewProject02.jpg.png) <br>
+<br>![](/exercises/ex2/images/NewProject02.jpg) <br>
 A new project is saved now. <br>
 
 ## 2)	Add parallel branches to add new Training and Equipment determination rules
 
 a.	Click on the project created and in the Overview tab, Click on “New Employee Equipment and Training Approval Process” <br>
-b.	Note that the template process looks as below <br>
+b.	Note that the template process looks as below and contains artifacts <br>
+- An API Trigger called Workflow Trigger to start the process. <br>
+- An approval form to approve Equipment and Training Details. <br>
+- 2 email notifications for approval and rejection flows. <br>
+- An Action to publish the Manager Approval Event to Advanced Event Mesh. <br>
 <br>![](/exercises/ex2/images/NewProject03.jpg) <br>
-
-It has an API Trigger called Workflow Trigger to start the process. <br>
-It has an API Trigger called Workflow Trigger to start the process. <br>
-It has an approval form to approve Equipment and Training Details. <br>
-It has 2 email notifications for approval and rejection flows. <br>
-It has has an Action to publish the Manager Approval Event to Advanced Event Mesh. <br>
 
 d.	Add a Branch <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_3.png) <br>
