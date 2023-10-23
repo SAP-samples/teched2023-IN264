@@ -21,7 +21,8 @@ Run through the exercise steps in the given order.
      
 4. Press **Select** to choose another package as destination.
 <br/>As the target package, choose the package that you had created in [exercise 3](../ex3/README.md) i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR - IN264-XXX** to ensure that the integration flow is copied into your package.
-   > [!IMPORTANT]  
+   > [!IMPORTANT]
+   >  Kindly use the search box and enter **IN264-XXX** to filter your package.<br/>
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex4/images/CI_SM_Copy_3.png" width=90% height=90%>
 
@@ -36,7 +37,7 @@ Run through the exercise steps in the given order.
 7. After copying the integration flow **SAP SFSF New Hire Welcome Email with Survey Link - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
 <br><img src="/exercises/ex4/images/CI_SM_Configure_1.png" width=90% height=90%>
 
-8. In the **Conifigure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md).
+8. In the **Configure** dialog, as *Queue Name* enter **NewHire_SurveyEmail_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md).
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex4/images/CI_SM_Configure_2.png" width=90% height=90%>
@@ -67,4 +68,4 @@ Run through the exercise steps in the given order.
 
 At the end of this exercise, you should have copied, configured and deployed an integration flow to send out the welcome email along with the survey link to the newly hired employee's email ID.
 
-Continue to - [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](/exercises/ex5/README.md)
+Continue to - [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requisition subscription flow](/exercises/ex5/README.md)
