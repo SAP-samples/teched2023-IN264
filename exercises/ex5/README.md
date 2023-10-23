@@ -62,6 +62,9 @@ Run through the exercise steps in the given order.
 14. Search for your integration flow i.e. **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**. Check and confirm that the status has turned to **Started**.
     > [!IMPORTANT]
     > Replace **XXX** with the participant number that is assigned to you.
+
+    >**Hint:** If the status is **Starting**, please refresh the monitoring by clicking on the button located adjacent to the search box.
+
     <img src="/exercises/ex5/images/CI_PR_Monitor_Started.png" width=90% height=90%>
 
 ## Summary
