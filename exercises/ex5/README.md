@@ -1,6 +1,6 @@
-# Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow
+# Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requisition subscription flow
 
-In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue using the Cloud Integration AMQP sender adapter. This queue is subscribed to the topic `SBPA/NewHire/{EmployeeId}/Approval` where SAP Build Process Automation (SBPA) publishes manager's approval events. This integration triggers a real-time creation of purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system using the OData receiver adapter. Once the purchase requisition gets created, Cloud Integration also sends an email to the given newly hired candidate's email ID with the PR number and direct link to open the same in SAP S/4Hana Cloud system.
+In this exercise, you will setup an integration flow that listens to the SAP Integration Suite, advanced event mesh queue using the Cloud Integration AMQP sender adapter. This queue is subscribed to the topic `SBPA/NewHire/{EmployeeId}/Approval` where SAP Build Process Automation (SBPA) publishes manager's approval events. This integration triggers a real-time creation of purchase requisition (PR) with the approved equipment list in the S/4HANA Cloud system using the OData receiver adapter. Once the purchase requisition gets created, Cloud Integration also sends an email to the given newly hired candidate's email ID with the PR number and direct link to open the same in SAP S/4Hana Cloud system.
 
 ## Exercise steps
 
@@ -15,13 +15,14 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex5/images/CI_PR_Copy_1.png" width=90% height=90%>
 
 3. In the **Copy** dialog, update the name of the integration flow to **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**
-   > [!IMPORTANT]  
+   > [!IMPORTANT]
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex5/images/CI_PR_Copy_2.png" width=90% height=90%>
 
 4. Press **Select** to choose another package as destination.
 <br/>As the target package, choose the package that you had created in [exercise 3](../ex3/README.md) i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR_IN264-XXX** to ensure that the integration flow is copied into your package.
-   > [!IMPORTANT]  
+   > [!IMPORTANT]
+   > Kindly use the search box and enter **IN264-XXX** to filter your package.<br/>
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex5/images/CI_PR_Copy_3.png" width=90% height=90%>
 
@@ -36,7 +37,7 @@ Run through the exercise steps in the given order.
 7. After copying the integration flow **Create Purchase Requisition in SAP S4HANA for New Hire Equipment Post Manager Approval - IN264-XXX**, you should see the same in your package. From the **Actions** menu of the integration flow, select the **Configure** menu entry.
 <br><img src="/exercises/ex5/images/CI_PR_Configure_1.png" width=90% height=90%>
 
-8. In the **Conifigure** dialog, as *Queue Name* enter **ApprovedNewHire_PR_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md).
+8. In the **Configure** dialog, as *Queue Name* enter **ApprovedNewHire_PR_IN264-XXX**. This queue has already been created in [exercise 1](../ex1/README.md).
    > [!IMPORTANT]  
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex5/images/CI_PR_Configure_2.png" width=90% height=90%>
@@ -65,7 +66,7 @@ Run through the exercise steps in the given order.
 
 ## Summary
 
-At the end of this exercise, you should have copied, configured and deployed an integration flow that automatically create a purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system.
+At the end of this exercise, you should have copied, configured and deployed an integration flow that automatically create a purchase requisition (PR) with the approved equipment list in the S/4HANA Cloud system.
 
 With this exercise you have completed all the technical configuration steps. Now you have to execute and test the scenario by adding a new employee in SAP SuccessFactors system.
 
