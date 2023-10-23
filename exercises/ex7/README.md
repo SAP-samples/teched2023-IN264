@@ -49,7 +49,7 @@ In this section, you check your email inbox for the welcome email, which include
 2. You should have received an email from saprover123@gmail.com. In case you do not see it in the inbox, check your spam or junk email folder.
 <br><img src="/exercises/ex7/images/Welcome_Email.png" width=100% height=100%>
 
-3. The email also has a link to survey. Click on the link and observe that the onboarding experience survey has been contextualized to you as a specific individual who has been newly hired in the organization, with team and manager specific questions getting reflected (these items were selected in SuccessFactors while adding the new employee). Fill the entire surveyif you like else leave it fatre  checking the few screens.
+3. The email also has a link to survey. Click on the link and observe that the onboarding experience survey has been contextualized to you as a specific individual who has been newly hired in the organization, with team and manager specific questions getting reflected (these items were selected in SuccessFactors while adding the new employee). Fill the entire survey if you like else leave it after  checking the few screens.
 <br><img src="/exercises/ex7/images/Survey.png" width=100% height=100%>
 
 ### 7.3 Approve the Equipment and Training requirements of newly hired employee in SAP Build Process Automation Inbox
@@ -79,7 +79,7 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 <br><img src="/exercises/ex7/images/IS_Login.png" width=50% height=50%>
 
 2. From the navigation pane on the left side, switch to the **Monitor --> Integrations** area.
-   >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
+   >**Hint:** By clicking on the burger icon on the top left corner, you can expand the navigation pane.
    
    <br><img src="/exercises/ex7/images/CI_Monitor_Navigate.png" width=50% height=50%>
 
@@ -104,7 +104,7 @@ In this section, you (as a hiring manager) will check the SAP Build Process Auto
 7. You should have received an email from saprover123@gmail.com. In case you do not see it in the inbox, check your spam or junk email folder.
 <br><img src="/exercises/ex7/images/PR_Email.png" width=100% height=100%>
 8. The email has a link to the created PR in SAP S/4Hana Cloud System. Click on the link and login using the user ID and password provided by the instructors.
-<br/>It will display the created Purchasse Requistion with all the equipments as PR items.
+<br/>It will display the created Purchase Requisition with all the equipment as PR items.
 <br><img src="/exercises/ex7/images/S4Hana_PR.png" width=100% height=100%>
    
 ## Summary
