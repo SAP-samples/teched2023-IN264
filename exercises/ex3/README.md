@@ -311,6 +311,6 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 
 ## Summary
 
-At the end of this exercise, you should have either created or copied an integration flow to trigger the SAP Build Process Automation (SBPA) equipment and training approval workflow.
+At the end of this exercise, you should have either copied or created the integration flow to trigger the SAP Build Process Automation (SBPA) equipment and training approval workflow.
 
 Continue to - [Exercise 4 - Copy, configure and deploy the Survey Email subscription flow](/exercises/ex4/README.md)
