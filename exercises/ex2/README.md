@@ -30,7 +30,7 @@ A new project is saved now. <br>
 
 ## 2)	Add parallel branches to add new Training and Equipment determination rules
 
-a.	In the Overview tab, Click on “New Employee Equipment and Training Approval Process Template” <br>
+a.	Click on the project created and in the Overview tab, Click on “New Employee Equipment and Training Approval Process” <br>
 b.	Note that the template process looks as below <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
 
