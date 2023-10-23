@@ -12,17 +12,17 @@ After completing these steps you will have learnt the following.<br>
 2)Add parallel branches to add new Training and Equipment determination rules<br>
 3)Configure the decision to determine Equipments for the newly hired employee<br>
 4) Configure the decision to determine Trainings for the newly hired employee<br>
-5) Add Action to publish the approval event to Advanced Event Mesh (AEM) <br>
+5) Configure Actions inputs to the data from equipment and training decisions <br>
 6) Release and Deploy<br>
-7) Run the Process<br>
+7) Get the Process Instance ID<br>
 
 ## 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
 a.	Go to Lobby link https://in264-72e8h9xc.eu10.build.cloud.sap/lobby <br>
-b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Enterprise Automation Template” <br>
+b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Template” <br>
 <br>![](/exercises/ex2/images/Save_as_New_1.png) <br>
 c.	Click on More options and Choose “Save As New Project” <br>
   i.	Choose the option for Select Version as “Editable Version” <br>
-  ii.	Give a different project name "New Hire Onboarding Experience - Enterprise Automation IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - Enterprise Automation IN264-000" if your user is 000  <br>
+  ii.	Give a different project name "New Hire Onboarding Experience - IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - IN264-000" if your user is 000  <br>
   iii Give description if required <br>  
   iv.	Click on “Save as new” <br>
 <br>![](/exercises/ex2/images/Save_as_New_2.png) <br>
@@ -31,10 +31,15 @@ A new project is saved now. <br>
 ## 2)	Add parallel branches to add new Training and Equipment determination rules
 
 a.	In the Overview tab, Click on “New Employee Equipment and Training Approval Process Template” <br>
-b.	Remove the decision Equipment Determination <br>
+b.	Note that the template process looks as below <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
-c.	Remove the decision Training Determination <br>
-<br>![](/exercises/ex2/images/Add_Parallel_Gateway_2.png) <br>
+
+It has an API Trigger called Workflow Trigger to start the process. <br>
+It has an API Trigger called Workflow Trigger to start the process. <br>
+It has an approval form to approve Equipment and Training Details. <br>
+It has 2 email notifications for approval and rejection flows. <br>
+It has has an Action to publish the Manager Approval Event to Advanced Event Mesh. <br>
+
 d.	Add a Branch <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_3.png) <br>
 e.	Give the step name as “Determine Equipments and Trainings” <br>
@@ -88,9 +93,7 @@ Equipment Determination decision is configured now
   
 Training Determination decision is configured now 
 
-## 5)	Add Action to publish the approval event to Advanced Event Mesh (AEM) 
-
- In this section, we will create an Action for Event Mesh Connectivity and define the destination and map the inputs from the process inputs. 
+## 5)	Configure Actions inputs to the data from equipment and training decisions
 
   a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
   <br>![](/exercises/ex2/images/Actions001.jpg) <br>
@@ -123,9 +126,7 @@ Training Determination decision is configured now
   g. Note that the project is deployed <br>
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
 
-## 7)	Run the process
-
-Now we can test the process with a sample context.
+## 7)	Get the Process Instance ID
 
   a. From the Lobby screen click Monitor.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
@@ -133,48 +134,6 @@ Now we can test the process with a sample context.
   <br>![](/exercises/ex2/images/GetInstance002.jpg) <br><br>
   c. Note the instance ID and keep it handly for later exersices. <br>
   <br>![](/exercises/ex2/images/GetInstance003.jpg) <br><br>
-  d. Let us execute the process that we just created with a sample payload. Click on ... on the top right corner and click on Start New Instance <br>
-  <br>![](/exercises/ex2/images/GetInstance004.jpg) <br><br>
-  e. Replace the default JSON context with the below payload after changing both the employeeEmail and managerEmail ids to your TechEd id. <br>
-  <br>
-  {
-        "businessUnitText": "Products",
-        "employeeName": "Stefan Wagner",
-        "country": "United States",
-        "hireDate": "2023-06-14T00:00:00Z",
-        "managerHrName": "Angela Read",
-        "employeeDateOfBirth": "1993-01-01T00:00:00Z",
-        "jobTitle": "Business Developer Senior",
-        "companyName": "BestRun",
-        "divisionText": "Research & development",        
-        "employeeEmail": "in264-XXX@education.cloud.sap",
-        "employeeId": "1407",
-        "employeeFirstName": "Stefan",
-        "employeeGender": "M",
-        "managerName": "Wes Lin Chang",
-        "managerEmail": "in264-XXX@education.cloud.sap",
-        "employeeLastName": "Wagner",
-        "location": "New York",
-        "departmentText": "Development"
-    }	<br>
-  <br>![](/exercises/ex2/images/GetInstance005.jpg) <br>
-  <br>Click on Start New Instance and Clost button. <br>
-  f. Click on "My Inbox" icon on the top right corner of the page. It will open "My Inbox" in a new tab. Do not close the current Monitor window. <br>
-  <br>![](/exercises/ex2/images/GetInstance006.jpg) <br><br>
-  g. The task for approval is available in the My Inbox app. The details are available in the form. <br>
-  <br>![](/exercises/ex2/images/GetInstance007.jpg) <br><br>
-  h. Note that the Equipments determined for New Hire are listed in the form. <br>
-  <br>![](/exercises/ex2/images/GetInstance008.jpg) <br><br>
-  i. Also note that the Trainings for New Hire are listed in the form. Enter some comments in the comments section and click on Approve. <br>
-  <br>![](/exercises/ex2/images/GetInstance009.jpg) <br><br>
-  j. Now we can check the workflow instance and verify that it is completed. From Lobby, click Monitor and click "Process and Workflow Instances" under Monitor section. From the Status dropdown select all status. <br>
-  <br>![](/exercises/ex2/images/GetInstance010.jpg) <br><br>
-  k. Notice that the workflow instance is completed for your project <br>
-  <br>![](/exercises/ex2/images/GetInstance011.jpg) <br><br>
-  l. Click on the workflow instance to navigate to Logs and Contex Page.  The Logs screen shows the logs for all the steps in the process. <br>
-  <br>![](/exercises/ex2/images/GetInstance012.jpg) <br><br>
-  m. The Context tab shows all the data that flows through the process.<br>
-  <br>![](/exercises/ex2/images/GetInstance013.jpg) <br><br>
 
 ## Summary
 
