@@ -314,6 +314,8 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 3. Search for your integration flow i.e. **SAP SFSF New Hire Onboarding Process Approval Workflow using SAP Build Process Automation - IN264-XXX**. Check and confirm that the status has turned to **Started**.
     > [!IMPORTANT]
     > Replace **XXX** with the participant number that is assigned to you.
+
+    >**Hint:** If the status is **Starting**, please refresh the monitoring by clicking on the button located adjacent to the search box.
     <img src="/exercises/ex3/images/CI_SBPA_Monitor_Started.png" width=90% height=90%>
 
 ## Summary
