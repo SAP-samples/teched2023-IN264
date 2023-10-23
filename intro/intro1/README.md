@@ -40,8 +40,6 @@ The advantage of event-driven integration is that you can easily add or remove s
 4. <b>Third Subscriber</b> listens to the another AEM queue that is subscribed to the approval topic `SBPA/NewHire/{EmployeeId}/Approval` using the Cloud Integration <b>AMQP</b> sender adapter.
     <br> 4a. It automatically creates a purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system using the <b>OData</b> receiver adapter.
     <br> 4b. Once the purchase requisition gets created, Cloud Integration sends an email to the given newly hired candidate's email ID with the PR number and direct link to open the same in SAP S/4Hana Cloud system.
-
-    <br><br>
     
 ## Summary
 You should now be familiar with the session scenario.
