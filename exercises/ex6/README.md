@@ -6,7 +6,7 @@ In this exercise, you will test the integration scenario by adding a new employe
 
 Run through the following steps:
 
-1. Logon to the SAP SuccessFactors using the user ID and password provided to you by the instructors.
+1. Logon to the [SAP SuccessFactors application](https://pmsalesdemo8.successfactors.com/login?company=SFPART069417) using the user ID and password provided to you by the instructors.
 <br><img src="/exercises/ex6/images/SAP_SFSF_Logon.png" width=60% height=60%>
 
 2. Search for `Add New Employee` and select **Add New Employee** list entry and this would bring us to the **Add New Employee Wizard**.
@@ -49,7 +49,7 @@ Run through the following steps:
    > [!IMPORTANT]
    > You have the option to choose any available position, yet it's important to note that the SAP Build Process Automation (SBPA) employs equipment determination decisions specific to roles such as **Sales**, **Marketing**, **Analyst**, **Consulting**, and **Default**. Your selected role will dictate the equipment and training list displayed in the approval form.
       <ol type="i">
-      <li><b>Select Position:</b> From drop down list - Select any available poistion (It usually automatically fills all the other fields) </li>
+      <li><b>Select Position:</b> From drop down list - Select any available position (It usually automatically fills all the other fields) </li>
       </ol>
       <br><img src="/exercises/ex6/images/SFSF_Add_5.png" width=90% height=90%>
 
