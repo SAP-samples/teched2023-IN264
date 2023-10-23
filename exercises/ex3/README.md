@@ -87,7 +87,7 @@ b) [Option B](#option-b-create-integration-flow-from-scratch): Or, you can creat
 <br><img src="/exercises/ex3/images/CI_SBPA_Deploy_Confirmation.png" width=80% height=80%>
 <br><img src="/exercises/ex3/images/CI_SBPA_Deployment.png" width=80% height=80%>
 
-12. Check the [deployment status](#)
+12. Check the [deployment status](#check-the-deployment-status).
 
 ### Option B) Create Integration Flow from scratch
 
