@@ -30,11 +30,11 @@ Run through the exercise steps in the given order.
 <br/><br/>Press the **"Save"** button.
 <br><img src="/exercises/ex3/images/CI_Create_Package_2.png" width=100% height=100%>
 
-5. Now you have two options:   
-a) [Option A](#option-a-create-integration-flow-from-scratch): Either you can copy & configure the integration flow from the solution package<br/>
-b) [Option B](#option-b-copy--configure-integration-flow-from-solution-package): Or, you can create the Integration Flow from scratch.
+5. Now, you have two options:   
+a) [Option A](#option-a-copy--configure-integration-flow-from-solution-package): Either you can copy & configure the integration flow from the solution package<br/>
+b) [Option B](#option-b-create-integration-flow-from-scratch): Or, you can create the Integration Flow from scratch.
 
->Hint: Keep the session remaining time in mind while choosing the option. **Option A** takes less time and less error prone in comariosn to **Option B**.
+>**Hint:** Keep the remaining session time in mind while selecting the option. **Option A** requires less time and is less prone to errors compared to **Option B**. On the other hand, **Option B** allows for more learning as you design the integration flow from scratch.
 
 ### Option A) Copy & Configure Integration Flow from solution package
 
