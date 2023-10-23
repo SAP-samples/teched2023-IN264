@@ -24,13 +24,13 @@ c.	Click on More options and Choose “Save As New Project” <br>
   i.	Choose the option for Select Version as “Editable Version” <br>
   ii.	Give a different project name "New Hire Onboarding Experience - IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - IN264-000" if your user is 000  <br>
   iii Give description if required <br>  
-  iv.	Click on “Save as new” <br>
+  iv.	Click on “Save as new” 
 <br>![](/exercises/ex2/images/NewProject02.jpg) <br>
 A new project is saved now. <br>
 
 ## 2)	Add parallel branches to add new Training and Equipment determination rules
 
-a.	Click on the project created and in the Overview tab, Click on “New Employee Equipment and Training Approval Process” <br>
+a.	Click on the project created and in the Overview tab and click on “New Employee Equipment and Training Approval Process” <br>
 b.	Note that the template process looks as below and contains artifacts <br>
 - An API Trigger called Workflow Trigger to start the process. <br>
 - An approval form to approve Equipment and Training Details. <br>
