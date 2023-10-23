@@ -19,20 +19,20 @@ After completing these steps you will have learnt the following.<br>
 ## 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
 a.	Go to Lobby link https://in264-72e8h9xc.eu10.build.cloud.sap/lobby <br>
 b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Template” <br>
-<br>![](/exercises/ex2/images/Save_as_New_1.png) <br>
+<br>![](/exercises/ex2/images/NewProject01.jpg) <br>
 c.	Click on More options and Choose “Save As New Project” <br>
   i.	Choose the option for Select Version as “Editable Version” <br>
   ii.	Give a different project name "New Hire Onboarding Experience - IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - IN264-000" if your user is 000  <br>
   iii Give description if required <br>  
   iv.	Click on “Save as new” <br>
-<br>![](/exercises/ex2/images/Save_as_New_2.png) <br>
+<br>![](/exercises/ex2/images/NewProject02.jpg.png) <br>
 A new project is saved now. <br>
 
 ## 2)	Add parallel branches to add new Training and Equipment determination rules
 
 a.	Click on the project created and in the Overview tab, Click on “New Employee Equipment and Training Approval Process” <br>
 b.	Note that the template process looks as below <br>
-<br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
+<br>![](/exercises/ex2/images/NewProject03.jpg) <br>
 
 It has an API Trigger called Workflow Trigger to start the process. <br>
 It has an API Trigger called Workflow Trigger to start the process. <br>
