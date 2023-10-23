@@ -12,7 +12,7 @@ Run through the exercise steps in the given order.
 <br><img src="/exercises/ex3/images/IS_Login.png" width=50% height=50%> 	
 
 2. From the navigation pane on the left side, switch to the **Design --> Integrations** area.
-   >Hint: By clicking on the burger icon on the top left corner, you can expand the navigation pane.
+   >**Hint:** By clicking on the burger icon on the top left corner, you can expand the navigation pane.
    
    <br><img src="/exercises/ex3/images/IS_CI_Navigate.png" width=90% height=90%>
 
@@ -52,6 +52,7 @@ b) [Option B](#option-b-create-integration-flow-from-scratch): Or, you can creat
 4. Press **Select** to choose another package as destination.
 <br/>As the target package, choose the package that you had created i.e. **Combine SAP Integration Suite and SAP Build Process Automation in HR - IN264-XXX** to ensure that the integration flow is copied into your package.
    > [!IMPORTANT]  
+   > Kindly use the search box and enter **IN264-XXX** to filter your package.<br/>
    > Replace **XXX** with the participant number that is assigned to you.
    <img src="/exercises/ex3/images/CI_SBPA_Copy_3.png" width=90% height=90%>
 
@@ -71,9 +72,10 @@ b) [Option B](#option-b-create-integration-flow-from-scratch): Or, you can creat
 
 9. Switch to the <b>"More"</b> tab and provide the following values:
     > [!IMPORTANT]
-    > Replace **XXX** with the participant number that is assigned to you.
-    > <br/> Make sure to add the manager Email ID in small case.
-    > <br/><br/>You only act as a manager for the hired new employee that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+    > You need to act as a manager for the newly hired employee, that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+    > <br/><br/>Replace **XXX** with the participant number that is assigned to you.
+    
+    >**Hint:** Make sure to add the manager Email ID in small case.
 
    - Manager_Email: **in264-XXX@education.cloud.sap**
    - SBPA_Workflow_Definition_ID: [**workflowDefinitionID-created-in-exercise-1**](../ex2/README.md)
@@ -147,7 +149,9 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 
 12. Select the Package **"IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution"**.
     > [!Note]
-    > Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.  
+    > Script Collection and Message Mapping artifacts that are required for this exercise is already created and deployed as part of the Solution package and with this step we just referencing the same without the need of creating it again and again for each participant.
+    
+    >**Hint:** It doesn't matter if other packages are also selected but just make sure that the **Solution** package is selected.
 
       <br><img src="/exercises/ex3/images/CI_SBPA_Model_9.png">
    
@@ -161,7 +165,9 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_11.png">
 
 15. Select the Package **"IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR - Solution"**.
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_12.png">
+    >**Hint:** It doesn't matter if other packages are also selected but just make sure that the **Solution** package is selected.
+    
+    <br><img src="/exercises/ex3/images/CI_SBPA_Model_12.png">
 
 16. Select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>" and press <b>OK</b>.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_13.png">
@@ -181,23 +187,21 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 21. Navigate to "<b>Global Resources</b>" and choose "<b>Log_Payload</b>". Press "<b>OK</b>".  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_17.png">
 
-22. Enter <b>logNewHireEventPayload</b> as Script Function.  
-<br><img src="/exercises/ex3/images/CI_SBPA_Model_18.png">
-
-23. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.
+22. Select the "<b>Log New Hire Event Payload</b>" step and press the "<b>+</b>" button.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_19.png">
 
-24. Choose "<b>Content Modifier</b>" step.
+23. Choose "<b>Content Modifier</b>" step.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_20.png"> 
 
-25. Rename the step to <b>Set Properties</b>.  
+24. Rename the step to <b>Set Properties</b>.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_21.png"> 
 
-26. Switch to the "<b>Exchange Property</b>" tab and press the "<b>Add</b>" button twice to provide the following values:
+25. Switch to the "<b>Exchange Property</b>" tab and press the "<b>Add</b>" button twice to provide the following values:
     > [!IMPORTANT]
-    > Replace **XXX** with the participant number that is assigned to you.
-    > <br/> Make sure to add the manager Email ID in small case.
-    > <br/><br/>You only act as a manager for the hired new employee that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+    > You need to act as a manager for the newly hired employee, that's why we need to add your used ID as Manager's Email ID, so that you get the approval task in your inbox.
+    > <br/><br/>Replace **XXX** with the participant number that is assigned to you.
+    
+    >**Hint:** Make sure to add the manager Email ID in small case.
     
     - <b>Property 1</b>
        - Name: **managerEmailID**
@@ -211,33 +215,33 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 
       <br><img src="/exercises/ex3/images/CI_SBPA_Model_22.png"> 
 
-27. Widen the Integration Process box to make space for some more steps. Select the "<b>Set Properties</b>" step and press the "<b>+</b>" button to create a new step.  
+26. Widen the Integration Process box to make space for some more steps. Select the "<b>Set Properties</b>" step and press the "<b>+</b>" button to create a new step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_23.png"> 
 
-28. Search for <b>Message</b> and choose <b>Message Mapping</b> step.
+27. Search for <b>Message</b> and choose <b>Message Mapping</b> step.
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_24.png">   
 
-29. Rename the step to <b>Map New Hire Event Payload to SBPA Workflow Payload</b>.
-    >Hint: Widen the process step to see the full name.
+28. Rename the step to <b>Map New Hire Event Payload to SBPA Workflow Payload</b>.
+    >**Hint:** Widen the process step to see the full name.
     
     <br><img src="/exercises/ex3/images/CI_SBPA_Model_25.png">
 
-30. Switch to the "<b>Processing</b>" tab and press the "<b>Select</b>" button.  
+29. Switch to the "<b>Processing</b>" tab and press the "<b>Select</b>" button.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_26.png">
 
-31. Open "<b>Global Resources</b>" and select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>" mapping.  
+30. Open "<b>Global Resources</b>" and select "<b>MM_SFSF_Event_JSON_to_SBPA_Workflow_JSON</b>" mapping.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_27.png">
 
-32. Select the "<b>Map New Hire Event Payload to SBPA Workflow Payload</b>" step and press the "<b>+</b>" button.  
+31. Select the "<b>Map New Hire Event Payload to SBPA Workflow Payload</b>" step and press the "<b>+</b>" button.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_28.png">
 
-33. Choose "<b>Content Modifier</b>" step.  
+32. Choose "<b>Content Modifier</b>" step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_29.png">
 
-34. Rename the step to <b>Set Headers</b>.  
+33. Rename the step to <b>Set Headers</b>.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_30.png">
 
-35. Switch to the "<b>Message Header</b>" tab and press the "<b>Add</b>" button twice to provide the following headers:
+34. Switch to the "<b>Message Header</b>" tab and press the "<b>Add</b>" button twice to provide the following headers:
    > [!Note]
    > **SAP_ApplicationID** header allows you to search with the new hire employee ID in the Message Processing Logs (MPL).
 
@@ -253,27 +257,27 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 
       <br><img src="/exercises/ex3/images/CI_SBPA_Model_30_5.png">
 
-36. Select the "<b>Set Headers</b>" step and press the "<b>+</b>" button to add the last step.  
+35. Select the "<b>Set Headers</b>" step and press the "<b>+</b>" button to add the last step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_31.png"> 
 
-37. Choose "<b>Request Reply</b>" step.  
+36. Choose "<b>Request Reply</b>" step.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_32.png">  
 
-38. Rename the step to <b>Trigger SAP Build Process Automation Workflow</b>.
->Hint: Widen the process step to see the full name.  
+37. Rename the step to <b>Trigger SAP Build Process Automation Workflow</b>.
+>**Hint:** Widen the process step to see the full name.  
 
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_32_5.png"> 
 
-39. Place the "<b>Receiver</b>" underneath to the Integration Process and rename it to <b>SBPA</b>.  
+38. Place the "<b>Receiver</b>" underneath to the Integration Process and rename it to <b>SBPA</b>.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_33.png">
 
-40. Select the "<b>Trigger SAP Build Process Automation Workflow</b>" step. Press and drag the "<b>Connector</b>" button to connect the Request Reply step with the <b>SPBA</b> receiver.  
+39. Select the "<b>Trigger SAP Build Process Automation Workflow</b>" step. Press and drag the "<b>Connector</b>" button to connect the Request Reply step with the <b>SPBA</b> receiver.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_34.png">
 
-41. Select "<b>HTTP</b>" as Receiver Adapter.  
+40. Select "<b>HTTP</b>" as Receiver Adapter.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_35.png">
 
-42. Navigate to "<b>Connection</b>" and provide the following details:  
+41. Navigate to "<b>Connection</b>" and provide the following details:  
 
 - Address: **https://spa-api-gateway-bpi-eu-prod.cfapps.eu10.hana.ondemand.com/workflow/rest/v1/workflow-instances**
 - Method: **POST**
@@ -282,6 +286,9 @@ Click <b>“Add References” -> “Script Collection”</b> to create a new Scr
 - Request Headers: **Content-Type**  
 
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_36.png">
+
+42. Finally, your integration flow should like the given screenshot:
+<br><img src="/exercises/ex3/images/CI_SBPA_Model_36_5.png">
 
 43. Click “<b>Save as Version</b>” on top right of the window.  
 <br><img src="/exercises/ex3/images/CI_SBPA_Model_37.png"> 
