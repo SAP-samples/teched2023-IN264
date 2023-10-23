@@ -60,7 +60,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 11. Keep the default configuration and click the <b>"Apply"</b> button.
 <br><img src="/exercises/ex1/images/AEM_Apply_1_Queue.png" width=90% height=90%>
 
-12. Select the Queue thay you have just created i.e., <b>NewHire_Workflow_IN264-XXX</b> 
+12. Select and open the Queue thay you have just created i.e., <b>NewHire_Workflow_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_1_Queue.png" width=90% height=90%>
 
 13. Navigate to <b>"Subscriptions"</b> tab and click the <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
@@ -83,7 +83,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 18. Keep the default configuration and click the <b>"Apply"</b> button.
 <br><img src="/exercises/ex1/images/AEM_Apply_2_Queue.png" width=90% height=90%>
 
-19. Select the Queue thay you have just created i.e., <b>NewHire_SurveyEmail_IN264-XXX</b> 
+19. Select and open the Queue thay you have just created i.e., <b>NewHire_SurveyEmail_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_2_Queue.png" width=90% height=90%>
 
 20. Navigate to <b>"Subscriptions"</b> tab and click the <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
@@ -96,7 +96,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 22.  Naviagte back to Queues.  
 <br><img src="/exercises/ex1/images/AEM_Navigate_Back_Queues_2.png" width=90% height=90%>
 
-23. Click the <b>"+ Queue"</b> button on the top right area to create a second queue.
+23. Click the <b>"+ Queue"</b> button on the top right area to create a third queue.
 <br><img src="/exercises/ex1/images/AEM_Manage_3_Queue.png" width=90% height=90%>    
 
 24. Enter the following Queue Name and click the <b>"Create"</b> button:
@@ -106,7 +106,7 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 25. Keep the default configuration and click the <b>"Apply"</b> button.
 <br><img src="/exercises/ex1/images/AEM_Apply_3_Queue.png" width=90% height=90%>
 
-26. Select the Queue thay you have just created i.e., <b>ApprovedNewHire_PR_IN264-XXX</b> 
+26. Select and open the Queue thay you have just created i.e., <b>ApprovedNewHire_PR_IN264-XXX</b> 
 <br><img src="/exercises/ex1/images/AEM_Select_3_Queue.png" width=90% height=90%>
 
 27. Navigate to <b>"Subscriptions"</b> tab and click the <b>"+ Subscription"</b> button on the top right area to create a new topic subscription.
@@ -124,4 +124,4 @@ As mentioned earlier, each participant has to create the following 3 queues and 
 At the end of the first part of the session, you should have created 3 queues and subscribed to the relevant topic. 
 <br/>Please make sure that you have used the right nomenclature and replaced **XXX** with the participant number that is assigned to you.
 
-Continue to - [Exercise 2 -](/exercises/ex2/README.md)
+Continue to - [Exercise 2 - Create and Configure the SAP Build Process Automation Project for Equipment and Training Approval Workflow](/exercises/ex2/README.md)
