@@ -1,22 +1,23 @@
-# Configure the SAP Build Process Automation Project
+# Exrecise 2 - Create and Configure the SAP Build Process Automation Project for Equipment and Training Approval Workflow
 
+## Overview
 In this exercise, you will configure a SAP Build Process Automation project which can trigger an approval process for the equipments and training requests for the newly onboarded employee in SuccessFactors.
 
 ## Pre-requisite
-SAP Build Process Automation project “New Hire Onboarding Experience – Enterprise Automation Template” is given as a template
+SAP Build Process Automation project “New Hire Onboarding Experience – Enterprise Automation Template” is given as a template.
 
-## Steps to configure the SAP Build Process Automation Project
+## Exercise steps
 After completing these steps you will have learnt the following.<br>
 
-1)How to do a Save as New Project of the sample Employee Onboarding Process Project<br>
-2)Add parallel branches to add new Training and Equipment determination rules<br>
-3)Configure the decision to determine Equipments for the newly hired employee<br>
+1) How to do a Save as New Project of the sample Employee Onboarding Process Project<br>
+2) Add parallel branches to add new Training and Equipment determination rules<br>
+3) Configure the decision to determine Equipments for the newly hired employee<br>
 4) Configure the decision to determine Trainings for the newly hired employee<br>
 5) Configure Actions inputs to the data from equipment and training decisions <br>
 6) Release and Deploy<br>
 7) Get the Process Instance ID<br>
 
-## 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
+### 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
 a.	Go to Lobby link https://in264-72e8h9xc.eu10.build.cloud.sap/lobby <br>
 b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Template” <br>
 <br>![](/exercises/ex2/images/NewProject01.jpg) <br>
@@ -28,7 +29,7 @@ c.	Click on More options and Choose “Save As New Project” <br>
 <br>![](/exercises/ex2/images/NewProject02.jpg) <br>
 A new project is saved now. <br>
 
-## 2)	Add parallel branches to add new Training and Equipment determination rules
+### 2)	Add parallel branches to add new Training and Equipment determination rules
 
 a.	Click on the project created and in the Overview tab and click on “New Employee Equipment and Training Approval Process” <br>
 b.	Note that the template process looks as below and contains artifacts <br>
@@ -58,7 +59,7 @@ j.	Map the inputs of the decision from the Process Inputs <br>
 Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
 
-## 3)	Configure the decision to determine Equipments for the newly hired employee
+### 3)	Configure the decision to determine Equipments for the newly hired employee
   a.	Click on Decision “Equipment Determination” <br>
   b.	Click on Edit Decision <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
@@ -76,7 +77,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   
 Equipment Determination decision is configured now 
 
-## 4)	Configure the decision to determine Trainings for the newly hired employee
+### 4)	Configure the decision to determine Trainings for the newly hired employee
 
   a.	Click on Decision “Training Determination” <br>
   b.	Click on Edit Decision <br>
@@ -91,7 +92,7 @@ Equipment Determination decision is configured now
   
 Training Determination decision is configured now 
 
-## 5)	Configure Actions inputs to the data from equipment and training decisions
+### 5)	Configure Actions inputs to the data from equipment and training decisions
 
   a. Click on the Action Project and check the data under Input tab. Note tht most of the fields are already mapped to the Process Inputs.
   <br>![](/exercises/ex2/images/NewAction01.jpg) <br>
@@ -102,7 +103,7 @@ Training Determination decision is configured now
   d. Save the changes <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
 
-## 6)	Release and Deploy
+### 6)	Release and Deploy
   a. Click on the Release button in the Process Builder.
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
   b. Click on Release button on the Release Projext pop-up window.
@@ -118,7 +119,7 @@ Training Determination decision is configured now
   g. Note that the project is deployed <br>
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
 
-## 7)	Get the Process Instance ID
+### 7)	Get the Process Instance ID
 
   a. From the Lobby screen click Monitor.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
