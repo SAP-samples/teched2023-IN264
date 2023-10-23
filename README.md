@@ -7,12 +7,13 @@
 
 This repository contains the material for the SAP TechEd 2023 hands-on session called **IN264 - Combine SAP Integration Suite and SAP Build Process Automation in HR**
 
-The **Onboarding** process is a crucial and very common activity of **Human Resource** department of any organization, influencing the experience and success of new hires. Organisations often face challenges in onboarding process especially with equipments and trainings that are required by the new-hire. If these not done right, the onboarding process can involve manual and repetitive tasks, leading to inefficiencies and delays. A solution is needed that enables seamless event-driven integration, process automation and customization to provide a personalized onboarding experience for new hires.
+The **Onboarding** process is a crucial and very common activity of **Human Resource** department of any organization, influencing the experience and success of new hires. Organisations often face challenges in onboarding process especially with equipments and trainings that are required by the new-hire. If these not done right, the onboarding process can involve manual and repetitive tasks, leading to inefficiencies and delays. A solution is needed that enables [**enterprise automation**](https://www.sap.com/india/products/technology-platform/enterprise-automation.html) using seamless event-driven integration, process automation and customization to provide a personalized onboarding experience for new hires.
 
 ## Overview
 
 SAP Integration Suite & SAP Build can support our customers today by quickly identifying, vetting and automating as many processes as possible.
-Let us implement and learn how to improve the new hire experience with enterprise automation solutions from SAP. While you manage employee onboarding with SAP SuccessFactors solution, use the Advance Event Mesh capability within SAP Integration Suite to trigger real-time event-driven business process integrations. One of these involves starting an approval workflow process using the SAP Build Process Automation solution, ensuring you involve the relevant stakeholders in certain scenarios. Let us experience the combination of integration and automation in this HR scenario.
+Let us implement and learn how to improve the new hire experience with [**enterprise automation**](https://www.sap.com/india/products/technology-platform/enterprise-automation.html) solutions from SAP. While you manage employee onboarding with SAP SuccessFactors solution, use the Advance Event Mesh capability within SAP Integration Suite to trigger real-time event-driven business process integrations. One of these involves starting an approval workflow process using the SAP Build Process Automation solution, ensuring you involve the relevant stakeholders in certain scenarios. Let us experience the combination of integration and automation in this HR scenario.
+<img src="/images/enterprise_automation.jpeg" width=100% height=100%>
 
 By leveraging event-based integration patterns and low-code/no-code process automation, organizations can :
 - extend and customize the onboarding experience,
