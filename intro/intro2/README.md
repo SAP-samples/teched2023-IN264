@@ -10,8 +10,8 @@ Run through the following steps in the given order and kindly do not touch or ch
 2. Select <b>My Integrations</b> from the Integration Center landing page.
     <br><img src="/intro/intro2/images/Integration_Center.png" width=90% height=90%>
 
-3. We have aready created an integration with the name <b>IN264 - Combine SAP Integration Suite and SAP Build in HR</b>.<br/>
-In this we have defined the <b>New Hire</b> attributes and <b>REST Destination</b> to publish the new hire event data to <b>SAP Integration Suite, advanced event mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where EmployeeId gets dynamically resolved from the new hire payload. Once it get published to the topic, any one can subscribe to the new hire event.
+3. We have already created an integration with the name <b>IN264 - Combine SAP Integration Suite and SAP Build in HR</b>.<br/>
+In this we have defined the <b>New Hire</b> attributes and <b>REST Destination</b> to publish the new hire event data to <b>SAP Integration Suite, advanced event mesh</b> topic `SuccessFactors/NewHire/{EmployeeId}` where EmployeeId gets dynamically resolved from the new hire payload. Once it get published to the topic, anyone can subscribe to the new hire event.
     <br><img src="/intro/intro2/images/Integration_Center_List.png" width=90% height=90%>
 
 4. In the <b>Options</b> tab, we have provided the <b>Integration Name</b> and <b>Description</b>. Click <b>Next</b> to see the configured fields.
