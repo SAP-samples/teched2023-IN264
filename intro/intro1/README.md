@@ -33,12 +33,12 @@ The advantage of event-driven integration is that you can easily add or remove s
     <br> 2b. By clicking the survey link, candidate can provide the onboarding experience feedback.
 
 3. <b>Second Subscriber</b> listens to the different AEM queue that is also subscribed to the same topic `SuccessFactors/NewHire/{EmployeeId}` using the Cloud Integration <b>AMQP</b> sender adapter.
-    <br> 3a. It triggers the equipment and training approval workflow in SAP Build Process Automation with Equipment and Training <b>Decisions</b> and assigns the task to the manager on the given manager's email ID using the Cloud Integration <b>HTTPS</b> receiver adapter. This will be visible in the Manager's Task Center(one inbox).
+    <br> 3a. It triggers the equipment and training approval workflow in SAP Build Process Automation with Equipment and Training <b>Decisions</b> and assigns the task to the manager on the given manager's email ID using the Cloud Integration <b>HTTPS</b> receiver adapter. This will be visible in the Manager's My Inbox.
     <br> 3b. On manager's approval or rejection, workflow notify the same to the newly hired candidate on the given candidate's email ID.
     <br> 3c. On manager's approval, it also <b>publishes</b> the approval event directly to the <b>SAP Integration Suite, advanced event mesh</b> topic `SBPA/NewHire/{EmployeeId}/Approval` where `EmployeeId` gets dynamically resolved from the new hire payload.
 
 4. <b>Third Subscriber</b> listens to the another AEM queue that is subscribed to the approval topic `SBPA/NewHire/{EmployeeId}/Approval` using the Cloud Integration <b>AMQP</b> sender adapter.
-    <br> 4a. It automatically creates a purchase requisition (PR) with the approved equipments list in the S/4HANA Cloud system using the <b>OData</b> receiver adapter.
+    <br> 4a. It automatically creates a purchase requisition (PR) with the approved equipment list in the S/4HANA Cloud system using the <b>OData</b> receiver adapter.
     <br> 4b. Once the purchase requisition gets created, Cloud Integration sends an email to the given newly hired candidate's email ID with the PR number and direct link to open the same in SAP S/4Hana Cloud system.
     
 ## Summary
