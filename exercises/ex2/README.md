@@ -1,4 +1,4 @@
-# Exrecise 2 - Create and Configure the SAP Build Process Automation Project for Equipment and Training Approval Workflow
+# Exercise 2 - Create and Configure the SAP Build Process Automation Project for Equipment and Training Approval Workflow
 
 ## Overview
 In this exercise, you will configure a SAP Build Process Automation project which can trigger an approval process for the equipments and training requests for the newly onboarded employee in SuccessFactors.
