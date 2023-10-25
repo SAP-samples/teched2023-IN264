@@ -59,48 +59,36 @@ j.	Map the inputs of the decision from the Process Inputs <br>
 Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
 
-### 3)	Configure the decision to determine Equipments for the newly hired employee
+### 3)	View the decision to determine Equipments for the newly hired employee
   a.	Click on Decision “Equipment Determination” <br>
   b.	Click on Edit Decision <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
   c.	Click on “Rules” and “Equipment Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_2.png) <br>
-  d.	Check the row containing 'Leather Executive Laptop Bag' and click on "Copy Row" <br>
+  d.	Check the rows containing rules and note the rules to determine the equipments based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_3.png) <br>
-  e.	Check the same row again and now click on "Paste Row" and "Insert After" <br>
-  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_4.png) <br>
-  f.	A new row will be created <br>
-  g.  Now click on Job Title field and change from "CONTAINS ('Sales')" to "CONTAINS('Marketing')" <br>
-  <br>![](/exercises/ex2/images/Configure_Equipment_Determination_5.png) <br>
-  h.	Save it <br>
-  i. So, now we have configured the decision to determine 'Leather Executive Laptop Bag' also as an equipment for a new employee with Job Title which contains 'Marketing', say for example, a Marketing Specialist or a Marketing Manager and so on.<br>
-  
-Equipment Determination decision is configured now 
+  e. Do not change anything and close the rule editor window.
 
-### 4)	Configure the decision to determine Trainings for the newly hired employee
+### 4)	View the decision to determine Trainings for the newly hired employee
 
   a.	Click on Decision “Training Determination” <br>
   b.	Click on Edit Decision <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
   c.	Click on “Rules” and “Training Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
-  d.	Check the row containing Training name as "Compliance and Reporting" and click on "Delete Row" <br>
+  d.	Check the rows and note the rules to determine the equipments based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_3.png) <br>
-  e.	This action will remove this row. <br>
-  f.	Save it <br>
-  g. So we have removed the training "Compliance and Reporting" for a new employee with Job Title containing 'Sales' , say for example, a Sales Manager or a Sales Representative and so on as this training is no more relevant for this role. 
-  
-Training Determination decision is configured now 
+  e. Do not change anything and close the rule editor window.
 
 ### 5)	Configure Actions inputs to the data from equipment and training decisions
 
-  a. Click on the Action Project and check the data under Input tab. Note tht most of the fields are already mapped to the Process Inputs.
+  a. Click on the Action Project and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
   <br>![](/exercises/ex2/images/NewAction01.jpg) <br>
-  b. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , click on input field in Equipments and select Equipment Determination - Equipments. <br>
+  b. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
   <br>![](/exercises/ex2/images/NewAction02.jpg) <br>
-  c. Now we will map the training data to the Actions project. For the Action, click on the Input tab , click on input field in Trainings and select TrainingDetermination - Trainings. <br>
+  c. Now we will map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. <br>
   <br>![](/exercises/ex2/images/NewAction03.jpg) <br>
-  d. Save the changes <br>
+  d. Not that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
 
 ### 6)	Release and Deploy
