@@ -4,7 +4,7 @@
 In this exercise, you will configure a SAP Build Process Automation project which can trigger an approval process for the equipments and training requests for the newly onboarded employee in SuccessFactors.
 
 ## Pre-requisite
-SAP Build Process Automation project “New Hire Onboarding Experience – Enterprise Automation Template” is given as a template.
+SAP Build Process Automation project “New Hire Onboarding Experience – Template” is given as a template.
 
 ## Exercise steps
 After completing these steps you will have learnt the following.<br>
