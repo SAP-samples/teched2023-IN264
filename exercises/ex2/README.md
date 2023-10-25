@@ -13,9 +13,10 @@ After completing these steps you will have learnt the following.<br>
 2) Add parallel branches to add new Training and Equipment determination rules<br>
 3) View the decision to determine Equipments for the newly hired employee<br>
 4) View the decision to determine Trainings for the newly hired employee<br>
-5) Configure Actions inputs to the data from equipment and training decisions <br>
-6) Release and Deploy<br>
-7) Get the Process Instance ID<br>
+5) Configure approval form inputs to the data from equipment and training decisions <br>
+6) Configure Actions inputs to the data from equipment and training decisions <br>
+7) Release and Deploy<br>
+8) Get the Process Instance ID<br>
 
 ### 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
 a.	Go to Lobby link https://in264-72e8h9xc.eu10.build.cloud.sap/lobby <br>
@@ -80,7 +81,21 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/TrainingDecisionView.jpg) <br>
   e. Do not change anything and close the rule editor window.
 
-### 5)	Configure Actions inputs to the data from equipment and training decisions
+### 5)	 Configure approval form inputs to the data from equipment and training decisions
+
+  a. Click on the Approval Form and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
+  <br>![](/exercises/ex2/images/NewAction01.jpg) <br>
+  b. Now we will map the equipment data to the Actions project. For the Approval Form, click on the Input tab , expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. 
+  <br>![](/exercises/ex2/images/NewAction02.jpg) <br>
+  c. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
+  <br>![](/exercises/ex2/images/NewAction02.jpg) <br>
+  d. Now we will map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. <br>
+  <br>![](/exercises/ex2/images/NewAction03.jpg) <br>
+  e. Note that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
+  <br>![](/exercises/ex2/images/Actions010.jpg) <br>
+  f. Save the project
+
+### 6)	Configure Actions inputs to the data from equipment and training decisions
 
   a. Click on the Action Project and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
   <br>![](/exercises/ex2/images/NewAction01.jpg) <br>
@@ -91,7 +106,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   d. Not that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
 
-### 6)	Release and Deploy
+### 7)	Release and Deploy
   a. Click on the Release button in the Process Builder.
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
   b. Click on Release button on the Release Projext pop-up window.
@@ -107,7 +122,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   g. Note that the project is deployed <br>
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
 
-### 7)	Get the Process Instance ID
+### 8)	Get the Process Instance ID
 
   a. From the Lobby screen click Monitor.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
