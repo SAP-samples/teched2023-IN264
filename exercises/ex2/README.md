@@ -11,8 +11,8 @@ After completing these steps you will have learnt the following.<br>
 
 1) How to do a Save as New Project of the sample Employee Onboarding Process Project<br>
 2) Add parallel branches to add new Training and Equipment determination rules<br>
-3) Configure the decision to determine Equipments for the newly hired employee<br>
-4) Configure the decision to determine Trainings for the newly hired employee<br>
+3) View the decision to determine Equipments for the newly hired employee<br>
+4) View the decision to determine Trainings for the newly hired employee<br>
 5) Configure Actions inputs to the data from equipment and training decisions <br>
 6) Release and Deploy<br>
 7) Get the Process Instance ID<br>
