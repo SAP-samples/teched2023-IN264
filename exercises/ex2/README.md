@@ -85,15 +85,14 @@ Now we have created  parallel branches to determine equipments and trainings for
 
   a. Click on the Approval Form and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
   <br>![](/exercises/ex2/images/Forms1.jpg) <br>
-  b. Now we will map the equipment data to the appproval form. For the Approval Form, click on the Input tab , expand the "Equipment for new hire" list, click on input field in Equipments and select Equipment Determination - Equipments. 
+  b. Now we will map the equipment data to the appproval form. For the Approval Form, click on the Input tab , expand the "Equipment for new hire" list, click on input field in Equipments and select Equipment Determination - Equipments.  Save the changes.
   <br>![](/exercises/ex2/images/Forms2.jpg) <br>
   c. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
   <br>![](/exercises/ex2/images/Forms3.jpg) <br>
   d. Now we will map the training data to the approval form. For the Approval Form, click on the Input tab,  expand the "Trainings for new hire" list, click on input field in Trainings and select TrainingDetermination - Trainings. <br>
   <br>![](/exercises/ex2/images/Forms4.jpg) <br>
-  e. Note that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
+  e. Note that the Training list data is automatically mapped with the data from the decision. Save the changes. <br>
   <br>![](/exercises/ex2/images/Forms5.jpg) <br>
-  f. Save the project
 
 ### 6)	Configure Actions inputs to the data from equipment and training decisions
 
