@@ -76,7 +76,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
   c.	Click on “Rules” and “Training Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
-  d.	Check the rows and note the rules to determine the equipments based on the employee job title are already defined. <br>
+  d.	Check the rows and note the rules to determine the trainings based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/TrainingDecisionView.jpg) <br>
   e. Do not change anything and close the rule editor window.
 
