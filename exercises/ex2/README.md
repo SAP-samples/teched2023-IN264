@@ -40,7 +40,7 @@ b.	Note that the template process looks as below and contains artifacts <br>
 - An approval form to approve Equipment and Training Details. <br>
 - 2 email notifications for approval and rejection flows. <br>
 <br>![](/exercises/ex2/images/NewProject03.png) <br>
-c. The decisions Equipment determination and Training determination are created in  a sequential manner for you in the template project where the execution will happen sequentially in the order . As part of this step in the exercise, we will remove the sequential decisions and add the two decisions in parallel branches to determine the equipments and training so that execution will happen in parallel as there is no dependency between the two decisions and processing will be faster <br>.
+c. The decisions Equipment determination and Training determination are created in  a sequential manner for you in the template project where the execution will happen sequentially in the order . As part of this step in the exercise, we will remove the sequential decisions and add the two decisions in parallel branches to determine the equipments and training so that execution will happen in parallel as there is no dependency between the two decisions and processing will be faster <br>
 Remove the decision Equipment Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
 d.	Remove the decision Training Determination <br>
