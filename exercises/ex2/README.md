@@ -110,15 +110,13 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/ActionsNew009.jpg) <br>
   g. Save the changes. Note that the employeeID is now mapped. <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
-  h. For the Action Project, expand "context" and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
+  h. For the Action Project, expand "context" and check the data under Input tab. We need to map the inputs to the Process Inputs as shown below. All the inputs data needs to be mapped correctly else the end to end execution of the scenario could fail.
   <br>![](/exercises/ex2/images/ActionContext.jpg) <br>
-  i. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. 
+  i. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. Any data that is not mapped automatically needs to  be mapped manually. All the inputs data needs to be mapped correctly else the end to end execution of the scenario could fail.
   <br>![](/exercises/ex2/images/ActionEquipment1.jpg) <br>
-  j. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
-  <br>![](/exercises/ex2/images/ActionEquipment2.jpg) <br>
-  k. Now we will map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. <br>
+  j. Now we will map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. Any data that is not mapped automatically needs to  be mapped manually. All the inputs data needs to be mapped correctly else the end to end execution of the scenario could fail. <br>
   <br>![](/exercises/ex2/images/ActionTraining1.jpg) <br>
-  l. Note that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
+  k. Save the changes <br>
   <br>![](/exercises/ex2/images/ActionTraining2.jpg) <br>
 
 ### 7)	Release and Deploy
