@@ -40,26 +40,26 @@ b.	Note that the template process looks as below and contains artifacts <br>
 - An approval form to approve Equipment and Training Details. <br>
 - 2 email notifications for approval and rejection flows. <br>
 <br>![](/exercises/ex2/images/NewProject03.png) <br>
-c. The decisions Equipment determination and Training determination are created in  a sequential manner for you in the template project where the execution will happen sequentially in the order . As part of this step in the exercise, we will remove the sequential decisions and add the two decisions in parallel branches to determine the equipments and training so that execution will happen in parallel as there is no dependency between the two decisions and processing will be faster <br>
-Remove the decision Equipment Determination <br>
-<br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
-d.	Remove the decision Training Determination <br>
-<br>![](/exercises/ex2/images/Add_Parallel_Gateway_2.png) <br>
-e.	Add a Branch <br>
+c. The decisions Equipment determination and Training determination are created in  a sequential manner for you in the template project where the execution will happen sequentially in the order . As part of this step in the exercise, we will remove the sequential decisions and add the two decisions in parallel branches to determine the equipments and training so that execution will happen in parallel as there is no dependency between the two decisions and processing will be faster. <br>
+      i) Remove the decision Equipment Determination <br>
+         <br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
+      ii) Remove the decision Training Determination <br>
+          <br>![](/exercises/ex2/images/Add_Parallel_Gateway_2.png) <br>
+d.	Add a Branch <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_3.png) <br>
-f.	Give the step name as “Determine Equipments and Trainings” <br>
-g.	Give branches as <br>
+e.	Give the step name as “Determine Equipments and Trainings” <br>
+f.	Give branches as <br>
     i.	Equipment determination <br>
     ii.	Training determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_4.png) <br>
-h.	Click on the + next to Equipment determination branch and add Decision->Equipment Determination <br>
+g.	Click on the + next to Equipment determination branch and add Decision->Equipment Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
-i.	Map the inputs of the decision from the Process Inputs <br>
+h.	Map the inputs of the decision from the Process Inputs <br>
   Job Title <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
-j.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
+i.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
-k.	Map the inputs of the decision from the Process Inputs <br>
+j.	Map the inputs of the decision from the Process Inputs <br>
     Job Title <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
 Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
