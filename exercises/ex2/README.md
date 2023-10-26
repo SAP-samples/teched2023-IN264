@@ -35,26 +35,30 @@ A new project is saved now. <br>
 a.	Click on the project created and in the Overview tab and click on “New Employee Equipment and Training Approval Process” <br>
 b.	Note that the template process looks as below and contains artifacts <br>
 - An API Trigger called Workflow Trigger to start the process. <br>
+- Equipment Determination decsion to determine equipments for the new employee. <br>
+- Training Determination decsion to determine trainings for the new employee. <br>
 - An approval form to approve Equipment and Training Details. <br>
 - 2 email notifications for approval and rejection flows. <br>
-- An Action to publish the Manager Approval Event to Advanced Event Mesh. <br>
-<br>![](/exercises/ex2/images/NewProject03.jpg) <br>
-
-d.	Add a Branch <br>
+<br>![](/exercises/ex2/images/NewProject03.png) <br>
+c. Remove the decision Equipment Determination <br>
+<br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
+d.	Remove the decision Training Determination <br>
+<br>![](/exercises/ex2/images/Add_Parallel_Gateway_2.png) <br>
+e.	Add a Branch <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_3.png) <br>
-e.	Give the step name as “Determine Equipments and Trainings” <br>
-f.	Give branches as <br>
+f.	Give the step name as “Determine Equipments and Trainings” <br>
+g.	Give branches as <br>
     i.	Equipment determination <br>
     ii.	Training determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_4.png) <br>
-g.	Click on the + next to Equipment determination branch and add Decision->Equipment Determination <br>
+h.	Click on the + next to Equipment determination branch and add Decision->Equipment Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
-h.	Map the inputs of the decision from the Process Inputs <br>
+i.	Map the inputs of the decision from the Process Inputs <br>
   Job Title <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
-i.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
+j.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
-j.	Map the inputs of the decision from the Process Inputs <br>
+k.	Map the inputs of the decision from the Process Inputs <br>
     Job Title <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
 Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
