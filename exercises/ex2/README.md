@@ -119,7 +119,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   j. Map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. Any data that is not mapped automatically needs to  be mapped manually.<br>
   <br>![](/exercises/ex2/images/ActionMapping5.jpg) <br>
   k. Map the "Manager Comment" field to "comments" from the Approval Form outputs. Save the changes <br>
-  <br>![](/exercises/ex2/images/ActionTraining6.jpg) <br>
+  <br>![](/exercises/ex2/images/ActionMapping6.jpg) <br>
 
 ### 7)	Release and Deploy
   a. Click on the Release button in the Process Builder.
