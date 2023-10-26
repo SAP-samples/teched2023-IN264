@@ -96,15 +96,29 @@ Now we have created  parallel branches to determine equipments and trainings for
 
 ### 6)	Configure Actions inputs to the data from equipment and training decisions
 
-  a. Click on the Action Project, expand "context" and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
+  a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
+  <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
+  b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
+  <br>![](/exercises/ex2/images/ActionsNew002.jpg) <br>
+  c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
+  <br>![](/exercises/ex2/images/ActionsNew003.jpg) <br>
+  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
+  <br>![](/exercises/ex2/images/ActionsNew004.png) <br>
+  e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
+  <br>![](/exercises/ex2/images/ActionsNew008.jpg) <br>
+  f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID. <br>
+  <br>![](/exercises/ex2/images/ActionsNew009.jpg) <br>
+  g. Save the changes. Note that the employeeID is now mapped. <br>
+  <br>![](/exercises/ex2/images/Actions010.jpg) <br>
+  h. For the Action Project, expand "context" and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
   <br>![](/exercises/ex2/images/ActionContext.jpg) <br>
-  b. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. 
+  i. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. 
   <br>![](/exercises/ex2/images/ActionEquipment1.jpg) <br>
-  c. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
+  j. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
   <br>![](/exercises/ex2/images/ActionEquipment2.jpg) <br>
-  d. Now we will map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. <br>
+  k. Now we will map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. <br>
   <br>![](/exercises/ex2/images/ActionTraining1.jpg) <br>
-  e. Note that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
+  l. Note that the Training list data is automatically mapped with the data from the decision. Save the changes <br>
   <br>![](/exercises/ex2/images/ActionTraining2.jpg) <br>
 
 ### 7)	Release and Deploy
