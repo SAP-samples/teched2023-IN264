@@ -71,9 +71,10 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
   c.	Click on “Rules” and “Equipment Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_2.png) <br>
-  d.	Check the rows containing rules and note the rules to determine the equipments based on the employee job title are already defined. <br>
+  d. Click on Full Screen mode <br>
+  e.	Check the rows containing rules and note the rules to determine the equipments based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/EquipmentDecisionView.jpg) <br>
-  e. Do not change anything and close the rule editor window.
+  f. Do not change anything and close the rule editor window.
 
 ### 4)	View the decision Trainings for the newly hired employee
 
@@ -82,9 +83,10 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
   c.	Click on “Rules” and “Training Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
-  d.	Check the rows and note the rules to determine the trainings based on the employee job title are already defined. <br>
+  d. Click on Full Screen mode <br>
+  e.	Check the rows and note the rules to determine the trainings based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/TrainingDecisionView.jpg) <br>
-  e. Do not change anything and close the rule editor window.
+  f. Do not change anything and close the rule editor window.
 
 ### 5)	 Configure approval form inputs to the data from equipment and training decisions
 
