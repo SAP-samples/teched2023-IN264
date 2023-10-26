@@ -14,7 +14,7 @@ After completing these steps you will have learnt the following.<br>
 3) View the decision to determine Equipments for the newly hired employee<br>
 4) View the decision to determine Trainings for the newly hired employee<br>
 5) Configure approval form inputs to the data from equipment and training decisions <br>
-6) Configure Actions inputs to the data from equipment and training decisions <br>
+6) Consume Actions project to publish the approval event to Advanced Event Mesh(AEM) <br>
 7) Release and Deploy<br>
 8) Get the Process Instance ID<br>
 
@@ -97,7 +97,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   c. Now we will map the training data to the approval form. For the Approval Form, click on the Input tab,  expand the "Trainings for new hire" list, click on input field in Trainings and select TrainingDetermination - Trainings.Any data that is not mapped automatically needs to  be mapped manually. Save the changes. <br>
   <br>![](/exercises/ex2/images/FormMapping2.jpg) <br>
 
-### 6)	Configure Actions inputs to the data from equipment and training decisions
+### 6)	Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)
 
   a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
