@@ -96,7 +96,7 @@ Now we have created  parallel branches to determine equipments and trainings for
 
 ### 6)	Configure Actions inputs to the data from equipment and training decisions
 
-  a. Click on the Action Project and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
+  a. Click on the Action Project, expand "context" and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
   <br>![](/exercises/ex2/images/NewAction01.jpg) <br>
   b. Now we will map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. Note that the Equipment list data is automatically getting populated with the data from the decision. <br>
   <br>![](/exercises/ex2/images/NewAction02.jpg) <br>
