@@ -113,25 +113,21 @@ This is not needed to be done as part of this exercise, the required Action proj
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
   b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
   <br>![](/exercises/ex2/images/ActionsNew002.jpg) <br>
-  c. Note that the Action is added to the process. To add a destination for the Action, under label **Destination variable**, select **Create Destination Variable** <br>
-  <br>![](/exercises/ex2/images/ActionsNew003.jpg) <br>
-  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : **Destination** and click Create. Note this is just a variable name and is a placeholder for the actual destination. <br>
-  <br>![](/exercises/ex2/images/ActionsNew004.png) <br>
-  e. Note that the destination is now updated under the **Destination variable** in **General** Tab for the Action <br>
+  c. Note that the Action is added to the process. To add a destination for the Action, under label **Destination variable**, select **AEM**. This destination variable is already created and is a placeholder for destination mapping during deployment time. <br>
   <br>![](/exercises/ex2/images/ActionsNew008.jpg) <br>
-  f. Map the Action inputs with the **Process Inputs**. For the Action, click on the **Input** tab , click on input field in **employeeId** and select **Process Inputs - Employee ID**. <br>
+  d. Map the Action inputs with the **Process Inputs**. For the Action, click on the **Input** tab , click on input field in **employeeId** and select **Process Inputs - Employee ID**. <br>
   <br>![](/exercises/ex2/images/ActionsNew009.jpg) <br>
-  g. Save the changes. Note that the **employeeID** is now mapped. <br>
+  e. Save the changes. Note that the **employeeID** is now mapped. <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
-  h. For the Action Project, expand **context** and check the data under **Input** tab. We need to map the inputs to the **Process Inputs** as shown below. IMPORTANT NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.<br>
+  f. For the Action Project, expand **context** and check the data under **Input** tab. We need to map the inputs to the **Process Inputs** as shown below. IMPORTANT NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.<br>
   <br>![](/exercises/ex2/images/ActionMapping1.jpg) <br>
   <br>![](/exercises/ex2/images/ActionMapping2.jpg) <br>
   <br>![](/exercises/ex2/images/ActionMapping4.jpg) <br>
-  i. Map the equipment data to the Actions project. For the Action, click on the **Input** tab , expand the **context**, expand the **Equipment** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**. Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. <br>
+  g. Map the equipment data to the Actions project. For the Action, click on the **Input** tab , expand the **context**, expand the **Equipment** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**. Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. <br>
   <br>![](/exercises/ex2/images/ActionMapping3.jpg) <br>
-  j. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**. <br>
+  h. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**. <br>
   <br>![](/exercises/ex2/images/ActionMapping5.jpg) <br>
-  k. Map the **Manager Comment** field to **comments** from the Approval Form outputs. Save the changes <br>
+  i. Map the **Manager Comment** field to **comments** from the Approval Form outputs. Save the changes <br>
   <br>![](/exercises/ex2/images/ActionMapping6.jpg) <br>
 
 ### 7)	Release and Deploy
