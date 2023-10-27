@@ -156,7 +156,7 @@ The created destination is then added to the Settings to use it in the project <
   <br>![](/exercises/ex2/images/Monitor01.png) <br><br>
   b. Click Processes and Workflows under Manage section.<br>
   <br>![](/exercises/ex2/images/Monitor02.jpg) <br><br>
-  c. Search with the text IN264-XXX for your Project.<br> 
+  c. Search with the text IN264-XXX for your Project and select it.<br> 
    <br>![](/exercises/ex2/images/Monitor03.jpg) <br><br>
   d.Note the instance ID and keep it handly for next exersice. Also ensure that the ID text is not copied. <br>
   <br>![](/exercises/ex2/images/Monitor04.jpg) <br><br>
