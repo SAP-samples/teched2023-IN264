@@ -9,7 +9,7 @@ SAP Build Process Automation project “New Hire Onboarding Experience – Templ
 ## Exercise steps
 After completing these steps you will have learnt the following.<br>
 
-1) How to do a Save as New Project of the sample Employee Onboarding Process Project<br>
+1) [How to do a Save as New Project of the sample Employee Onboarding Process Project](#1how-to-do-a-save-as-new-project-of-the-sample-employee-onboarding-process-project)<br>
 2) Add parallel branches to add new Training and Equipment determination rules<br>
 3) View the decision to determine Equipments for the newly hired employee<br>
 4) View the decision to determine Trainings for the newly hired employee<br>
