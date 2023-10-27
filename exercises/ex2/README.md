@@ -96,7 +96,7 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/Forms1.jpg) <br>
   b. Map the equipment data to the appproval form. For the Approval Form, click on the **Input** tab , expand the **Equipment for new hire** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**.  Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes.
   <br>![](/exercises/ex2/images/FormMapping1.jpg) <br>
-  c. Now we will map the training data to the approval form. For the Approval Form, click on the **Input** tab,  expand the **Trainings for new hire** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**.Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes. <br>
+  c. Map the training data to the approval form. For the Approval Form, click on the **Input** tab,  expand the **Trainings for new hire** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**.Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes. <br>
   <br>![](/exercises/ex2/images/FormMapping2.jpg) <br>
 
 ### 6)	Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)
@@ -108,25 +108,25 @@ This is not needed to be done as part of this exercise, the required Action proj
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
   b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
   <br>![](/exercises/ex2/images/ActionsNew002.jpg) <br>
-  c. Note that the Action is added to the process. To add a destination for the Action, under label "Destination variable", select "Create Destination Variable" <br>
+  c. Note that the Action is added to the process. To add a destination for the Action, under label **Destination variable**, select **Create Destination Variable** <br>
   <br>![](/exercises/ex2/images/ActionsNew003.jpg) <br>
-  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : Destination and click Create <br>
+  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : **Destination** and click Create <br>
   <br>![](/exercises/ex2/images/ActionsNew004.png) <br>
-  e. Note that the destination is now updated under the "Destination variable" in "General" Tab for the Action <br>
+  e. Note that the destination is now updated under the **Destination variable** in **General** Tab for the Action <br>
   <br>![](/exercises/ex2/images/ActionsNew008.jpg) <br>
-  f. Now we will map the Action inputs with the Process Inputs. For the Action, click on the Input tab , click on input field in employeeId and selection Process Inputs - Employee ID. <br>
+  f. Map the Action inputs with the **Process Inputs**. For the Action, click on the **Input** tab , click on input field in **employeeId** and select **Process Inputs - Employee ID**. <br>
   <br>![](/exercises/ex2/images/ActionsNew009.jpg) <br>
-  g. Save the changes. Note that the employeeID is now mapped. <br>
+  g. Save the changes. Note that the **employeeID** is now mapped. <br>
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
-  h. For the Action Project, expand "context" and check the data under Input tab. We need to map the inputs to the Process Inputs as shown below. IMPORTANT NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.<br>
+  h. For the Action Project, expand **context** and check the data under **Input** tab. We need to map the inputs to the **Process Inputs** as shown below. IMPORTANT NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.<br>
   <br>![](/exercises/ex2/images/ActionMapping1.jpg) <br>
   <br>![](/exercises/ex2/images/ActionMapping2.jpg) <br>
   <br>![](/exercises/ex2/images/ActionMapping4.jpg) <br>
-  i. Map the equipment data to the Actions project. For the Action, click on the Input tab , expand the "context", expand the Equipment list, click on input field in Equipments and select Equipment Determination - Equipments. Any data that is not mapped automatically needs to  be mapped manually. <br>
+  i. Map the equipment data to the Actions project. For the Action, click on the **Input** tab , expand the **context**, expand the **Equipment** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**. Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. <br>
   <br>![](/exercises/ex2/images/ActionMapping3.jpg) <br>
-  j. Map the training data to the Actions project. For the Action, click on the Input tab,  expand the Trainings list, click on input field in Trainings and select TrainingDetermination - Trainings. Any data that is not mapped automatically needs to  be mapped manually.<br>
+  j. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**. <br>
   <br>![](/exercises/ex2/images/ActionMapping5.jpg) <br>
-  k. Map the "Manager Comment" field to "comments" from the Approval Form outputs. Save the changes <br>
+  k. Map the **Manager Comment** field to **comments** from the Approval Form outputs. Save the changes <br>
   <br>![](/exercises/ex2/images/ActionMapping6.jpg) <br>
 
 ### 7)	Release and Deploy
