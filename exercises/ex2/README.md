@@ -29,7 +29,7 @@ c.	Click on Options (3 dots ...) and Choose “Save As New Project” <br>
   iv.	Click on “Save as new” <br>
 <br>![](/exercises/ex2/images/NewProject1.0.jpg)<br>
 A new project is saved now. <br>
-<b>Note<b> : It might take little time for the first time project creation
+<b>Note</b> : It might take little time for the first time project creation
 
 ### 2)	Add parallel branches to add new Training and Equipment determination rules
 
