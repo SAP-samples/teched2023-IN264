@@ -10,13 +10,13 @@ SAP Build Process Automation project “New Hire Onboarding Experience – Templ
 After completing these steps you will have learnt the following.<br>
 
 1) [How to do a Save as New Project of the sample Employee Onboarding Process Project](#1how-to-do-a-save-as-new-project-of-the-sample-employee-onboarding-process-project)<br>
-2) Add parallel branches to add new Training and Equipment determination rules<br>
-3) View the decision to determine Equipments for the newly hired employee<br>
-4) View the decision to determine Trainings for the newly hired employee<br>
-5) Configure approval form inputs to the data from equipment and training decisions <br>
-6) Consume Actions project to publish the approval event to Advanced Event Mesh(AEM) <br>
-7) Release and Deploy<br>
-8) Get the Process Instance ID<br>
+2) [Add parallel branches to add new Training and Equipment determination rules](#2add-parallel-branches-to-add-new-training-and-equipment-determination-rules)<br>
+3) [View the decision to determine Equipments for the newly hired employee](#3view-the-decision-equipments-for-the-newly-hired-employee)<br>
+4) [View the decision to determine Trainings for the newly hired employee](#4view-the-decision-trainings-for-the-newly-hired-employee)<br>
+5) [Configure approval form inputs to the data from equipment and training decisions](#5-configure-approval-form-inputs-to-the-data-from-equipment-and-training-decisions) <br>
+6) [Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)](#6consume-actions-project-to-publish-the-approval-event-to-advanced-event-meshaem) <br>
+7) [Release and Deploy](#7release-and-deploy)<br>
+8) [Get the Process Instance ID](#8get-the-process-instance-id)<br>
 
 ### 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
 a.	Go to Lobby link https://in264-72e8h9xc.eu10.build.cloud.sap/lobby <br>
