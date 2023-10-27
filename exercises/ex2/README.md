@@ -152,12 +152,14 @@ The created destination is then added to the Settings to use it in the project <
 
 ### 8)	Get the Process Instance ID
 
-  a. From the Lobby screen click Monitor.
-  <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
-  b. Click Processes and Workflows under Manage section and search with the text IN264-XXX for your Project. 
-  <br>![](/exercises/ex2/images/NewInstance01.jpg) <br><br>
-  c. Note the instance ID and keep it handly for next exersice. Also ensure that the ID text is not copied. <br>
-  <br>![](/exercises/ex2/images/NewInstance02.jpg) <br><br>
+  a. From the Lobby screen click Monitoring.
+  <br>![](/exercises/ex2/images/Monitor01.png) <br><br>
+  b. Click Processes and Workflows under Manage section.<br>
+  <br>![](/exercises/ex2/images/Monitor02.jpg) <br><br>
+  c. Search with the text IN264-XXX for your Project.<br> 
+   <br>![](/exercises/ex2/images/Monitor03.jpg) <br><br>
+  d.Note the instance ID and keep it handly for next exersice. Also ensure that the ID text is not copied. <br>
+  <br>![](/exercises/ex2/images/Monitor04.jpg) <br><br>
 
 ## Summary
 
