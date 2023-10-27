@@ -56,8 +56,8 @@ e.	Give the step name as <b>Determine Equipments and Trainings</b> <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_4.png) <br>
 f.	Click on the + next to Equipment determination branch and add Decision->Equipment Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
-g.	Map the inputs of the decision from the Process Inputs <br>
-  Job Title <br>
+g.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
+  <b>Job Title</b> <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
 h.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
