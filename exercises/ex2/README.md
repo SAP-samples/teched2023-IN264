@@ -72,7 +72,7 @@ i.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
   c.	Click on “Rules” and “Equipment Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_2.png) <br>
-  d. Click on Full Screen mode <br>
+  d. Click on Full Screen mode which is to the left of close window (X) and as highlighted in the screenshot above <br>
   e.	Check the rows containing rules and note the rules to determine the equipments based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/EquipmentDecisionView.jpg) <br>
   f. Do not change anything and close the rule editor window.
@@ -84,7 +84,7 @@ i.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
   c.	Click on “Rules” and “Training Determination” <br>
   <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
-  d. Click on Full Screen mode <br>
+  d. Click on Full Screen mode which is to the left of close window (X) and as highlighted in the screenshot above <br>
   e.	Check the rows and note the rules to determine the trainings based on the employee job title are already defined. <br>
   <br>![](/exercises/ex2/images/TrainingDecisionView.jpg) <br>
   f. Do not change anything and close the rule editor window.
