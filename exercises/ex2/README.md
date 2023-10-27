@@ -99,7 +99,8 @@ Now we have created  parallel branches to determine equipments and trainings for
 
 ### 6)	Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)
 Action is a feature in SAP Build Process Automation to connect processes with external systems, be it SAP or non-SAP systems.<be>
-Learn how to create an action project here. <br>![](https://developers.sap.com/tutorials/spa-business-partner-action-create.html) <br> This is not needed to be done as part of this exercise, the required Action project is already created for you and you will be consuming it here in the process to publish the approval event to Advanced Event Mesh in this part of the exercise. <br>
+[Learn how to create an action project](https://developers.sap.com/tutorials/spa-business-partner-action-create.html)<br> 
+This is not needed to be done as part of this exercise, the required Action project is already created for you and you will be consuming it here in the process to publish the approval event to Advanced Event Mesh in this part of the exercise. <br>
 
   a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
