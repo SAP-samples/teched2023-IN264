@@ -64,8 +64,7 @@ h.	Click on the + next to Training determination branch and add Decision->Traini
 i.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
     <b>Job Title</b> <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
-Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
-
+<b>Note:</b> Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
 ### 3)	View the decision Equipments for the newly hired employee
   a.	Click on Decision “Equipment Determination” <br>
