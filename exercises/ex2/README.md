@@ -92,11 +92,11 @@ Now we have created  parallel branches to determine equipments and trainings for
 
 ### 5)	 Configure approval form inputs to the data from equipment and training decisions
 
-  a. Click on the Approval Form and check the data under Input tab. Note that most of the fields are already mapped to the Process Inputs.
+  a. Click on the Approval Form and check the data under **Input** tab. Note that most of the fields are already mapped to the **Process Inputs**.
   <br>![](/exercises/ex2/images/Forms1.jpg) <br>
-  b. Map the equipment data to the appproval form. For the Approval Form, click on the Input tab , expand the "Equipment for new hire" list, click on input field in Equipments and select Equipment Determination - Equipments.  Any data that is not mapped automatically needs to  be mapped manually. Save the changes.
+  b. Map the equipment data to the appproval form. For the Approval Form, click on the **Input** tab , expand the **Equipment for new hire** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**.  Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes.
   <br>![](/exercises/ex2/images/FormMapping1.jpg) <br>
-  c. Now we will map the training data to the approval form. For the Approval Form, click on the Input tab,  expand the "Trainings for new hire" list, click on input field in Trainings and select TrainingDetermination - Trainings.Any data that is not mapped automatically needs to  be mapped manually. Save the changes. <br>
+  c. Now we will map the training data to the approval form. For the Approval Form, click on the **Input** tab,  expand the **Trainings for new hire** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**.Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes. <br>
   <br>![](/exercises/ex2/images/FormMapping2.jpg) <br>
 
 ### 6)	Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)
