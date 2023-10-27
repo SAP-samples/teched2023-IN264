@@ -159,4 +159,4 @@ The created destination is then added to the Settings to use it in the project <
 
 ## Summary
 
-Now that you have configured , released and deployed the SAP Build Process Automation project, Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Now that you have configured , released and deployed the SAP Build Process Automation project, Continue to - [Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow ](../ex3/README.md)
