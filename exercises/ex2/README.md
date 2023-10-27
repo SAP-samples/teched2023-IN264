@@ -102,7 +102,7 @@ Action is a feature in SAP Build Process Automation to connect processes with ex
 [Learn how to create an action project](https://developers.sap.com/tutorials/spa-business-partner-action-create.html)<br> 
 This is not needed to be done as part of this exercise, the required Action project is already created for you and you will be consuming it here in the process to publish the approval event to Advanced Event Mesh in this part of the exercise. <br>
 
-  a. After the Approval Form in the process, click on "+" , click Actions and click Browse Library.
+  a. Click on the + next to Approve in the Approval form , click Actions and click Browse Library <br>.
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
   b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
   <br>![](/exercises/ex2/images/ActionsNew002.jpg) <br>
