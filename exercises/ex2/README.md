@@ -61,8 +61,8 @@ g.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
 h.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
-i.	Map the inputs of the decision from the Process Inputs <br>
-    Job Title <br>
+i.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
+    <b>Job Title</b> <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
 Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
