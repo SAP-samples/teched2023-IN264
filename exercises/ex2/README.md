@@ -125,6 +125,12 @@ Now we have created  parallel branches to determine equipments and trainings for
   <br>![](/exercises/ex2/images/ActionMapping6.jpg) <br>
 
 ### 7)	Release and Deploy
+The destination “AEM” is already created in BTP cockpit and added in settings for you to use it directly<br>
+Please refer to the following link to know on 
+[How to Create Destination in the SAP BTP Cockpit](https://developers.sap.com/tutorials/cp-cf-create-destination.html)<br>
+The created destination is then added to the Settings to use it in the project <br>
+<br>![](/exercises/ex2/images/ActionMapping6.jpg)<br>
+
   a. Click on the Release button in the Process Builder.
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
   b. Click on Release button on the Release Projext pop-up window.
