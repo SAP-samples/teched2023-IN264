@@ -11,8 +11,8 @@ After completing these steps you will have learnt the following.<br>
 
 1) [How to do a Save as New Project of the sample Employee Onboarding Process Project](#1how-to-do-a-save-as-new-project-of-the-sample-employee-onboarding-process-project)<br>
 2) [Add parallel branches to add new Training and Equipment determination rules](#2add-parallel-branches-to-add-new-training-and-equipment-determination-rules)<br>
-3) [View the decision to determine Equipment Determination for the newly hired employee](#3view-the-decision-equipments-for-the-newly-hired-employee)<br>
-4) [View the decision to determine Training Determination for the newly hired employee](#4view-the-decision-trainings-for-the-newly-hired-employee)<br>
+3) [View the decision to determine Equipment Determination for the newly hired employee](#3view-the-decision-equipment-determination-for-the-newly-hired-employee)<br>
+4) [View the decision to determine Training Determination for the newly hired employee](#4view-the-decision-training-determination-for-the-newly-hired-employee)<br>
 5) [Configure approval form inputs to the data from equipment and training decisions](#5-configure-approval-form-inputs-to-the-data-from-equipment-and-training-decisions) <br>
 6) [Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)](#6consume-actions-project-to-publish-the-approval-event-to-advanced-event-meshaem) <br>
 7) [Release and Deploy](#7release-and-deploy)<br>
