@@ -25,7 +25,7 @@ b.	Locate the Process Automation type of application with name “New Hire Onboa
 c.	Click on More options and Choose “Save As New Project” <br>
   i.	Choose the option for Select Version as “1.0.0” <br>
   ii.	Give a different project name "New Hire Onboarding Experience - IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - IN264-000" if your user is 000  <br>
-  iii Give description if required <br>  
+  iii Leave the description as it is <br>  
   iv.	Click on “Save as new” 
 <br>![](/exercises/ex2/images/NewProject1.0.jpg)<br>
 A new project is saved now. <br>
