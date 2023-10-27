@@ -104,13 +104,13 @@ Action is a feature in SAP Build Process Automation to connect processes with ex
 [Learn how to create an action project](https://developers.sap.com/tutorials/spa-business-partner-action-create.html)<br> 
 This is not needed to be done as part of this exercise, the required Action project is already created for you and you will be consuming it here in the process to publish the approval event to Advanced Event Mesh in this part of the exercise. <br>
 
-  a. Click on the + next to Approve in the Approval form , click Actions and click Browse Library <br>.
+  a. Click on the **+** next to **Approve** in the Approval form , click Actions and click Browse Library <br>.
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
   b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
   <br>![](/exercises/ex2/images/ActionsNew002.jpg) <br>
   c. Note that the Action is added to the process. To add a destination for the Action, under label **Destination variable**, select **Create Destination Variable** <br>
   <br>![](/exercises/ex2/images/ActionsNew003.jpg) <br>
-  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : **Destination** and click Create <br>
+  d. Add the following details to the destination pop-up - Identifier : AEM, Description : Advanced Event Mesh Destination, Type : **Destination** and click Create. Note this is just a variable name and is a placeholder for the actual destination. <br>
   <br>![](/exercises/ex2/images/ActionsNew004.png) <br>
   e. Note that the destination is now updated under the **Destination variable** in **General** Tab for the Action <br>
   <br>![](/exercises/ex2/images/ActionsNew008.jpg) <br>
@@ -154,9 +154,9 @@ The created destination is then added to the Settings to use it in the project <
 
   a. From the Lobby screen click Monitor.
   <br>![](/exercises/ex2/images/GetInstance001.jpg) <br><br>
-  b. Click Processes and Workflows under Manage section and search with the text IN264-XXX for your Project.
+  b. Click Processes and Workflows under Manage section and search with the text IN264-XXX for your Project. 
   <br>![](/exercises/ex2/images/NewInstance01.jpg) <br><br>
-  c. Note the instance ID and keep it handly for later exersices. <br>
+  c. Note the instance ID and keep it handly for next exersice. Also ensure that the ID text is not copied. <br>
   <br>![](/exercises/ex2/images/NewInstance02.jpg) <br><br>
 
 ## Summary
