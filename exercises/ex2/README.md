@@ -19,7 +19,7 @@ After completing these steps you will have learnt the following.<br>
 8) [Get the Process Instance ID](#8get-the-process-instance-id)<br>
 
 ### 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
-a.	[SBPA Link](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) <br>
+a.	Go to [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) <br>
 b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Template” <br>
 <br>![](/exercises/ex2/images/NewProject01.jpg) <br>
 c.	Click on More options and Choose “Save As New Project” <br>
