@@ -152,7 +152,7 @@ The created destination is then added to the Settings to use it in the project <
 
 ### 8)	Get the Process Instance ID
 
-  a. From the Lobby screen click Monitoring.
+  a. From the [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) click Monitoring.
   <br>![](/exercises/ex2/images/Monitor01.png) <br><br>
   b. Click Processes and Workflows under Manage section.<br>
   <br>![](/exercises/ex2/images/Monitor02.jpg) <br><br>
