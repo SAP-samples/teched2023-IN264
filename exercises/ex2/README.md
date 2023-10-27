@@ -34,6 +34,7 @@ A new project is saved now. <br>
 ### 2)	Add parallel branches to add new Training and Equipment determination rules
 
 a.	Click on the project created and in the Overview tab and click on “New Employee Equipment and Training Approval Process” <br>
+<br>![](/exercises/ex2/images/Artifacts_List.jpg) <br>
 b.	Note that the template process looks as below and contains artifacts <br>
 - An API Trigger called Workflow Trigger to start the process. <br>
 - Equipment Determination decsion to determine equipments for the new employee. <br>
