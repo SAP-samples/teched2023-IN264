@@ -73,7 +73,7 @@ The complete list of exercise steps are listed below, run through them in the gi
 - [Exercise 2 - Create and Configure the SAP Build Process Automation Project for Equipment and Training Approval Workflow](exercises/ex2/README.md)        
 - [Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow](exercises/ex3/README.md)
 - [Exercise 4 - Copy, configure and deploy the Survey Email subscription flow](exercises/ex4/README.md)
-- [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requsition subscription flow](exercises/ex5/README.md)
+- [Exercise 5 - Copy, configure and deploy the SAP S/4Hana Purchase Requisition subscription flow](exercises/ex5/README.md)
 - [Exercise 6 - Add a New Employee in SAP SuccessFactors](exercises/ex6/README.md)
 - [Exercise 7 - Verify Scenario Success](exercises/ex7/README.md)
   
