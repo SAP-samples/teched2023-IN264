@@ -42,8 +42,8 @@ a.	Click on the created project and in the **Overview** tab, click on “**New E
 
 b.	Kindly note that the template process appears as shown below and includes various artifacts: <br>
 - An API Trigger called Workflow Trigger to start the process. <br>
-- Equipment Determination decsion to determine equipments for the new employee. <br>
-- Training Determination decsion to determine trainings for the new employee. <br>
+- Equipment Determination decision to determine equipment for the new employee. <br>
+- Training Determination decision to determine trainings for the new employee. <br>
 - An approval form to approve Equipment and Training Details. <br>
 - Separate Email notifications for approval and rejection flows. <br>
 <br>![](/exercises/ex2/images/NewProject03.png) <br>
@@ -82,7 +82,7 @@ i.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: 
   - <b>Job Title</b>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
 
-> Note: Now, we have created  parallel branches to determine equipments and trainings for the new hire. <br>
+> Note: Now, we have created  parallel branches to determine equipment and trainings for the new hire. <br>
 
 ### 3)	View the Equipment Determination decision for the newly hired employee
   a.	Click on the “**Equipment Determination**” decision. <br>
@@ -95,7 +95,7 @@ i.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: 
 
    > [!IMPORTANT]  
    > We have established rules for new hire job titles that include **Sales**, **Marketing**, **Analyst**, or **Consultant**, along with a **default** rule that does not match any of the mentioned job titles.
-   > Accordingly, equipments are determined for the new employee.
+   > Accordingly, equipment are determined for the new employee.
 
   <br>![](/exercises/ex2/images/EquipmentDecisionView.jpg) <br>
   f. Do not change anything and close the rule editor window.
@@ -121,9 +121,9 @@ i.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: 
 
   a. Click on the Approval Form and check the data under **Input** tab. Note that most of the fields are already mapped to the **Process Inputs**.
   <br>![](/exercises/ex2/images/Forms1.jpg) <br>
-  b. Map the equipment data to the appproval form. For the Approval Form, click on the **Input** tab , expand the **Equipment for new hire** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**.  Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes.
+  b. Map the equipment data to the approval form. For the Approval Form, click on the **Input** tab , expand the **Equipment for new hire** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**.  Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes.
   <br>![](/exercises/ex2/images/FormMapping1.jpg) <br>
-  c. Map the training data to the approval form. For the Approval Form, click on the **Input** tab,  expand the **Trainings for new hire** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**.Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes. <br>
+  c. Map the training data to the approval form. For the Approval Form, click on the **Input** tab,  expand the **Trainings for new hire** list, click on input field in **Trainings** and select **Training Determination - Trainings**.Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. Save the changes. <br>
   <br>![](/exercises/ex2/images/FormMapping2.jpg) <br>
 
 ### 6)	Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)
@@ -139,7 +139,7 @@ This is not needed to be done as part of this exercise, the required Action proj
   <br>![](/exercises/ex2/images/ActionsNew008.jpg) <br>
   d. Map the Action inputs with the **Process Inputs**. For the Action, click on the **Input** tab , click on input field in **employeeId** and select **Process Inputs - Employee ID**.
   <br>![](/exercises/ex2/images/ActionsNew009.jpg) <br>
-  e. Save the changes. Note that the **employeeID** is now mapped.
+  e. Save the changes. Note that the **employeeId** is now mapped.
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
   f. For the Action Project, expand **context** and check the data under **Input** tab. We need to map the inputs to the **Process Inputs** as shown below. 
   > NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.
@@ -149,7 +149,7 @@ This is not needed to be done as part of this exercise, the required Action proj
   <br>![](/exercises/ex2/images/ActionMapping4.jpg) <br>
   g. Map the equipment data to the Actions project. For the Action, click on the **Input** tab , expand the **context**, expand the **Equipment** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**. Any data that is not mapped automatically needs to  be mapped manually as per the screenshot.
   <br>![](/exercises/ex2/images/ActionMapping3.jpg) <br>
-  h. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**.
+  h. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **Training Determination - Trainings**.
   <br>![](/exercises/ex2/images/ActionMapping5.jpg) <br>
   i. Map the **Manager Comment** field to **comments** from the Approval Form outputs. 
   > **Save the changes**
@@ -188,7 +188,7 @@ The created destination is then added to the Settings to use it in the project <
    > Replace **XXX** with the participant number that is assigned to you.
    
    <br>![](/exercises/ex2/images/Monitor03.jpg) <br><br>
-  d.Note the **Instance ID** and keep it handly for next exercise. Also ensure that the "**ID:**" text should not get copied.
+  d. Note the **Instance ID** and keep it handy for next exercise. Also ensure that the "**ID:**" text should not get copied.
     <br>![](/exercises/ex2/images/Monitor04.jpg) <br><br>
 
 ## Summary
