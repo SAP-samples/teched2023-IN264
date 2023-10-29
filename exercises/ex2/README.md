@@ -1,15 +1,15 @@
 # Exercise 2 - Create and Configure the SAP Build Process Automation Project for Equipment and Training Approval Workflow
 
 ## Overview
-In this exercise, you will configure a SAP Build Process Automation project which can trigger an approval process for the equipments and training requests for the newly onboarded employee in SuccessFactors.
+In this exercise, you will be setting up a SAP Build Process Automation (SBPA) project to manage the approval workflow for equipment and training of newly hired employees in SuccessFactors. This workflow will be initiated by an Integration Flow from Cloud Integration. Once the manager approves the equipment and training for the new hires, SBPA publishes an event to the SAP Integration Suite, advanced event mesh topic `SBPA/NewHire/{EmployeeId}/Approval` for further integration.
 
-## Pre-requisite
-SAP Build Process Automation project “New Hire Onboarding Experience – Template” is given as a template.
+## Prerequisite
+SAP Build Process Automation (SBPA) project “**New Hire Onboarding Experience – Template**” is given as a template.
 
 ## Exercise steps
-After completing these steps you will have learnt the following.<br>
+Run through the exercise steps in the given order:
 
-1) [How to do a Save as New Project of the sample Employee Onboarding Process Project](#1how-to-do-a-save-as-new-project-of-the-sample-employee-onboarding-process-project)<br>
+1) [Create a new project based on the given "**New Hire Onboarding Experience – Template**" project and save it](#1how-to-do-a-save-as-new-project-of-the-sample-employee-onboarding-process-project)<br>
 2) [Add parallel branches to add new Training and Equipment determination rules](#2add-parallel-branches-to-add-new-training-and-equipment-determination-rules)<br>
 3) [View the decision to determine Equipment Determination for the newly hired employee](#3view-the-decision-equipment-determination-for-the-newly-hired-employee)<br>
 4) [View the decision to determine Training Determination for the newly hired employee](#4view-the-decision-training-determination-for-the-newly-hired-employee)<br>
@@ -18,18 +18,22 @@ After completing these steps you will have learnt the following.<br>
 7) [Release and Deploy](#7release-and-deploy)<br>
 8) [Get the Process Instance ID](#8get-the-process-instance-id)<br>
 
-### 1)	How to do a Save as New Project of the sample Employee Onboarding Process Project
-a.	Go to [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) <br>
-b.	Locate the Process Automation type of application with name “New Hire Onboarding Experience – Template” <br>
-<br>![](/exercises/ex2/images/NewProject01.jpg) <br>
-c.	Click on Options (3 dots ...) and Choose “Save As New Project” <br>
-  i.	Choose the option for Select Version as “1.0.0” <br>
-  ii.	Give a different project name "New Hire Onboarding Experience - IN264-XXX" where XXX will be your last 3 digits of your user id , say for example, it will be "New Hire Onboarding Experience - IN264-000" if your user is 000  <br>
-  iii Leave the description as it is <br>  
-  iv.	Click on “Save as new” <br>
+### 1)	Create a new project based on the given "**New Hire Onboarding Experience – Template**" project and save it
+  a.	Open the [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) and log in using the user ID and password provided to you by the instructors.<br>
+  b.	Locate the **Process Automation** application with the name “**New Hire Onboarding Experience – Template**”.<br>
+  c.	Click on the **Options (3 dots ...)** and select “**Save As New Project**” option.
+  <br>![](/exercises/ex2/images/NewProject01.jpg) <br><br/>
+  d.  Provide the following details:
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+   
+  - Select Version: **1.0.0**
+  - Project Name: **New Hire Onboarding Experience - IN264-XXX**
+  - Description: **An event-driven enterprise automation scenario where you react and respond to a new hire business event using SAP Integration Suite and includes human interactions to achieve an end-to-end employee onboarding business process using SAP Build Process Automation.**
+<br/><br/>Press the **"Save as new"** button to save the new project.
 <br>![](/exercises/ex2/images/NewProject1.0.jpg)<br>
-A new project is saved now. <br>
-<b>Note</b> : It might take little time for the first time project creation
+
+>  Note: It might take little time for the project creation, so kindly wait.
 
 ### 2)	Add parallel branches to add new Training and Equipment determination rules
 
