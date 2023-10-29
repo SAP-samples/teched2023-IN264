@@ -26,8 +26,8 @@ By leveraging event-based integration patterns and low-code/no-code process auto
 > Check out the following chapters to understand and achieve the end-to-end employee onboarding business subprocess as documented in this session:
 >
 > - [Scenario Introduction](https://github.com/SAP-samples/teched2023-IN264/blob/d869336a5b8edb7bcddf36dbcc80f77c2eadd4b6/intro/intro1/README.md)
-> - [New hire event configuration in SAP SuccessFactors (for your information only)](intro/intro2/README.md)
-> - [SAP S/4Hana Cloud System configuration (for your information only)](intro/intro3/README.md)
+> - [New hire event configuration in SAP SuccessFactors (for your information only)](https://github.com/SAP-samples/teched2023-IN264/blob/d869336a5b8edb7bcddf36dbcc80f77c2eadd4b6/intro/intro2/README.md)
+> - [SAP S/4Hana Cloud System configuration (for your information only)](https://github.com/SAP-samples/teched2023-IN264/blob/d869336a5b8edb7bcddf36dbcc80f77c2eadd4b6/intro/intro3/README.md)
 
 ## Requirements
 
