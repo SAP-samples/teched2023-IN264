@@ -9,7 +9,7 @@ SAP Build Process Automation (SBPA) project “**New Hire Onboarding Experience 
 ## Exercise steps
 Run through the exercise steps in the given order:
 
-1) [Create a new project based on the given "**New Hire Onboarding Experience – Template**" project and save it](#1how-to-do-a-save-as-new-project-of-the-sample-employee-onboarding-process-project)<br>
+1) [Create a new project based on the given "**New Hire Onboarding Experience – Template**" project and save it](#1create-a-new-project-based-on-the-given-new-hire-onboarding-experience--template-project-and-save-it)<br>
 2) [Add parallel branches to add new Training and Equipment determination rules](#2add-parallel-branches-to-add-new-training-and-equipment-determination-rules)<br>
 3) [View the decision to determine Equipment Determination for the newly hired employee](#3view-the-decision-equipment-determination-for-the-newly-hired-employee)<br>
 4) [View the decision to determine Training Determination for the newly hired employee](#4view-the-decision-training-determination-for-the-newly-hired-employee)<br>
