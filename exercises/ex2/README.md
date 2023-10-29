@@ -9,8 +9,8 @@ SAP Build Process Automation (SBPA) project “**New Hire Onboarding Experience 
 ## Exercise steps
 Run through the exercise steps in the given order:
 
-1) [Create a new project based on the given "**New Hire Onboarding Experience – Template**" project and save it](#1create-a-new-project-based-on-the-given-new-hire-onboarding-experience--template-project-and-save-it)<br>
-2) [Add parallel branches to add new Training and Equipment determination rules](#2add-parallel-branches-to-add-new-training-and-equipment-determination-rules)<br>
+1) [Create a new project based on the given "New Hire Onboarding Experience – Template" project and save it](#1create-a-new-project-based-on-the-given-new-hire-onboarding-experience--template-project-and-save-it)<br>
+2) [Add parallel branches to add new Equipment and Training determination rules](#2add-parallel-branches-to-add-new-equipment-and-training-determination-rules)<br>
 3) [View the decision to determine Equipment Determination for the newly hired employee](#3view-the-decision-equipment-determination-for-the-newly-hired-employee)<br>
 4) [View the decision to determine Training Determination for the newly hired employee](#4view-the-decision-training-determination-for-the-newly-hired-employee)<br>
 5) [Configure approval form inputs to the data from equipment and training decisions](#5-configure-approval-form-inputs-to-the-data-from-equipment-and-training-decisions) <br>
@@ -18,7 +18,7 @@ Run through the exercise steps in the given order:
 7) [Release and Deploy](#7release-and-deploy)<br>
 8) [Get the Process Instance ID](#8get-the-process-instance-id)<br>
 
-### 1)	Create a new project based on the given "**New Hire Onboarding Experience – Template**" project and save it
+### 1)	Create a new project based on the given "New Hire Onboarding Experience – Template" project and save it
   a.	Open the [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) and log in using the user ID and password provided to you by the instructors.<br>
   b.	Locate the **Process Automation** application with the name “**New Hire Onboarding Experience – Template**”.<br>
   c.	Click on the **Options (3 dots ...)** and select “**Save As New Project**” option.
@@ -31,44 +31,52 @@ Run through the exercise steps in the given order:
   - Project Name: **New Hire Onboarding Experience - IN264-XXX**
   - Description: **An event-driven enterprise automation scenario where you react and respond to a new hire business event using SAP Integration Suite and includes human interactions to achieve an end-to-end employee onboarding business process using SAP Build Process Automation.**
 <br/><br/>Press the **"Save as new"** button to save the new project.
-<br>![](/exercises/ex2/images/NewProject1.0.jpg)<br>
+<br><img src="/exercises/ex2/images/NewProject1.0.jpg" width=75% height=75%><br>
 
 >  Note: It might take little time for the project creation, so kindly wait.
 
-### 2)	Add parallel branches to add new Training and Equipment determination rules
+### 2)	Add parallel branches to add new Equipment and Training determination rules
 
-a.	Click on the project created and in the Overview tab and click on “New Employee Equipment and Training Approval Process” <br>
+a.	Click on the created project and in the **Overview** tab, click on “**New Employee Equipment and Training Approval Process**” artifact.
 <br>![](/exercises/ex2/images/Artifacts_List.jpg) <br>
-b.	Note that the template process looks as below and contains artifacts <br>
+
+b.	Kindly note that the template process appears as shown below and includes various artifacts: <br>
 - An API Trigger called Workflow Trigger to start the process. <br>
 - Equipment Determination decsion to determine equipments for the new employee. <br>
 - Training Determination decsion to determine trainings for the new employee. <br>
 - An approval form to approve Equipment and Training Details. <br>
-- 2 email notifications for approval and rejection flows. <br>
+- Separate Email notifications for approval and rejection flows. <br>
 <br>![](/exercises/ex2/images/NewProject03.png) <br>
-c. The decisions Equipment determination and Training determination are created in  a sequential manner for you in the template project where the execution will happen sequentially in the order . As part of this step in the exercise, we will remove the sequential decisions and add the two decisions in parallel branches to determine the equipments and training so that execution will happen in parallel as there is no dependency between the two decisions and processing will be faster. <br>
-      i) Remove the decision Equipment Determination <br>
+
+c. The '**Equipment Determination**' and '**Training Determination**' decisions are initially set up sequentially in the template project, executed in the specified order. In this step of the exercise, we will reconfigure the setup by incorporating both decisions into parallel branches. This adjustment will enable the determination of equipment and training to occur simultaneously, improving processing speed as there is no interdependency between the two decisions. <br><br>
+      i) Remove the '**Equipment Determination**' decision.
          <br>![](/exercises/ex2/images/Add_Parallel_Gateway_1.png) <br>
-      ii) Remove the decision Training Determination <br>
+      ii) Remove the '**Training Determination**' decision.
           <br>![](/exercises/ex2/images/Add_Parallel_Gateway_2.png) <br>
-d.	Add a Branch <br>
+d.	Add a Branch.
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_3.png) <br>
-e.	Give the step name as <b>Determine Equipments and Trainings</b> <br>
-  	Give branches as <br>
-    i.	<b>Equipment determination</b> <br>
-    ii.	<b>Training determination</b> <br>
+
+e.	Give the step name as <b>Determine Equipments and Trainings</b>. <br>
+  	Give branches as: <br>
+    i.	<b>Equipment Determination</b> <br>
+    ii.	<b>Training Determination</b>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_4.png) <br>
-f.	Click on the + next to Equipment determination branch and add Decision->Equipment Determination <br>
+
+f.	Click on the **+** button, next to **Equipment Determination** branch and add **Decision -> Equipment Determination**.
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
-g.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
-  <b>Job Title</b> <br>
+
+g.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: <br>
+  - <b>Job Title</b>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
-h.	Click on the + next to Training determination branch and add Decision->Training Determination <br>
+
+h.	Click on the **+** button, next to **Training Determination** branch and add **Decision -> Training Determination**. <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
-i.	Map the <b>inputs of the decision</b> from the <b>Process Inputs</b> <br>
-    <b>Job Title</b> <br>
+
+i.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: <br>
+  - <b>Job Title</b>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_8.png) <br>
-<b>Note:</b> Now we have created  parallel branches to determine equipments and trainings for the new hire. <br>
+
+> Note: Now, we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
 ### 3)	View the decision Equipment Determination for the newly hired employee
   a.	Click on Decision “Equipment Determination” <br>
