@@ -4,7 +4,7 @@ In this exercise, you will setup an integration flow that listens to the SAP Int
 
 ## Exercise steps
 
-Run through the exercise steps in the given order.
+Run through the exercise steps in the given order:
 
 ### Create a new Integration Package
 
