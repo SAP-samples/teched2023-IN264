@@ -11,8 +11,8 @@ Run through the exercise steps in the given order:
 
 1) [Create a new project based on the given "New Hire Onboarding Experience – Template" project and save it](#1create-a-new-project-based-on-the-given-new-hire-onboarding-experience--template-project-and-save-it)<br>
 2) [Add parallel branches to add new Equipment and Training determination rules](#2add-parallel-branches-to-add-new-equipment-and-training-determination-rules)<br>
-3) [View the decision to determine Equipment Determination for the newly hired employee](#3view-the-decision-equipment-determination-for-the-newly-hired-employee)<br>
-4) [View the decision to determine Training Determination for the newly hired employee](#4view-the-decision-training-determination-for-the-newly-hired-employee)<br>
+3) [View the Equipment Determination decision for the newly hired employee](#3view-the-equipment-determination-decision-for-the-newly-hired-employee)<br>
+4) [View the Training Determination decision for the newly hired employee](#4view-the-training-determination-decision-for-the-newly-hired-employee)<br>
 5) [Configure approval form inputs to the data from equipment and training decisions](#5-configure-approval-form-inputs-to-the-data-from-equipment-and-training-decisions) <br>
 6) [Consume Actions project to publish the approval event to Advanced Event Mesh(AEM)](#6consume-actions-project-to-publish-the-approval-event-to-advanced-event-meshaem) <br>
 7) [Release and Deploy](#7release-and-deploy)<br>
@@ -63,14 +63,20 @@ e.	Give the step name as <b>Determine Equipments and Trainings</b>. <br>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_4.png) <br>
 
 f.	Click on the **+** button, next to **Equipment Determination** branch and add **Decision -> Equipment Determination**.
-<br>![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
+
+> Note: Set the step name as **Equipment Determination**.
+
+![](/exercises/ex2/images/Add_Parallel_Gateway_5.png) <br>
 
 g.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: <br>
   - <b>Job Title</b>
 <br>![](/exercises/ex2/images/Add_Parallel_Gateway_6.png) <br>
 
 h.	Click on the **+** button, next to **Training Determination** branch and add **Decision -> Training Determination**. <br>
-<br>![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
+
+> Note: Set the step name as **Training Determination**.
+
+![](/exercises/ex2/images/Add_Parallel_Gateway_7.png) <br>
 
 i.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: <br>
   - <b>Job Title</b>
@@ -78,32 +84,36 @@ i.	Map the following **Inputs** of the decision from the <b>Process Inputs</b>: 
 
 > Note: Now, we have created  parallel branches to determine equipments and trainings for the new hire. <br>
 
-### 3)	View the decision Equipment Determination for the newly hired employee
-  a.	Click on Decision “Equipment Determination” <br>
-  b.	Click on Edit Decision <br>
+### 3)	View the Equipment Determination decision for the newly hired employee
+  a.	Click on the “**Equipment Determination**” decision. <br>
+  b.	Click on the "**Edit Decision**" button.
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_1.png) <br>
-  c.	Click on “Rules” and “Equipment Determination” <br>
+  c.	Click on the “**Rules**” and then “**Equipment Determination**”.
   <br>![](/exercises/ex2/images/Configure_Equipment_Determination_2.png) <br>
-  d. Click on Full Screen mode which is to the left of close window (X) and as highlighted in the screenshot above <br>
-  e.	Check the rows containing rules and note the rules to determine the equipments based on the employee job title  <br>
-      Rules are defined for job titles containing Sales or Marketing or Analyst or Consultant and a default one which does not contain any of the mentioned job   
-      title.<br>
-      Accordingly, equipments are determined for the new employee.<br>
+  d.  Click on the **Full Screen mode** which is to the left of close window **(X)** and as highlighted in the above screenshot. <br>
+  e.	Examine the rows that contain the rules and make a note of the rules that are used for equipment determination based on the employee's job title.<br>
+
+   > [!IMPORTANT]  
+   > We have established rules for new hire job titles that include **Sales**, **Marketing**, **Analyst**, or **Consultant**, along with a **default** rule that does not match any of the mentioned job titles.
+   > Accordingly, equipments are determined for the new employee.
+
   <br>![](/exercises/ex2/images/EquipmentDecisionView.jpg) <br>
   f. Do not change anything and close the rule editor window.
 
-### 4)	View the decision Training Determination for the newly hired employee
+### 4)	View the Training Determination decision for the newly hired employee
 
-  a.	Click on Decision “Training Determination” <br>
-  b.	Click on Edit Decision <br>
+  a.	Click on the “**Training Determination**” decision. <br>
+  b.	Click on the **Edit Decision** button.
   <br>![](/exercises/ex2/images/Configure_Training_Determination_1.png) <br>
-  c.	Click on “Rules” and “Training Determination” <br>
+  c.	Click on “**Rules**” and then “**Training Determination**”.
   <br>![](/exercises/ex2/images/Configure_Training_Determination_2.png) <br>
-  d. Click on Full Screen mode which is to the left of close window (X) and as highlighted in the screenshot above <br>
-  e.	Check the rows and note the rules to determine the trainings based on the employee job title. <br>
-      Rules are defined for job titles containing Sales or Marketing or Analyst or Consultant and a default one which does not contain any of the mentioned job   
-      title.<br>
-      Accordingly, trainings are determined for the new employee.<br>
+  d. Click on the **Full Screen mode** which is to the left of close window **(X)** and as highlighted in the above screenshot. <br>
+  e.	Examine the rows that contain the rules and make a note of the rules that are used for training determination based on the employee's job title.<br>
+
+   > [!IMPORTANT]  
+   > We have established rules for new hire job titles that include **Sales**, **Marketing**, **Analyst**, or **Consultant**, along with a **default** rule that does not match any of the mentioned job titles.
+   > Accordingly, trainings are determined for the new employee.
+
   <br>![](/exercises/ex2/images/TrainingDecisionView.jpg) <br>
   f. Do not change anything and close the rule editor window.
 
@@ -121,59 +131,68 @@ Action is a feature in SAP Build Process Automation to connect processes with ex
 [Learn how to create an action project](https://developers.sap.com/tutorials/spa-business-partner-action-create.html)<br> 
 This is not needed to be done as part of this exercise, the required Action project is already created for you and you will be consuming it here in the process to publish the approval event to Advanced Event Mesh in this part of the exercise. <br>
 
-  a. Click on the **+** next to **Approve** in the Approval form , click Actions and click Browse Library <br>.
+  a. Click on the **+** button, next to the **Approve** in the Approval form , click "**Actions**" and click "**Browse Library**".
   <br>![](/exercises/ex2/images/ActionsNew001.jpg) <br>
-  b. Select the "Publish Manager Approval Event". This Action is already published and available in Library.
+  b. Select the "**Publish Manager Approval Event**". This Action is already published and available in the Library.
   <br>![](/exercises/ex2/images/ActionsNew002.jpg) <br>
-  c. Note that the Action is added to the process. To add a destination for the Action, under label **Destination variable**, select **AEM**. This destination variable is already created and is a placeholder for destination mapping during deployment time. <br>
+  c. Note that the Action is added to the process. To add a destination for the Action, under label **Destination variable**, select **AEM**. This destination variable is already created and is a placeholder for destination mapping during deployment time.
   <br>![](/exercises/ex2/images/ActionsNew008.jpg) <br>
-  d. Map the Action inputs with the **Process Inputs**. For the Action, click on the **Input** tab , click on input field in **employeeId** and select **Process Inputs - Employee ID**. <br>
+  d. Map the Action inputs with the **Process Inputs**. For the Action, click on the **Input** tab , click on input field in **employeeId** and select **Process Inputs - Employee ID**.
   <br>![](/exercises/ex2/images/ActionsNew009.jpg) <br>
-  e. Save the changes. Note that the **employeeID** is now mapped. <br>
+  e. Save the changes. Note that the **employeeID** is now mapped.
   <br>![](/exercises/ex2/images/Actions010.jpg) <br>
-  f. For the Action Project, expand **context** and check the data under **Input** tab. We need to map the inputs to the **Process Inputs** as shown below. IMPORTANT NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.<br>
-  <br>![](/exercises/ex2/images/ActionMapping1.jpg) <br>
+  f. For the Action Project, expand **context** and check the data under **Input** tab. We need to map the inputs to the **Process Inputs** as shown below. 
+  > NOTE: All the inputs data in Actions needs to be mapped correctly else the end to end execution of the scenario could fail.
+  
+  ![](/exercises/ex2/images/ActionMapping1.jpg) <br>
   <br>![](/exercises/ex2/images/ActionMapping2.jpg) <br>
   <br>![](/exercises/ex2/images/ActionMapping4.jpg) <br>
-  g. Map the equipment data to the Actions project. For the Action, click on the **Input** tab , expand the **context**, expand the **Equipment** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**. Any data that is not mapped automatically needs to  be mapped manually as per the screenshot. <br>
+  g. Map the equipment data to the Actions project. For the Action, click on the **Input** tab , expand the **context**, expand the **Equipment** list, click on input field in **Equipments** and select **Equipment Determination - Equipments**. Any data that is not mapped automatically needs to  be mapped manually as per the screenshot.
   <br>![](/exercises/ex2/images/ActionMapping3.jpg) <br>
-  h. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**. <br>
+  h. Map the training data to the Actions project. For the Action, click on the **Input** tab,  expand the **Trainings** list, click on input field in **Trainings** and select **TrainingDetermination - Trainings**.
   <br>![](/exercises/ex2/images/ActionMapping5.jpg) <br>
-  i. Map the **Manager Comment** field to **comments** from the Approval Form outputs. Save the changes <br>
-  <br>![](/exercises/ex2/images/ActionMapping6.jpg) <br>
+  i. Map the **Manager Comment** field to **comments** from the Approval Form outputs. 
+  > **Save the changes**
+  
+  ![](/exercises/ex2/images/ActionMapping6.jpg) <br>
 
 ### 7)	Release and Deploy
-The destination “AEM” is already created in BTP cockpit and added in settings for you to use it directly<br>
+The destination “**AEM**” is already created in BTP cockpit and added in settings for you to use it directly<br>
 Please refer to the following link to know on 
 [How to Create Destination in the SAP BTP Cockpit](https://developers.sap.com/tutorials/cp-cf-create-destination.html)<br>
 The created destination is then added to the Settings to use it in the project <br>
 
-  a. Click on the Release button in the Process Builder.
+  a. Click on the **Release** button in the Process Builder.
   <br>![](/exercises/ex2/images/Release001.jpg) <br>
-  b. Click on Release button on the Release Projext pop-up window.
+  b. Click on **Release** button on the Release Project pop-up window.
   <br>![](/exercises/ex2/images/Release002.jpg) <br>
-  c. Click on Deploy <br>
+  c. Click on **Deploy**
   <br>![](/exercises/ex2/images/Release003.jpg) <br>
-  d. Click on "Next" in the Overview Page of the deployment wizard <br>
+  d. Click on **Next** in the Overview Page of the deployment wizard.
   <br>![](/exercises/ex2/images/ReleaseWizard004.jpg) <br>
-  e. Choose the destination as AEM in the destination in the Runtime Variables tab and click Next <br>
+  e. Choose the destination as **AEM** in the destination in the Runtime Variables tab and click **Next**.
   <br>![](/exercises/ex2/images/ReleaseAEM.jpg) <br>
-  f. Click on "Deploy" in the Triggers page of deployment wizard <br>
+  f. Click on **Deploy** in the Triggers page of deployment wizard.
   <br>![](/exercises/ex2/images/Release005.jpg) <br>
-  g. Note that the project is deployed <br>
+  g. Note that the project is deployed.
   <br>![](/exercises/ex2/images/Release006.jpg) <br>
 
 ### 8)	Get the Process Instance ID
 
-  a. From the [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby) click Monitoring.
+  a. From the [SBPA Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby), click Monitoring.
   <br>![](/exercises/ex2/images/Monitor01.png) <br><br>
-  b. Click Processes and Workflows under Manage section.<br>
+  b. Click "**Processes and Workflows**" under "**Manage**" section.
   <br>![](/exercises/ex2/images/Monitor02.jpg) <br><br>
-  c. Search with the text IN264-XXX for your Project and select it.<br> 
+  c. Search with the text "**IN264-XXX**" for your Project and select it.<br> 
+   > [!IMPORTANT]  
+   > Replace **XXX** with the participant number that is assigned to you.
+   
    <br>![](/exercises/ex2/images/Monitor03.jpg) <br><br>
-  d.Note the instance ID and keep it handly for next exersice. Also ensure that the ID text is not copied. <br>
-  <br>![](/exercises/ex2/images/Monitor04.jpg) <br><br>
+  d.Note the **Instance ID** and keep it handly for next exercise. Also ensure that the "**ID:**" text should not get copied.
+    <br>![](/exercises/ex2/images/Monitor04.jpg) <br><br>
 
 ## Summary
 
-Now that you have configured , released and deployed the SAP Build Process Automation project, Continue to - [Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow ](../ex3/README.md)
+At the end of this exercise, you should have configured, released and deployed the SAP Build Process Automation (SBPA) project to manage the approval workflow for equipment and training of newly hired employee.
+
+Continue to - [Exercise 3 - Create the subscription flow that triggers the SAP Build Process Automation (SBPA) equipment and training approval workflow ](/exercises/ex3/README.md)
