@@ -52,7 +52,7 @@ For running through the exercises, you need access to the following applications
 - [SAP SuccessFactors system](https://pmsalesdemo8.successfactors.com/login?company=SFPART069417)
 - [SAP S/4Hana Cloud system](https://my407161.s4hana.cloud.sap/ui)
 - [SAP Integration Suite, advanced event mesh tenant](https://eu10.console.pubsub.em.services.cloud.sap/login?tenant-id=75520573-e903-4c94-855b-49f03d179a95)
-- [SAP Integration Suite tenant](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home) or [SAP Integration Suite backup tenant](https://teched23blr04.integrationsuite.cfapps.in30.hana.ondemand.com/shell/home)
+- [SAP Integration Suite tenant](https://in264-72e8h9xc.integrationsuite.cfapps.eu10-002.hana.ondemand.com/shell/home)
 - [SAP Build Process Automation - Lobby](https://in264-72e8h9xc.eu10.build.cloud.sap/lobby)
 - [SAP Build Process Automation - My Inbox](https://in264-72e8h9xc.sap-process-automation.cfapps.eu10.hana.ondemand.com/comsapspaprocessautomation.comsapspainbox/inbox.html)
 
